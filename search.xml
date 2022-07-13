@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>极速翱翔的3dsMax精简心得</title>
+      <link href="/3dsmaxstatement/"/>
+      <url>/3dsmaxstatement/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>不知不觉已经做了11个版本的精简工作，极速翱翔不会编程，通过研究分析删减无关文件，还有研究其注册表，实现了大幅度的精简。前后完成了3dsMax 2013—2023共11个版本的精简，非常欢迎大家使用3dmax极速翱翔精简版。</p><p>本人非专业软件开发，纯用爱发电，且用且珍惜。</p><p>遇到任何问题请先阅读以下文档，内容整理自各位网友通过邮件，公众号向我提问，可以解决98%的疑问和安装卸载问题。如果文档没提及，那这个问题也有有人曾向我提出，但至今没有好的解决方法。</p></blockquote><h1 id="关于精简版"><a href="#关于精简版" class="headerlink" title="关于精简版"></a>关于精简版</h1><h3 id="1-解压密码"><a href="#1-解压密码" class="headerlink" title="1.解压密码"></a>1.解压密码</h3><p>大部分是blog.darler.cn<br>但也需要擦亮眼睛，因为这个我绝不会藏着<br><img alt data-src="/imgblog/3dsmaxstatement/password.jpg" class="lazyload"></p><h3 id="2-精简版精简了什么"><a href="#2-精简版精简了什么" class="headerlink" title="2.精简版精简了什么"></a>2.精简版精简了什么</h3><p>这是大家最关心的，精简版主要精简了运行库，可选安装插件，3DMAX内置预设，其他语言的相关文件，这些体积非常大，这也是精简版体积可以比原版减少90%的主要原因。</p><h3 id="3-为什么最老只做到2013版"><a href="#3-为什么最老只做到2013版" class="headerlink" title="3.为什么最老只做到2013版"></a>3.为什么最老只做到2013版</h3><p>3DMAX 2013是目前可以使用VRAY 4.1且有汉化的最老版本。而对于32位的老版本，他们体积本身就不大，我也就懒得精简了。</p><h3 id="4-对各个版本的评价"><a href="#4-对各个版本的评价" class="headerlink" title="4.对各个版本的评价"></a>4.对各个版本的评价</h3><p>极速翱翔非室内设计相关行业，我的选择会安装2022版，只是用来转换模型。<br>如果你的电脑性能一般，需要体积小一点的，可以使用2013版。<br>我发布2个多月时间，数据显示2016和2019下载人数最多。<br>但是2021发布后，很明显的感知是2021完胜2020。<br>根据后台反馈，2020问题最多，2020是Autodesk更新破解方法和压缩方法的第一年，在安装过程如果没有一次成功，出现1625，1603。请直接放弃安装</p><h3 id="5-切换为中文"><a href="#5-切换为中文" class="headerlink" title="5.切换为中文"></a>5.切换为中文</h3><p>极速翱翔制作了默认启动中文的补丁，但还是更建议从开始菜单使用简体中文的快捷方式。<br><img alt data-src="/imgblog/3dsmaxstatement/chinese.jpg" class="lazyload"></p><h3 id="6-新版本一些变化"><a href="#6-新版本一些变化" class="headerlink" title="6.新版本一些变化"></a>6.新版本一些变化</h3><p>2015及之前的3DMAX都分为3DSMAX和3DS MAX DESIGN2个安装包。<br>从2016开始，3DMAX和MAX DESIGN都在一个安装包。<br>安装后第一次启动会让你进行选择。</p><h3 id="7-2017注册方式的改变"><a href="#7-2017注册方式的改变" class="headerlink" title="7.2017注册方式的改变"></a>7.2017注册方式的改变</h3><p>序列号和密钥在启动软件时才输入（2016及之前的版本是在安装软件时就要输入）<br><img alt data-src="/imgblog/3dsmaxstatement/2017.jpg" class="lazyload"></p><h3 id="8-关于汉化和精简VRay"><a href="#8-关于汉化和精简VRay" class="headerlink" title="8.关于汉化和精简VRay"></a>8.关于汉化和精简VRay</h3><p>特别是3DMAX2020的汉化版VRay<br>我不会！！！我只是做了个3DMAX，周边的软件原理啥的都不一样<br>但是2021及配套汉化VRay4.32已经出来了，欢迎到公众号中下载。</p><h3 id="9-稳定性和功能完善问题"><a href="#9-稳定性和功能完善问题" class="headerlink" title="9.稳定性和功能完善问题"></a>9.稳定性和功能完善问题</h3><p>要明白，精简版不是残废版，只删掉不要的部分<br>装不上精简版的，要看看原版能不能装上，原版安装也有问题的，电脑系统本身问题</p><h3 id="10-3dsMax不集成VRay"><a href="#10-3dsMax不集成VRay" class="headerlink" title="10.3dsMax不集成VRay"></a>10.3dsMax不集成VRay</h3><p>第一，我做精简版，做的是减法，你还让我增加，这个有违初衷。<br>第二，每个人用的VRay版本不一致，总不可能让我一个版本的3DMAX，同时另外再做集成VRay3.4，集成VRay3.6，集成VRay4.1多个版本吧。如果你很想要，那你就得定制了。</p><h3 id="11-3dsMax不集成注册"><a href="#11-3dsMax不集成注册" class="headerlink" title="11.3dsMax不集成注册"></a>11.3dsMax不集成注册</h3><p>我只是做精简，要是集成了注册，就成盗版传播了。软件破解没任何难度，方法已写在上面，你自己就能完成。</p><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8784821422707470" crossorigin="anonymous"></script><p><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-8784821422707470" data-ad-slot="5721463254"></ins></p><script>     (adsbygoogle = window.adsbygoogle || []).push({});</script><h1 id="安装和卸载"><a href="#安装和卸载" class="headerlink" title="安装和卸载"></a>安装和卸载</h1><p>接下来说一些常见的安装问题</p><h3 id="1-常见运行库问题"><a href="#1-常见运行库问题" class="headerlink" title="1.常见运行库问题"></a>1.常见运行库问题</h3><p>在没有完整 VC++，DX等运行库的机器上，会遇到缺少d3dx9_43.dll，vcredist，net 的问题，不能导致安装和启动不能进行。</p><p>Win10可无视所有运行库问题，因为Win10系统会自动帮你解决缺少这些的问题，Win7/8部分系统也可以自己联网下载。这也是注明Win10（推荐）的原因<br>为此专门制作了针对精简版的3DsMax2013–2020所需要的运行库</p><h4 id="1-缺少msvcp-dll-vcruntime"><a href="#1-缺少msvcp-dll-vcruntime" class="headerlink" title="1.缺少msvcp.dll,vcruntime"></a>1.缺少msvcp.dll,vcruntime</h4><p><img alt data-src="/imgblog/3dsmaxstatement/msvcr100.jpg" class="lazyload"><br>运行VCRedist_x64/x86文件夹里面的进行安装，有提示具体版本的按照所缺少的版本就行。</p><h4 id="2-缺少d3dx9-dll"><a href="#2-缺少d3dx9-dll" class="headerlink" title="2.缺少d3dx9_.dll"></a>2.缺少d3dx9_.dll</h4><p>运行DirectX文件夹里面的DXSETUP.exe进行安装，3dsMax2016之前的才会提示需要，3dsMax2017之后不需要了。</p><h4 id="3-缺少-NET，net-framework"><a href="#3-缺少-NET，net-framework" class="headerlink" title="3.缺少.NET，net framework"></a>3.缺少.NET，net framework</h4><p>打开对应版本的NET Framework文件夹里面进行安装，大多数时候2.5没有windows会自行下载。</p><blockquote><p>运行库打包下载地址，如链接失效请在公众号联系我更新<br><a href="https://cloud.189.cn/t/VfMJVnqiYrae" target="_blank" rel="noopener">天翼网盘</a>  访问码：l1w5<br><a href="https://pan.baidu.com/s/1_hacTKDeHknplX5syytm2A?pwd=jsax" target="_blank" rel="noopener">百度网盘</a>  提取码：jsax<br><a href="https://objectstorage.ap-tokyo-1.oraclecloud.com/n/nrv9srdgzqok/b/bucketcdn/o/yunxingku/3DsMaxFrame.exe" target="_blank" rel="noopener">从极速翱翔的服务器下载</a></p></blockquote><blockquote><p>运行库单独下载（缺少哪个，下载哪个）<br><a href="https://objectstorage.ap-chuncheon-1.oraclecloud.com/n/axkndmuhzbpj/b/storge1/o/yunxingku/VCRedist.zip" target="_blank" rel="noopener">VCRedist</a><br><a href="https://objectstorage.ap-chuncheon-1.oraclecloud.com/n/axkndmuhzbpj/b/storge1/o/yunxingku/DirectX.zip" target="_blank" rel="noopener">DirectX</a><br><a href="https://objectstorage.ap-chuncheon-1.oraclecloud.com/n/axkndmuhzbpj/b/storge1/o/yunxingku/NETFramework3.5.zip" target="_blank" rel="noopener">NET Framework 3.5</a> ; <a href="https://objectstorage.ap-chuncheon-1.oraclecloud.com/n/axkndmuhzbpj/b/storge1/o/yunxingku/NETFramework4.zip" target="_blank" rel="noopener">NET Framework 4</a> ; <a href="https://objectstorage.ap-chuncheon-1.oraclecloud.com/n/axkndmuhzbpj/b/storge1/o/yunxingku/NETFramework4.5.zip" target="_blank" rel="noopener">NET Framework 4.5</a> ; <a href="https://objectstorage.ap-chuncheon-1.oraclecloud.com/n/axkndmuhzbpj/b/storge1/o/yunxingku/NETFramework4.7.zip" target="_blank" rel="noopener">NET Framework 4.7</a> ; <a href="https://objectstorage.ap-chuncheon-1.oraclecloud.com/n/axkndmuhzbpj/b/storge1/o/yunxingku/NETFramework4.8.zip" target="_blank" rel="noopener">NET Framework 4.8</a></p></blockquote><h3 id="2-显示载入界面后无法启动"><a href="#2-显示载入界面后无法启动" class="headerlink" title="2.显示载入界面后无法启动"></a>2.显示载入界面后无法启动</h3><p>这个问题一般出现在2016后的版本，解决方法：手动安装 \x64\CLIC\CLIC_x64_Release.msi</p><h3 id="3-运行Setup-exe弹出以下界面"><a href="#3-运行Setup-exe弹出以下界面" class="headerlink" title="3.运行Setup.exe弹出以下界面"></a>3.运行Setup.exe弹出以下界面</h3><p>There is a problem with this Windows Installer package.A program run as part of the steup…..<br><img alt data-src="/imgblog/3dsmaxstatement/thereisaproblem.jpg" class="lazyload"><br>解决方法：运行\x64\max\3dsMax.msi这个msi文件来安装</p><h3 id="4-安装路径不要有中文"><a href="#4-安装路径不要有中文" class="headerlink" title="4.安装路径不要有中文"></a>4.安装路径不要有中文</h3><p><img alt data-src="/imgblog/3dsmaxstatement/path.jpg" class="lazyload"><br>补充一下：绿色版解压路径也不能有中文。</p><h3 id="5-注册时遇到问题"><a href="#5-注册时遇到问题" class="headerlink" title="5.注册时遇到问题"></a>5.注册时遇到问题</h3><p>you need to apply patch when licencescreen appears.<br><img alt data-src="/imgblog/3dsmaxstatement/admin.jpg" class="lazyload"><br>运行注册机出现以上界面，需要先确保2点：<br>1.已经断网，杀毒软件也提前关了。<br>2.等激活界面出现时，再以管理员身份运行注册机。</p><h3 id="6-1603，1625错误"><a href="#6-1603，1625错误" class="headerlink" title="6.1603，1625错误"></a>6.1603，1625错误</h3><p><img alt data-src="/imgblog/3dsmaxstatement/thereisaproblem.jpg" class="lazyload"><br>2020-2023均可能出现1603，1625，这一个是系统问题，遇到建议放弃。<br>如果遇到，你也可以尝试安装官方原版，<br>当你安装官方原版仍然无法解决，你就会知道，真不是我精简导致的。</p><p>关于对策，虽然有成功解决的案例，但无法做到百分百适合每台电脑。如果想要尝试解决，在开始之前先确保以下几点。<br>1.讨论基于官方原版安装包<br>2.运行库安装完整<br>3.这台电脑是首次安装这个版本3dsMax，之前没有卸载过</p><p>开始操作：<br>1.使用Win10<br>2.使用管理员系统账户(Administrator)<br>3.运行使用x64\max\3dsMax.msi这个msi文件来安装</p><h3 id="7-系统管理员设置了系统策略"><a href="#7-系统管理员设置了系统策略" class="headerlink" title="7.系统管理员设置了系统策略"></a>7.系统管理员设置了系统策略</h3><p>系统管理员设置了系统策略，禁止进行此安装<br>对此，请使用管理员系统账户进行操作</p><h3 id="8-3dsMax正确卸载"><a href="#8-3dsMax正确卸载" class="headerlink" title="8.3dsMax正确卸载"></a>8.3dsMax正确卸载</h3><p>（2020及之前的版本）<br>答：使用Uninstall Tool。接下来我跟大家讲怎么找到这个工具：</p><p>a.已安装3DMAX但未卸载<br>开始菜单-Autodesk-Uninstall Tool</p><p>b.在安装路径的（以2016为例）<br>C:\Program Files (x86)\Common Files\Autodesk Shared\Uninstall Tool\R1</p><p>c.已卸载或未安装3DMAX</p><p>在安装包的（以2016为例）<br>x64\max\Autodesk\3ds Max 2016\PFiles\CommFiles\Autodesk Shared\Uninstall Tool\R1</p><h3 id="9-错误126-Error-126"><a href="#9-错误126-Error-126" class="headerlink" title="9.错误126 Error 126"></a>9.错误126 Error 126</h3><p>错误代码126 - 找不到指定的模块。这个问题从2020开始直到2023仍然存在。<br><img alt data-src="/imgblog/3dsmaxstatement/126.jpg" class="lazyload"><br>无解！！！如果遇到，请尝试安装官方原版，<br>当你安装官方原版仍然无法解决，你就会知道，真不是我精简导致的。</p><h3 id="10-NET运行异常-MAXScript"><a href="#10-NET运行异常-MAXScript" class="headerlink" title="10.NET运行异常 MAXScript"></a>10.NET运行异常 MAXScript</h3><p>MAXScript加载错误<br>运行时错误：NET运行异常，未能加载/找不到指定模块<br><img alt data-src="/imgblog/3dsmaxstatement/maxscript.jpg" class="lazyload"><br>无解！！！如果遇到，请尝试安装官方原版，<br>当你安装官方原版仍然无法解决，你就会知道，真不是我精简导致的。</p><h3 id="11-视频安装教程"><a href="#11-视频安装教程" class="headerlink" title="11.视频安装教程"></a>11.视频安装教程</h3><p>为了让大家必坑大部分的问题，我录制了3dsMax安装视频，可以帮助大家避免大部分安装过程中遇到的问题，<a href="/3dsmaxinstallation">点击这里观看安装视频</a>。</p><p>————————————————————————————————————</p><h1 id="尾巴"><a href="#尾巴" class="headerlink" title="尾巴"></a>尾巴</h1><p>一直以来各大软件平台在未联系本人的情况下对我的精简作品进行转载。<br>在此对于各网站的认可深表感激。<br>而且想到你们也不会把“极速翱翔”署名加到标题中.并在网页明显位置(如软件出处网址)以链接形式注明出处。<br>我知道部分网址既不想承认蹭热度，但就是留着不删帖。</p><p>转载前请发邮件到 <a href="mailto:darler@qq.com" target="_blank" rel="noopener">darler@qq.com</a> 通知我，非常欢迎大家转载。</p><p><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实用经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 心得 </tag>
+            
+            <tag> 运行库 </tag>
+            
+            <tag> 密码 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VPS解锁Netflix非自制剧</title>
+      <link href="/netflix/"/>
+      <url>/netflix/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Netflix一些基本概念"><a href="#Netflix一些基本概念" class="headerlink" title="Netflix一些基本概念"></a>Netflix一些基本概念</h2><p>本文框架援引了<a href="https://vlike.work/all-netflix-scripts.html" target="_blank" rel="noopener">这篇博客</a></p><p>Netflix 平台只有会员才能观看视频，且影片内容根据地区不同而不同，国内必须通过梯子才能正常观看影片，梯子网速太慢影片就会很卡、即使是 Pre­mium 会员也无法流畅观看 4K 影片。</p><p>关于 Netflix 常见的名词解释：</p><ul><li>Netflix自制剧： Netflix出品的影片，鱿鱼游戏就是Netflix出品的自制剧，自制剧也是非常优秀的影片。</li><li>Netflix非自制剧： Netflix购买版权的影片(有的版权不限制地区可以全球观看、有的版权限制地区只可以在某些地区观看)。</li></ul><p>观看 Netflix 前提：</p><ol><li>有个Netflix会员帐号： 简单办法是某宝合租、自己注册购买帐号(不同地区价格不同，限制地区的不到10块钱一个月，不一定要香港，可以在新加坡，日本，韩国，美国登录的我认为都可以接受)</li><li>自备梯子： 买个能解锁Netflix非自制剧的VPS，可以看到更多影片。</li></ol><h2 id="奈飞各地区片源信息"><a href="#奈飞各地区片源信息" class="headerlink" title="奈飞各地区片源信息"></a>奈飞各地区片源信息</h2><p>详细各地区影片列表可以通过<a href="https://unogs.com/" target="_blank" rel="noopener">uNoGS.com</a>来查看</p><p>如果你想查看某个影片在 Netflix 上是否可以看，可以在这里搜索对应影片名，只支持英文搜索。</p><p>也可以了解到最近新上映影片和即将过期影片信息。</p><h2 id="Netflix解锁检测脚本"><a href="#Netflix解锁检测脚本" class="headerlink" title="Netflix解锁检测脚本"></a>Netflix解锁检测脚本</h2><p>先检测解锁机和代理机的Netflix解锁情况。分别在2台机器运行一下命令（任选一个即可）</p><p><a href="https://github.com/sjlleo/netflix-verify" target="_blank" rel="noopener">项目地址</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0/nf_linux_amd64 &amp;&amp; chmod +x nf &amp;&amp; ./nf</span><br></pre></td></tr></table></figure><p>也可以用<a href="https://github.com/xsidc/netflix-verify" target="_blank" rel="noopener">这个项目</a>。</p><h2 id="手里的服务器"><a href="#手里的服务器" class="headerlink" title="手里的服务器"></a>手里的服务器</h2><p>我的服务器有韩国春川的甲骨文云，以及谷歌云。<br>就2022年6月的情况，甲骨文云的IP是可以解锁非自制剧，谷歌云则部分地区可以解锁，目前我测试到印度尼西亚，美国，香港部分可以解锁非自制剧。</p><p>接下来我演示就以甲骨文云韩国的VPS作为解锁机，创建一个谷歌云香港VPS作为代理机，代理机地区无要求。</p><p>解释一下为什么不直接用甲骨文云韩国的VPS作为节点，因为在当下（2022年6月），我申请到的甲骨文云以及是延迟高丢包频繁。几乎就处于不可用的状态。<br>我能想到的用处就是看视频了，毕竟对延迟的要求不会太高。后期速度能跑上去就行。</p><p>甲骨文云申请地址 <a href="https://www.oracle.com/cloud/free/" target="_blank" rel="noopener">https://www.oracle.com/cloud/free/</a><br>谷歌云申请地址 <a href="https://cloud.google.com/" target="_blank" rel="noopener">https://cloud.google.com/</a></p><p>大家用自己的服务器就行，只是这2个用VISA, 万事达信用卡就可以免费申请。</p><h2 id="方法1中转加速"><a href="#方法1中转加速" class="headerlink" title="方法1中转加速"></a>方法1中转加速</h2><p>第一种方法，准确来说算不上解锁，但是可以解决我的需求，我用低延迟的香港服务期做NAT转发机器。具体操作如下。</p><p>两台机器都需要开放相应端口的防火墙，可以<a href="https://github.com/Chikage0o0/Linux-NetSpeed" target="_blank" rel="noopener">安装BBR加速</a>。</p><h4 id="对于解锁机"><a href="#对于解锁机" class="headerlink" title="对于解锁机"></a>对于解锁机</h4><p>搭建ss，vmess，v2ray，xray节点，建议使用X-UI面板。解锁解锁机IP为x.x.x.x<br>创建节点后将节点添加到V2RAY / Shadowrocket客户端。<br>比方说vmess节点信息如下，x.x.x.x:3333，加密方式aes-128-gcm，传输协议tcp<br>在代理软件中，测试连接是否正常，然后进行后续操作。</p><h4 id="对于中转机"><a href="#对于中转机" class="headerlink" title="对于中转机"></a>对于中转机</h4><p>中转机要求，距离你地理位置近，访问延迟低，与解锁机的ping延迟要显著低于你直连解锁机的延迟。<br>可以是香港，台湾的VPS，也可以是国内的VPS，满足以上条件即可。假设中转机IP为y.y.y.y</p><p>我们用到的端口转发工具是iptables，这里是<a href="https://github.com/arloor/iptablesUtils" target="_blank" rel="noopener">项目地址</a>。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget --no-check-certificate -qO natcfg.sh https://www.arloor.com/sh/iptablesUtils/natcfg.sh &amp;&amp; bash natcfg.sh</span><br></pre></td></tr></table></figure><p>输出如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">你要做什么呢（请输入数字）？Ctrl+C 退出本脚本</span><br><span class="line">1) 增加转发规则          3) 列出所有转发规则</span><br><span class="line">2) 删除转发规则          4) 查看当前iptables配置</span><br><span class="line">#?</span><br></pre></td></tr></table></figure><p>选1，增加转发规则<br>本地端口号，填中转机端口,例如4444<br>远程端口号，填解锁机节点端口，可知是3333<br>目标域名/IP，填解锁机的IP，可知是x.x.x.x<br>完成</p><h4 id="客户端操作"><a href="#客户端操作" class="headerlink" title="客户端操作"></a>客户端操作</h4><p>将刚刚vmess节点，x.x.x.x:3333，加密方式aes-128-gcm，传输协议tcp，复制一份，修改2个地方</p><p>地址x.x.x.x改为y.y.y.y，端口3333改为4444，其他保持不变，这时候再连接。就实现了中转加速。</p><p>完成</p><hr><h3 id="方法2解锁"><a href="#方法2解锁" class="headerlink" title="方法2解锁"></a>方法2解锁</h3><p>需要两台小鸡：</p><ul><li>小鸡A： 完全解锁Netflix非自制剧影片的VPS，IP地址 x.x.x.x</li><li>小鸡B： 无法解锁Netflix非自制剧影片的VPS，IP地址 y.y.y.y</li></ul><p>访问 <code>Netflix</code> 流量的线路图：</p><p>国内本机/路由器<code>---DNS(</code>小鸡B<code>)-&gt;</code>小鸡B<code>--&gt;</code>小鸡A<code>--&gt;</code>Netflix服务器</p><p>以下为了清晰表达以<code>小鸡A</code> 和<code>小鸡B</code> 来表述内容。<code>小鸡A</code> 我们成为解锁机，<code>小鸡B</code>我们成为代理机。</p><h4 id="解锁机操作"><a href="#解锁机操作" class="headerlink" title="解锁机操作"></a>解锁机操作</h4><p>一键脚本直接配置好Dnsmasq + SNI proxy， 详情可访问作者<a href="https://github.com/myxuchangbin/dnsmasq_sniproxy_install" target="_blank" rel="noopener">项目地址</a>。 </p><p>原理简述：使用Dnsmasq的DNS将网站解析劫持到SNI proxy反向代理的页面上。<br>用途：让无法观看流媒体的VPS可以观看（前提：VPS中要有一个是能观看流媒体的）。</p><p>解锁机（能解锁Netlfix的VPS）执行下面的一键脚本开始安装：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget --no-check-certificate -O dnsmasq_sniproxy.sh https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy.sh &amp;&amp; bash dnsmasq_sniproxy.sh -f</span><br></pre></td></tr></table></figure><p>安装好后提示的地址是解锁机的IP地址x.x.x.x ，如果这里显示的IP不是你解锁机的IP，那么就需要手动修改文件/etc/sniproxy.conf中的IP地址。</p><p>解锁机的操作就是一行代码。</p><h4 id="代理机操作"><a href="#代理机操作" class="headerlink" title="代理机操作"></a>代理机操作</h4><p>直接修改代理机DNS配置文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/resolv.conf</span><br></pre></td></tr></table></figure><p>修改成解锁机的IP地址</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nameserver x.x.x.x</span><br></pre></td></tr></table></figure><p>至此，你的代理机也可以正常解锁Netflix了。</p><p>检测DNS是否生效，2和3选一条即可</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yum install -y bind-utils</span><br><span class="line">dig netflix.com</span><br><span class="line">nslookup netflix.net</span><br></pre></td></tr></table></figure><p>如果生效，解析到的地址就是你解锁机的地址x.x.x.x</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">;; ANSWER SECTION:</span><br><span class="line">netflix.com.            60      IN      A       x.x.x.x</span><br></pre></td></tr></table></figure><h4 id="安全规则配置"><a href="#安全规则配置" class="headerlink" title="安全规则配置"></a>安全规则配置</h4><p>为了防止DNS被其他人滥用，建议不要随意公布IP地址，我们也可以使用iptables限制访问解锁机的53端口(DNS服务器默认使用53端口）。</p><p>先限制所有IP访问53端口，再允许解锁机的IP访问：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">iptables -I INPUT -p tcp --dport 53 -j DROP</span><br><span class="line">iptables -I INPUT -s y.y.y.y -p tcp --dport 53 -j ACCEPT</span><br></pre></td></tr></table></figure><h4 id="DNS配置文件锁定"><a href="#DNS配置文件锁定" class="headerlink" title="DNS配置文件锁定"></a>DNS配置文件锁定</h4><p>修改<strong>/etc/resolv.conf</strong>文件，将nameserver改为解锁机的IP，这个方法有弊端，用DHCP的服务器会不定期重置DNS，导致奈飞代理失效。下面给一些出解决的思路：</p><p>1、在服务器的其他地方保存<strong>resolv.conf</strong>文件的一个副本（假设放在/root），设置一个crontab定时命令<code>cp /root/resolv.conf /etc/resolv.conf</code></p><p>2、添加写保护：<code>chattr +i /etc/resolv.conf</code></p><p>3、修改生成<strong>resolv.conf</strong>的相关配置文件，具体可以谷歌。譬如centos7中需要修改<code>/etc/NetworkManager/NetworkManager.conf</code></p><p>最后别忘了在代理机安装代理。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -s -L https://git.io/v2ray-setup.sh)</span><br></pre></td></tr></table></figure><h4 id="只解析Netflix的域名"><a href="#只解析Netflix的域名" class="headerlink" title="只解析Netflix的域名"></a>只解析Netflix的域名</h4><p>我们需要让解锁鸡只负责解析奈飞的域名， 其他域名仍然由代理机解析。这时我们可以通过在代理机安装dnsmasq来实现分域名解析。<br> （经过我测试，貌似不设置也可以仅Netflix的域名走解锁机）</p><p> 安装dnsmasq（CentOS为例）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y dnsmasq</span><br></pre></td></tr></table></figure><p>编辑dnsmasq  解析规则配置文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/dnsmasq.d/custom.netflix.conf</span><br></pre></td></tr></table></figure><p>将如下内容填入，奈飞之外的域名由谷歌dns解析，奈飞的全部域名由解锁鸡解析，奈飞域名可由domain-list-community项目处获得（注意将x.x.x.x替换为解锁机IP）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">server=8.8.8.8</span><br><span class="line">server=/fast.com/x.x.x.x</span><br><span class="line">server=/netflix.ca/x.x.x.x</span><br><span class="line">server=/netflix.com/x.x.x.x</span><br><span class="line">server=/netflix.net/x.x.x.x</span><br><span class="line">server=/netflixinvestor.com/x.x.x.x</span><br><span class="line">server=/netflixtechblog.com/x.x.x.x</span><br><span class="line">server=/nflxext.com/x.x.x.x</span><br><span class="line">server=/nflximg.com/x.x.x.x</span><br><span class="line">server=/nflximg.net/x.x.x.x</span><br><span class="line">server=/nflxsearch.net/x.x.x.x</span><br><span class="line">server=/nflxso.net/x.x.x.x</span><br><span class="line">server=/nflxvideo.net/x.x.x.x</span><br></pre></td></tr></table></figure><p>编辑/etc/resolv.conf文件，修改为nameserver 127.0.0.1，最后，重启dnsmasq。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart dnsmasq.service</span><br></pre></td></tr></table></figure><p>大功告成。</p><h3 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h3><ul><li>可否解锁所有区域呢？ : 不可以，解锁机在哪个区就解锁哪个区，也就是想解锁哪里，就买哪里<code>可以完全解锁netflix</code>的VPS才行。</li><li>观看影片是否消耗解锁机的流量呢？ ： 消耗！访问的netflix流量都会经过解锁机中转，所以<code>流量</code>和<code>带宽</code>也限制了解锁机的<code>用户数</code>。</li></ul><hr><p>本文参考了<br><a href="https://vpsxb.net/160/" target="_blank" rel="noopener">https://vpsxb.net/160/</a><br><a href="https://www.vjsun.com/272.html" target="_blank" rel="noopener">https://www.vjsun.com/272.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 入门云服 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Netflix </tag>
+            
+            <tag> V2ray </tag>
+            
+            <tag> 解锁 </tag>
+            
+            <tag> 非自制剧 </tag>
+            
+            <tag> NAT </tag>
+            
+            <tag> 端口转发 </tag>
+            
+            <tag> 中转 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>聊聊域名注册</title>
+      <link href="/domain/"/>
+      <url>/domain/</url>
+      
+        <content type="html"><![CDATA[<p>域名是访问网站的地址，一个好记的域名可以让大家更加方便的浏览和收藏。但域名是稀缺资源，尤其是com后缀，当我们想要注册较短的域名时大概率已经无法注册了。</p><p>今天讲讲我使用不同域名注册平台的感受，已经给一些注册域名的建议。</p><p><img alt data-src="https://sg.godaddy.com/zh/assets/cdn/Image/All/All/6/zh-SG/a2b923e3-9f10-4555-a24c-9f2904b2be7f/zh-sg-mrq-hp-60-40-landscape.jpg" class="lazyload"></p><h2 id="域名注册平台"><a href="#域名注册平台" class="headerlink" title="域名注册平台"></a>域名注册平台</h2><p>腾讯云DNSPOD：支付，备案，方便；可注册160+域名，推荐。com域名￥64/yr。<br><a href="https://cloud.tencent.com/act/cps/redirect?redirect=2243&amp;cps_key=6c2475d4a92abab1f29da3aaaeb30534&amp;from=console" target="_blank" rel="noopener">https://cloud.tencent.com/act/cps/redirect?redirect=2243&amp;cps_key=6c2475d4a92abab1f29da3aaaeb30534&amp;from=console</a></p><p>谷歌域名平台：域名多，可注册336+域名，Google Payment支付。com域名 $12/yr。<br><a href="http://domains.google.com/registrar/search" target="_blank" rel="noopener">http://domains.google.com/registrar/search</a></p><p>Namecheap：域名多，可注册520+域名，VISA支付。com域名 $6.98/yr。<br><a href="http://www.namecheap.com/domains/" target="_blank" rel="noopener">http://www.namecheap.com/domains/</a></p><p>Onlydomains：界面美观，价格贵，可注册907+域名，不推荐。com域名$9.99/yr。<br><a href="https://www.onlydomains.com/domain/" target="_blank" rel="noopener">https://www.onlydomains.com/domain/</a></p><p>GoDaddy：搜索时联想推荐的域名大多已经被注册，不推荐。com域名$9.99/yr。<br><a href="http://sg.godaddy.com/" target="_blank" rel="noopener">http://sg.godaddy.com/</a></p><h2 id="免费域名注册平台"><a href="#免费域名注册平台" class="headerlink" title="免费域名注册平台"></a>免费域名注册平台</h2><p>Freenom：可以注册几个的域名后缀，能免费使用一年<br><a href="http://www.freenom.com/" target="_blank" rel="noopener">http://www.freenom.com/</a></p><p>一年后怎么办？可以继续注册，但是既然你已经用了一年，最好还是买一个自己的，便宜的像cc域名，10年250元。Freenom只推荐测试和学习使用，搜索引擎基本不收录。</p><p>EU.ORG：永久使用的免费顶级域名<br>EU.ORG从1996年开始以及免费了20多年，值得拥有一个作为测试使用<br><a href="https://nic.eu.org/" target="_blank" rel="noopener">https://nic.eu.org/</a></p><p>Freenom的DNS解析不是很方便，注册域名后可以修改位国内的DNSPOD或者阿里云的DNS解析。国内访问Freenom网站太慢了。</p><p><img alt data-src="https://static.nc-img.com/pp/cms/hero-domains/images/hero.a71cdb9ea94553341f1edd9e10515053.svg" class="lazyload"></p><h2 id="域名交易平台"><a href="#域名交易平台" class="headerlink" title="域名交易平台"></a>域名交易平台</h2><p>阿里云的域名交易平台，交易平台可以捡一些“靓号”。<br><a href="http://mi.aliyun.com/?spm=5176.22941746.J_2447957890.23.2baea5f6tNh7bq" target="_blank" rel="noopener">http://mi.aliyun.com/?spm=5176.22941746.J_2447957890.23.2baea5f6tNh7bq</a></p><p>聚名网竞价域名，体验中不少域名都会同时在这2个地方卖。价格有时候还不一样，可以对比参考<br><a href="https://www.juming.com/p/" target="_blank" rel="noopener">https://www.juming.com/p/</a></p><h2 id="域名价格"><a href="#域名价格" class="headerlink" title="域名价格"></a>域名价格</h2><p>腾讯云DNSPOD域名价格<br><a href="http://buy.cloud.tencent.com/domain/price?type=overview" target="_blank" rel="noopener">http://buy.cloud.tencent.com/domain/price?type=overview</a></p><h2 id="推荐注册的域名类型"><a href="#推荐注册的域名类型" class="headerlink" title="推荐注册的域名类型"></a>推荐注册的域名类型</h2><p>优先考虑com，cn域名，退求其次com.cn<br>原因是便于收录，看着也不会给人山寨，小众的感觉。<br>其次续费的价格总体便宜。10年期的价格我也标出来。<br>.com 10年700元<br>.cn 10年335元</p><p>遇到已经被注册的情况，我建议的不是采取非热门的后缀，更建议到<a href="http://mi.aliyun.com/?spm=5176.22941746.J_2447957890.23.2baea5f6tNh7bq" target="_blank" rel="noopener">域名交易平台</a>买一些短域名，这里的短并非1-3位，具体标准如下<br>.com 买5位com域名<br>.cn 买4位cn域名<br>.us  .me  .cc  .de 买3位小众后缀</p><p>找出一些可以自圆其说的意义。<br>个性/非热门/小众后缀只建议个人玩耍使用。</p><p><img alt data-src="https://www.freenom.com/images.v2/bg_image_4.jpg" class="lazyload"></p><h2 id="免费DNS解析"><a href="#免费DNS解析" class="headerlink" title="免费DNS解析"></a>免费DNS解析</h2><p>国内的使用<a href="https://cloud.tencent.com/act/cps/redirect?redirect=2243&cps_key=6c2475d4a92abab1f29da3aaaeb30534&from=console" target="_blank" rel="noopener">腾讯云</a>DNSPOD和阿里云域名解析就可以了<br>一般在这两家买的域名都是默认用他们家的，像我就把阿里云交易平台买的域名都介入DNSPOD。</p><p>如果你的网站访问用户是国外的，可以使用cloudfare的免费DNS，还带CDN加速。<br><a href="http://www.cloudflare.com/zh-cn/" target="_blank" rel="noopener">http://www.cloudflare.com/zh-cn/</a></p><p>同时像群晖，DDNSGO等功能可以让内网设备在拥有公网IP的情况下远程访问</p><p>如果要做URL转发（REDIRECT），可以用Namecheap的域名重定向，国内的域名解析服务商要求URL转发两个域名都是已备案的域名，这点就不方便，基本等于用不了。<br><a href="http://www.namecheap.com/domains/freedns/" target="_blank" rel="noopener">http://www.namecheap.com/domains/freedns/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站心得 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 域名 </tag>
+            
+            <tag> namecheap </tag>
+            
+            <tag> 腾讯云 </tag>
+            
+            <tag> 阿里云 </tag>
+            
+            <tag> godaddy </tag>
+            
+            <tag> freenom </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一些有趣的程序/网页项目</title>
+      <link href="/githubproject/"/>
+      <url>/githubproject/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Ⅰ-LX音乐播放器"><a href="#Ⅰ-LX音乐播放器" class="headerlink" title="Ⅰ.LX音乐播放器"></a>Ⅰ.LX音乐播放器</h3><p>全平台音乐播放器Windows， Mac， Android可用<br><a href="https://github.com/lyswhut/lx-music-desktop" target="_blank" rel="noopener">https://github.com/lyswhut/lx-music-desktop</a><br><a href="https://github.com/lyswhut/lx-music-mobile" target="_blank" rel="noopener">https://github.com/lyswhut/lx-music-mobile</a></p><h3 id="Ⅱ-解锁网易云灰色音乐"><a href="#Ⅱ-解锁网易云灰色音乐" class="headerlink" title="Ⅱ.解锁网易云灰色音乐"></a>Ⅱ.解锁网易云灰色音乐</h3><p>灰色音乐，会员VIP音乐<br><a href="https://github.com/meng-chuan/Unlock-netease-cloud-music" target="_blank" rel="noopener">https://github.com/meng-chuan/Unlock-netease-cloud-music</a></p><p>使用方法：<br><a href="https://www.moerats.com/archives/938/" target="_blank" rel="noopener">https://www.moerats.com/archives/938/</a><br><a href="https://github.com/nondanee/UnblockNeteaseMusic/issues/444" target="_blank" rel="noopener">https://github.com/nondanee/UnblockNeteaseMusic/issues/444</a><br><a href="https://redn3ck.github.io/2020/06/23/UnblockNeteaseMusic-解锁网易云音乐客户端变灰歌曲/" target="_blank" rel="noopener">https://redn3ck.github.io/2020/06/23/UnblockNeteaseMusic-解锁网易云音乐客户端变灰歌曲/</a></p><p>2022年实测仅Windows可用，Mac，Android推荐使用LX音乐播放器，iOS建议使用Spotify等播放器。</p><h3 id="Ⅲ-php网页实现远程开机"><a href="#Ⅲ-php网页实现远程开机" class="headerlink" title="Ⅲ.php网页实现远程开机"></a>Ⅲ.php网页实现远程开机</h3><p>群晖搭建php网页，远程启动内网的计算机<br><a href="https://sourceforge.net/projects/wolviaphp/" target="_blank" rel="noopener">https://sourceforge.net/projects/wolviaphp/</a></p><p>使用方法：<br>在群晖创建php网页服务器，解压文件到网站目录，然后从浏览器访问，例如<br><a href="http://url:port/wol/WOL_form.php" target="_blank" rel="noopener">http://url:port/wol/WOL_form.php</a><br>群晖需要先启用ddns，这样可以从外部访问到这个网页。<br>填入电脑的网卡 MAC 和 IP 地址，注意MAC地址要用“-”连接，例如<br>MAC：0A-E0-AF-EE-0A-AF<br>IP：192.168.1.81<br>电脑需要现在主板打开WOL（网卡唤醒）功能</p><h3 id="Ⅳ-Next-Terminal"><a href="#Ⅳ-Next-Terminal" class="headerlink" title="Ⅳ.Next Terminal"></a>Ⅳ.Next Terminal</h3><p>轻量级堡垒机系统，易安装，易使用，支持RDP、SSH、VNC、Telnet、Kubernetes协议。<br><a href="https://next-terminal.typesafe.cn/install/docker-install.html" target="_blank" rel="noopener">https://next-terminal.typesafe.cn/install/docker-install.html</a><br><img alt data-src="https://next-terminal.typesafe.cn/images/dashboard.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 入门云服 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网易云音乐 </tag>
+            
+            <tag> GitHub </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3DsMax2023极速翱翔精简版</title>
+      <link href="/3dsmax2023/"/>
+      <url>/3dsmax2023/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>软件名称：Autodesk_3ds_Max_2023_极速翱翔精简版<br>软件大小：1.39G<br>软件语言：简体中文/英文<br>应用平台：只推荐Win10<br>更新时间：2022 / 05 / 03<br>下载地址：见文章末尾</p></blockquote><h2 id="极速翱翔有话说"><a href="#极速翱翔有话说" class="headerlink" title="极速翱翔有话说"></a>极速翱翔有话说</h2><p>3dsMax2023极速翱翔精简版如期发布，软件我就不多介绍了，这个软件大家比我还熟悉。如果不介意的话，请多多帮我点赞，收藏，在看，关注。</p><h2 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h2><p>1.建议先断网，虽然这是非必要操作。运行Setup.exe,一直下一步即可。</p><p><img alt data-src="/imgblog/3dsmax2023/3dsmax2.jpg" class="lazyload"></p><p>2.安装完成后，先不要点击运行, 可以关闭窗口。</p><p>3.替换主程序，先解压，然后拷贝2个文件到安装目录下替换，</p><p>比如 默认C:\Program Files\Autodesk\3DS MAX 2023</p><p>4.为了让大家可以使用中文，请从</p><p>开始 - Autodesk - 3ds Max 2023 - Simplified Chinese</p><p><img alt data-src="/imgblog/3dsmax2023/3dsmax4.jpg" class="lazyload"></p><p>这样你的3dsMax2023就是中文界面了。</p><p><img alt data-src="/imgblog/3dsmax2023/3dsmax3.jpg" class="lazyload"></p><p>注意：<br>必须要安装运行库 NET Framework 4.8， VCRedist 2019<br>下载地址可在公众号回复“运行库”获取</p><h2 id="卸载方法"><a href="#卸载方法" class="headerlink" title="卸载方法"></a>卸载方法</h2><p><img alt data-src="/imgblog/3dsmax2023/3dsmax5.jpg" class="lazyload"></p><blockquote><p><a href="https://pan.baidu.com/s/1-CqI0mqAx3-tOfJcjt29iQ?pwd=jsax" target="_blank" rel="noopener">百度网盘</a> 提取码：jsax</p></blockquote><blockquote><p><a href="https://cloud.189.cn/t/FRziQ3zUJ3Yj" target="_blank" rel="noopener">天翼云盘</a> 提取码：qq1b</p></blockquote><p>请扫描以下二维码，或搜索公众号 极速翱翔<br>如果网盘链接失效，或者你对3DMAX精简有什么建议反馈，<br>可直接在公众号发消息向我反馈，我会在第一时间回复大家。<br><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 室内 </tag>
+            
+            <tag> 2023 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>云服务器之进阶影音</title>
+      <link href="/cloundserver/"/>
+      <url>/cloundserver/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Oldiy网页音乐播放"><a href="#Oldiy网页音乐播放" class="headerlink" title="Oldiy网页音乐播放"></a>Oldiy网页音乐播放</h2><p>项目地址 <a href="http://hub.docker.com/r/oldiy/music-player-docker" target="_blank" rel="noopener">http://hub.docker.com/r/oldiy/music-player-docker</a></p><p>1、拉取项目镜像；</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull oldiy/music-player-docker:latest</span><br></pre></td></tr></table></figure><p>2、运行镜像，/home/oldiymusic可以改为你的其他缓存目录</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d --name music -p 264:264 -v /home/oldiymusic:/var/www/html/cache oldiy/music-player-docker</span><br></pre></td></tr></table></figure><p><img alt data-src="/imgblog/unset/oldiymusic.jpg" class="lazyload"></p><h2 id="Jellyfin视频播放器"><a href="#Jellyfin视频播放器" class="headerlink" title="Jellyfin视频播放器"></a>Jellyfin视频播放器</h2><p>项目github地址 <a href="https://hub.docker.com/r/jellyfin/jellyfin" target="_blank" rel="noopener">https://hub.docker.com/r/jellyfin/jellyfin</a> </p><p>官方<a href="https://jellyfin.org/docs/general/administration/installing.html" target="_blank" rel="noopener">安装方法</a> ，包含全平台使用方式下面演示docker安装</p><p>1、拉取项目镜像；</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull jellyfin/jellyfin:10.4.3</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull jellyfin/jellyfin</span><br></pre></td></tr></table></figure><p>2、在我的群晖DS920+上CPU支持硬件加速，我可以让jellyfin调用renderD128</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">--name jellyfin \</span><br><span class="line">--add-host=api.themoviedb.org:13.225.174.30 \</span><br><span class="line">--add-host=image.tmdb.org:13.227.73.57 \</span><br><span class="line">--add-host=www.themoviedb.org:54.192.22.105 \</span><br><span class="line"> --volume /volume1/home/jellyfin/config:/config \</span><br><span class="line"> -v /volume1/home/video:/media \</span><br><span class="line"> --restart=unless-stopped \</span><br><span class="line"> -p 8096:8096 \</span><br><span class="line"> --device /dev/dri/renderD128:/dev/dri/renderD128 \</span><br><span class="line"> --device /dev/dri/card0:/dev/dri/card0 \</span><br><span class="line"> jellyfin/jellyfin:10.4.3</span><br></pre></td></tr></table></figure><p>解释一下<br>add-host是为了给不能翻墙的themovie搜刮器加速的，可不输入。<br>–volume和-v是一个意思，都是制定路径，分别是config配置，和media也就是媒体视频的位置<br>renderD128取决于你的设备是否支持硬件加速，Intel的部分芯片支持，需要自行确认</p><p>普通linux设备不需要硬件加速可以简化</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p 8096:8096 -v /home/jellyfin:/config -v /home/video:/media jellyfin/jellyfin</span><br></pre></td></tr></table></figure><p><img alt data-src="/imgblog/unset/jellyfin.png" class="lazyload"></p><h2 id="宝塔Wordpress网站迁移"><a href="#宝塔Wordpress网站迁移" class="headerlink" title="宝塔Wordpress网站迁移"></a>宝塔Wordpress网站迁移</h2><p>近期好友五哥素材 <a href="http://www.wugesc.cn/" target="_blank" rel="noopener">http://www.wugesc.cn/</a>  由于备案问题，需要搬迁到境外服务器，Wordpress的备份迁移着实难倒我了，整个过程我也是边摸索便操作，所幸花了一天时间，网站的搬迁也顺利完成，简单记录下来，方便日后查看。</p><ol start="0"><li><p>记录下旧网站LAMP/ LMNP 的版本，在新服务器配置好相同的环境。</p></li><li><p>宝塔-网站-备份网站，下载到本地。</p></li><li><p>宝塔-数据库-备份数据库，同时记录数据库名，密码。稍后应用到新的服务器，下载到本地。</p></li><li><p>上传网站备份和数据库备份到新的服务器。</p></li><li><p>新建数据库，确保数据库名，密码和旧数据库一致，导入旧的数据库。</p></li><li><p>新建网站，确保目录，PHP和旧网站一致。</p></li><li><p>设置好网址解析，检查解析是否成功。</p></li><li><p>解压网站备份，移动到网站目录，再次访问。</p></li><li><p>RI-PRO主题需要 Swoole Compiler, 具体操作看页面提示即可。<br>[swoole]<br>extension = swoole.so<br>extension=swoole_loader72.so<br>extension=memcached.so<br><a href="https://www.axiangw.com/1646.html" target="_blank" rel="noopener">https://www.axiangw.com/1646.html</a></p></li><li><p>最后把页面链接出错的问题解决。在宝塔控制面板打开对应的WordPress网站，选择设置，然后选择伪静态，选择WordPress程序，点击保存即可。<br><a href="https://cloud.tencent.com/developer/article/1769015" target="_blank" rel="noopener">https://cloud.tencent.com/developer/article/1769015</a></p></li><li><p>使用宝塔建站有部分情况下会出现Mysql数据库停止的问题。<br>登陆宝塔面板后台 - 计划任务 - 任务类型 - shell脚本，每隔2分钟，或者10分钟运行一次</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">pgrep -x mysqld &amp;&gt; /dev/null</span><br><span class="line">if [ $? -ne 0 ];then</span><br><span class="line">bash /www/server/panel/script/rememory.sh</span><br><span class="line">/etc/init.d/mysqld start</span><br><span class="line">fi</span><br></pre></td></tr></table></figure></li><li><p>将网站备份恢复到新的网址,或者wordpress误修改了后台url。<br>请进入wp数据库（以phpmyadmin为例），找到wp_options, option_name. 修改‘home’ 和 ‘siteurl’ 后面的url。<br><a href="https://icode.best/i/19297331670449" target="_blank" rel="noopener">https://icode.best/i/19297331670449</a></p></li><li><p>https</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">UPDATE wp_posts SET post_content = replace(post_content, &apos;http://s.darler.cn/wp-content/uploads&apos;,&apos;https://s.darler.cn/wp-content/uploads&apos;);</span><br></pre></td></tr></table></figure></li></ol><h2 id="Typecho网站迁移"><a href="#Typecho网站迁移" class="headerlink" title="Typecho网站迁移"></a>Typecho网站迁移</h2><p>Typecho需要PHP7.2及以上的支持，需要注意一点，在nginx的安装目录下找到php的配置文件，例如我的是Windows Server，PHP版本是7.3，进入C:\BtSoft\nginx\conf\php\73.conf ，（根据自己的系统找出配置文件即可）</p><p>注释掉以下这行，否则登录Typecho后台时会报错404。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#try_files $uri =404;</span><br></pre></td></tr></table></figure><hr><p>本文参考了<br><a href="https://zzz.buzz/zh/gfw/2017/08/14/install-shadowsocks-server-on-centos-7/" target="_blank" rel="noopener">https://zzz.buzz/zh/gfw/2017/08/14/install-shadowsocks-server-on-centos-7/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 入门云服 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Jellyfin </tag>
+            
+            <tag> oldiy </tag>
+            
+            <tag> Wordpress </tag>
+            
+            <tag> 宝塔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Maya2022极速翱翔精简版</title>
+      <link href="/maya2022/"/>
+      <url>/maya2022/</url>
+      
+        <content type="html"><![CDATA[<p>软件名称：Autodesk_Maya_2022_极速翱翔精简版<br>软件大小：694M<br>软件语言：简体中文/英文<br>应用平台：Win7 / Win8 / Win10<br>更新时间：2022 / 03 / 15<br>下载地址：见文章末尾</p><p>Maya2022极速翱翔精简版，需要感谢Maya行业的 <strong>Joe</strong>，为极速翱翔提供软件答疑。</p><p>Maya2022精简了插件，运行库及预设模板，保证日常使用不受影响。<br>如果大家觉得精简版好用，欢迎推荐给身边的设计师朋友。</p><h3 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h3><p>1.建议先断网，虽然这是非必要操作。运行Setup.exe,一直下一步即可。<br>安装完成后运行桌面快捷方式<br>完成。<br>如果你在安装过程遇到问题，请务必按照以下的视频进行操作</p><p>Ⅰ.哔哩哔哩源</p><p>（如果本页面播放感觉清晰度低，可以<a href="https://www.bilibili.com/video/BV1Kb4y1s7Vz/" target="_blank" rel="noopener">点击这里到B站</a>切换高清画质）</p><div><iframe src="//player.bilibili.com/player.html?aid=637196811&bvid=BV1Kb4y1s7Vz&cid=546448547&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><p>Ⅱ.本地视频源</p><p><video src="https://aws.darler.eu.org/video/maya2022install.mp4" type="video/mp4" position="absolute" width="100%" height="100%" controls="controls"></video></p><h3 id="修改语言为英文"><a href="#修改语言为英文" class="headerlink" title="修改语言为英文"></a>修改语言为英文</h3><h4 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h4><p>进入maya安装目录下<br>\Maya2022\resources\l10n<br>修改“zh_CN”文件夹名称，或者移动“zh_CN”文件夹到其他位置</p><h4 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h4><p>修改系统语言为英文</p><blockquote><p><a href="https://pan.baidu.com/s/1RIOmI3AN_4UK9HdJsGm_gw" target="_blank" rel="noopener">百度网盘</a> 提取码：jsax</p></blockquote><blockquote><p><a href="https://cloud.189.cn/t/vUnMziaiMnEz" target="_blank" rel="noopener">天翼云盘</a> 提取码：w6ze</p></blockquote><p><strong>公众号后台发送maya2022，获取下载地址</strong></p><p>安装包仅供学习使用，请与下载后24小时内删除。<br>请扫描以下二维码，或搜索公众号 极速翱翔<br><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"><br>网盘链接失效，或者你对Maya精简有什么建议反馈<br>添加我微信：darlerowner，我会及时解答<br>转载前请发邮件到 <a href="mailto:darler@qq.com" target="_blank" rel="noopener">darler@qq.com</a> 通知我，非常欢迎大家转载</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 2022 </tag>
+            
+            <tag> Maya </tag>
+            
+            <tag> 动画 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>家庭宽带/云服务器搭建Frp实现内网穿透</title>
+      <link href="/frpservice/"/>
+      <url>/frpservice/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>一台电脑想要被外网访问，公网IP+DDNS是最佳方案。<br>其次VPN组网（如蒲公英）也可以实现高速连接。<br>最后Frp是无可奈何的选择。</p></blockquote><p>Frp需要一台暴露在公网的设备，家庭宽带申请公网IP+DDNS后本质上已经和一台云服务器相当了。暴露在公网有不小的隐患，特别是端口号，一定要安全性高，10000-65536相对好很多。</p><p>安装方法适用于群晖和centos等linux系统。</p><h4 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h4><p><a href="https://gofrp.org/docs/" target="_blank" rel="noopener">https://gofrp.org/docs/</a></p><h4 id="一、下载，解压frp"><a href="#一、下载，解压frp" class="headerlink" title="一、下载，解压frp"></a>一、下载，解压frp</h4><p>下载地址<br><a href="https://github.com/fatedier/frp/releases" target="_blank" rel="noopener">https://github.com/fatedier/frp/releases</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://github.com/fatedier/frp/releases/download/v0.36.2/frp_0.36.2_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure><p>解压</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf frp_0.36.2_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure><p>解压后删除压缩包，改名目录为frp</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mv frp_0.36.2_linux_amd64 frp</span><br><span class="line">rm -rf frp_0.36.2_linux_amd64.tar.gz</span><br></pre></td></tr></table></figure><p>进入frp目录文件夹，参照文档填写</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd frp</span><br><span class="line">vi frpc.ini</span><br></pre></td></tr></table></figure><p>在frps，建议配置token，还可以<a href="http://hk.darler.cn:7500" target="_blank" rel="noopener">配置面板</a>，域名:7500就可以访问。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[common]</span><br><span class="line">bind_port = 7000 #注意防火墙放行端口</span><br><span class="line">vhost_http_port = 6666 #http端口</span><br><span class="line">#token = </span><br><span class="line">#dashboard_port  = 7500</span><br><span class="line">#dashboard_user  = admin</span><br><span class="line">#dashboard_pwd   = admin</span><br></pre></td></tr></table></figure><p>在frpc</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">[common]</span><br><span class="line">server_addr = 15.15.55.159 #也可以是域名</span><br><span class="line">server_port = 7000 #和bind_port一致</span><br><span class="line">#token = </span><br><span class="line"></span><br><span class="line">[ssh]</span><br><span class="line">Itype = tcp</span><br><span class="line">local_ip = 127.0.0.1</span><br><span class="line">local_port = 22</span><br><span class="line">remote_port = 6000</span><br><span class="line"></span><br><span class="line">[dsm]</span><br><span class="line">Itype = tcp</span><br><span class="line">local_ip = 127.0.0.1</span><br><span class="line">local_port = 5000</span><br><span class="line">remote_port = 2200</span><br><span class="line"></span><br><span class="line">[emby]</span><br><span class="line">Itype = tcp</span><br><span class="line">local_ip = 127.0.0.1</span><br><span class="line">local_port = 8096</span><br><span class="line">remote_port = 8096</span><br></pre></td></tr></table></figure><p>浏览器打开1.15.55.159:2200可以访问内网frp客户端127.0.0.1:5000</p><p>如果你是家庭宽带搭建的服务端，remote_port不要用22，80，443这些端口，都是被封的。</p><h4 id="二、运行frpc"><a href="#二、运行frpc" class="headerlink" title="二、运行frpc"></a>二、运行frpc</h4><p><code>./frpc -c ./frpc.ini</code></p><p>后台运行frpc/frps</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">nohup ./frpc -c ./frpc.ini &amp;</span><br><span class="line">nohup ./frps -c ./frps.ini &amp;</span><br></pre></td></tr></table></figure><p><img alt="frp控制面板" data-src="/imgblog/cover-yet/frpservice.jpg" class="lazyload"></p><h4 id="三、添加启动脚本-（群晖）"><a href="#三、添加启动脚本-（群晖）" class="headerlink" title="三、添加启动脚本 （群晖）"></a>三、添加启动脚本 （群晖）</h4><p>新建脚本文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /usr/syno/etc.defaults/rc.sysv/frp.sh</span><br></pre></td></tr></table></figure><p>编辑脚本文件，按INSERT键进入编辑状态，输入下面内容</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#/bin/bash</span><br><span class="line">cd /root/frp #这是你frp的文件夹</span><br><span class="line">nohup ./frpc -c ./frpc.ini &amp;</span><br></pre></td></tr></table></figure><p>按ESC键，输入“:wq”按回车保存退出</p><p>进入文件目录，设置权限</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/syno/etc.defaults/rc.sysv</span><br><span class="line">chmod +x frp.sh</span><br></pre></td></tr></table></figure><p>在群晖中设置开机自动启动，在群晖中打开 控制面板–&gt;任务计划–&gt;新增–&gt;触发的任务–&gt;用户定义的脚本</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/syno/etc.defaults/rc.sysv/frp.sh</span><br></pre></td></tr></table></figure><p>做frp服务端也是同理，只是运行nohup ./frps -c ./frps.ini &amp;而已<br>需要注意：服务端涉及到端口，一般frps服务启动不成功都是端口未开放，<br>再就是文件没有root权限。 </p><h4 id="四、centos实现开机启动。"><a href="#四、centos实现开机启动。" class="headerlink" title="四、centos实现开机启动。"></a>四、centos实现开机启动。</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /lib/systemd/system/frps.service</span><br></pre></td></tr></table></figure><p>服务端：<br>sudo vi /lib/systemd/system/frps.service</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=fraps service</span><br><span class="line">After=network.target syslog.target</span><br><span class="line">Wants=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">Type=simple</span><br><span class="line">#启动服务的命令（此处写你的frps的实际安装目录）</span><br><span class="line">ExecStart=/root/frp/frps -c /root/frp/frps.ini </span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure><p>客户端：<br>sudo vi /lib/systemd/system/frpc.service</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=frpc service</span><br><span class="line">After=network.target syslog.target</span><br><span class="line">Wants=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">Type=simple</span><br><span class="line">#启动服务的命令（此处写你的frpc的实际安装目录）</span><br><span class="line">ExecStart=/root/frp/frpc -c /root/frp/frpc.ini</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure><p>服务端frps的启动与停止</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start frps  # 启动frps </span><br><span class="line">sudo systemctl enable frps  # 打开自启动</span><br><span class="line">sudo systemctl restart frps  # 重启应用</span><br><span class="line">sudo systemctl stop frps  # 停止应用</span><br><span class="line">sudo systemctl status frps  # 查看应用的日志</span><br><span class="line">systemctl disable frps  # 停止开机自启动</span><br></pre></td></tr></table></figure><p>服务端frpc的启动与停止</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start frpc  # 启动frps </span><br><span class="line">sudo systemctl enable frpc  # 打开自启动</span><br><span class="line">sudo systemctl restart frpc  # 重启应用</span><br><span class="line">sudo systemctl stop frpc  # 停止应用</span><br><span class="line">sudo systemctl status frpc  # 查看应用的日志</span><br><span class="line">systemctl disable frpc  # 停止开机自启动</span><br></pre></td></tr></table></figure><p>查看frp线程</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps -aux | grep frp</span><br></pre></td></tr></table></figure><p>本文参考了<br><a href="https://www.cnblogs.com/chenshy/p/13514248.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenshy/p/13514248.html</a><br><a href="https://www.cnblogs.com/colinliu/p/Synology_frp.html" target="_blank" rel="noopener">https://www.cnblogs.com/colinliu/p/Synology_frp.html</a></p><p>后来想在老毛子，OpenWrt固件的路由器中搭建ddns和安装frp服务端。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 入门云服 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> frp </tag>
+            
+            <tag> 宽带 </tag>
+            
+            <tag> 内网穿透 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3DsMax2022极速翱翔精简版</title>
+      <link href="/3dsmax2022/"/>
+      <url>/3dsmax2022/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>软件名称：Autodesk_3ds_Max_2022_极速翱翔精简版<br>软件大小：1.46G<br>软件语言：简体中文/英文<br>应用平台：只推荐Win10<br>更新时间：2021 / 03 / 29<br>下载地址：见文章末尾</p></blockquote><h2 id="软件日志"><a href="#软件日志" class="headerlink" title="软件日志"></a>软件日志</h2><p>—–20210930——hui大神制作3DsMax2022.2绿化精简版【文件大小441M】——–<br>—–20210414——3dsMax2022.1极速翱翔精简版【文件大小1.46G】——–<br>—–20210326——hui大神制作3DsMax2022绿化精简版【文件大小449M】——–<br>—–2021待定——待注册机出现后技术翱翔制作安装破解版——–</p><p><img alt data-src="/imgblog/3dsmax2022/04.png" class="lazyload"></p><h2 id="极速翱翔有话说"><a href="#极速翱翔有话说" class="headerlink" title="极速翱翔有话说"></a>极速翱翔有话说</h2><p>2021年3月26日。3dsMax2022发布了，hui大神再第一时间更新了绿化精简版，非常感谢。<br>想要使用绿化版的朋友需要注意：目前破解依然是替换破解，Ctrl+S会有窗口。这点和2021时是一样的，虽然麻烦，但是不影响使用。<br>后期会出一个安装版的精简，但是体积会大不少。</p><p>2021年9月，完美替换补丁制作完成，告别Ctrl+S（另存为）会有窗口的问题。</p><h2 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a><strong>安装方法</strong></h2><p>1.断网，运行Setup.exe,一直下一步即可，<br>2.安装完先不用启动，关闭软件窗口。<br>3.解压“替换文件.zip”，把得到的3dsmax.exe复制到3dsMax2022安装目录，替换原来的文件。<br>比如 默认C:\Program Files\Autodesk\3DS MAX 2022<br>4.运行桌面快捷方式。<br>完成。</p><p>不管你安装啥版本，只要是安装3dsmax2022，都要注意：<br>必须要安装运行库 NET Framework 4.8， VCRedist 2019<br>下载地址可在公众号回复“运行库”获取</p><blockquote><p><a href="https://pan.baidu.com/s/1JZMrg2vTLXmXiIhNX9nk0Q" target="_blank" rel="noopener">百度网盘</a> 提取码：jsax</p></blockquote><blockquote><p><a href="https://cloud.189.cn/t/rA3ayaeQvmmq" target="_blank" rel="noopener">天翼云盘</a> 提取码：gzt5</p></blockquote><p>请扫描以下二维码，或搜索公众号 极速翱翔<br>如果网盘链接失效，或者你对3DMAX精简有什么建议反馈，<br>可直接在公众号发消息向我反馈，我会在第一时间回复大家。<br><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 室内 </tag>
+            
+            <tag> 2022 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Revit2016极速翱翔精简版</title>
+      <link href="/revit2016/"/>
+      <url>/revit2016/</url>
+      
+        <content type="html"><![CDATA[<p>软件名称：Autodesk_Revit_2016_极速翱翔精简版<br>软件大小：398M<br>软件语言：简体中文/英文<br>应用平台：Win7 / Win8 / Win10<br>内测发布：2021/03/03<br>正式发布：2021/04/10<br>下载地址：见文章末</p><h5 id="1-制作背景"><a href="#1-制作背景" class="headerlink" title="1.制作背景"></a>1.制作背景</h5><p>Revit系列软件是为建筑信息模型(BIM)构建的，可帮助建筑设计师设计、建造和维护质量更好、能效更高的建筑，也是我国建筑业BIM体系中使用最广泛的软件之一。</p><p>后台有朋友问到revit这个软件能不能精简，在各搜索引擎搜索出来的这些结果，点进去后都只是原版，标题精简版就是骗点击。看来revit精简版确实是有这样的需要。</p><p>但我对于这个软件不是特别了解，关于哪些能精简，哪些不能，于是找2位使用这个软件的从业人员了解有一下。并发起投票，最终基本锁定在2018和2016这2个版本上。</p><p>由于2018版本我在电脑上怎么都无法安装，无法进行测试，大概率是这个版本是一些问题，因此避免精简后又朋友安装不上，最后确定对REVIT2016进行精简。</p><p><img alt data-src="/imgblog/revit2016/size.jpg" class="lazyload"></p><h5 id="2-运行库需求"><a href="#2-运行库需求" class="headerlink" title="2.运行库需求"></a>2.运行库需求</h5><p>同3DMAX2016</p><h5 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h5><p>1.运行Setup.exe，断网安装,一直下一步即可</p><p>输入<br>序列号：（前三位666，后8位随意）<br>666-12345678</p><p>产品密钥：<br>829H1</p><p><img alt data-src="/imgblog/revit2016/install1.jpg" class="lazyload"></p><p><img alt data-src="/imgblog/revit2016/install2.jpg" class="lazyload"></p><p>2.运行桌面快捷方式，这里必须要断网！！！断网！断网！！</p><p><img alt data-src="/imgblog/revit2016/install3.jpg" class="lazyload"></p><p>3.在激活界面选择我拥有激活码（离线），运行xf-adsk2016_x64.exe</p><p><img alt data-src="/imgblog/revit2016/install4.jpg" class="lazyload"></p><p>注册机如果丢失是杀毒软件所致，请先关闭杀毒软件再解压，WIN10会自动清除，建议关闭自动防护<br>同时还多放了一个REVIT2016注册机.zip   -解压密码jsax.zip<br>之前3DMAX精简经常有朋友反馈没有注册机，这次做双保险。</p><p>4.复制request并粘贴上去，先点Patch，再点Generate，并把Activation粘贴到激活界面。一直下一步即可。</p><p><img alt data-src="/imgblog/revit2016/install5.jpg" class="lazyload"></p><p>注册机与3dMax2016通用</p><p><img alt data-src="/imgblog/revit2016/screen.jpg" class="lazyload"></p><h5 id="4-卸载操作："><a href="#4-卸载操作：" class="headerlink" title="4.卸载操作："></a>4.卸载操作：</h5><p>当你需要卸载Autodesk家的软件时，在开始菜单找到Uninstall Tool.<br>勾选并卸载</p><p><img alt data-src="/imgblog/revit2016/uninstall1.png" class="lazyload"></p><p><img alt data-src="/imgblog/revit2016/uninstall2.png" class="lazyload"></p><h5 id="5-中-英语言切换"><a href="#5-中-英语言切换" class="headerlink" title="5.中/英语言切换"></a>5.中/英语言切换</h5><p>在制作时考虑到更广泛人群的使用，我制作了中文和英文双语版，切换语言的方法如下：<br>1.复制桌面的Revit 2016图标。（非必需）<br>2.右键图标-属性。将目标后面的CHS，修改为ENU，点击确定。</p><p><img alt data-src="/imgblog/revit2016/language.jpg" class="lazyload"></p><p>3.运行修改后的图标。</p><h5 id="鸣谢！"><a href="#鸣谢！" class="headerlink" title="鸣谢！"></a>鸣谢！</h5><p><img alt data-src="/imgblog/revit2016/screen2.jpg" class="lazyload"></p><blockquote><p><a href="https://pan.baidu.com/s/1QbD7HMTC-OMYgucfVea8eA" target="_blank" rel="noopener">百度网盘</a> 提取码：djrc</p></blockquote><blockquote><p><a href="https://cloud.189.cn/t/YRfq6niyuYju" target="_blank" rel="noopener">天翼云盘</a> 访问码:5ijc</p></blockquote><p>请扫描以下二维码，或搜索公众号 极速翱翔<br>如果网盘链接失效，或者你对revit精简有什么建议反馈，<br>可在公众号发消息向我反馈，或发送邮件到 <a href="mailto:leewinmen@foxmail.com" target="_blank" rel="noopener">leewinmen@foxmail.com</a></p><p><img alt data-src="/imgblog/revit2016/revit2016qrcode.jpg" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 2016 </tag>
+            
+            <tag> revit </tag>
+            
+            <tag> BIM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【视频】3DsMax2013-2020极速翱翔精简版安装教程</title>
+      <link href="/3dsmaxinstallation/"/>
+      <url>/3dsmaxinstallation/</url>
+      
+        <content type="html"><![CDATA[<p>Ⅰ.哔哩哔哩源</p><div><iframe src="//player.bilibili.com/player.html?aid=883817923&bvid=BV11K4y1s7kh&cid=212111489&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><p>高清分辨率请移步 <a href="https://www.bilibili.com/video/BV11K4y1s7kh" target="_blank" rel="noopener">哔哩哔哩</a> 或微信公众号“极速翱翔”。</p><p>Ⅱ.本地视频源</p><p><video src="https://aws.darler.eu.org/video/3dsmax2013-2019install.mp4" type='video/mp4' position= "absolute" width="100%" height="100%" controls="controls"></video></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实用经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 室内 </tag>
+            
+            <tag> 教程 </tag>
+            
+            <tag> 安装 </tag>
+            
+            <tag> 视频 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>流量中转提升访问稳定性</title>
+      <link href="/v2rayn/"/>
+      <url>/v2rayn/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>今年看到印度的轻量应用服务器才16元一个月，于是尝试搭梯子。2019年我使用的是v2ray的vmess方案。</p><p>但这次在服务器上竟然没成功，机缘巧合使用Shadowsocks搭建成功。<br>经过我的研究，有2种方法搭建Shadowsocks服务端，我先介绍第二种方法。</p></blockquote><h2 id="X-UI"><a href="#X-UI" class="headerlink" title="X-UI"></a>X-UI</h2><p>如果你希望把节点分享给多个人并且进行管理，X-UI就非常好用了。可点击<a href="https://github.com/vaxilu/x-ui/" target="_blank" rel="noopener">项目地址</a></p><p>一键安装脚本</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)</span><br></pre></td></tr></table></figure><p>安装完后打开浏览器，输入IP：端口即可进行设置。</p><h2 id="Shadowsocks"><a href="#Shadowsocks" class="headerlink" title="Shadowsocks"></a>Shadowsocks</h2><h5 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h5><p>来源于一个大佬的<a href="https://github.com/xyz690/v2ray/wiki" target="_blank" rel="noopener">V2Ray 一键安装项目</a></p><p>在他的介绍页面有  <a href="https://github.com/xyz690/v2ray/wiki/V2Ray一键安装脚本" target="_blank" rel="noopener">V2Ray 一键安装脚本</a> ， <a href="https://github.com/xyz690/v2ray/wiki/V2Ray搭建详细图文教程" target="_blank" rel="noopener">V2Ray搭建详细图文教程</a>  和  <a href="https://github.com/xyz690/v2ray/wiki/V2Ray客户端使用教程" target="_blank" rel="noopener">V2Ray客户端使用教程</a> </p><p>可以说是非常保姆级了，搭建Shadowsocks是它其中的一部分。因为它主要是搭建v2ray的，但我需要用到他的Shadowsocks那部分。</p><p><strong>安装命令：</strong><br>输入以下命令一键安装，回车执行（<code>shift+insert</code>可粘贴），按1安装</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -s -L https://git.io/v2ray-setup.sh)</span><br></pre></td></tr></table></figure><p>1.安装好后使用 <code>v2ray ssinfo</code> 命令配置Shadowsocks，全程一键完成，安装好后复制 <code>ss=*****</code> 到你的客户端中，简单友好。<br>2.建议可以使用 <code>v2ray status</code> 检查v2ray有没有正常运行一开始我就是一直连不上，原因是根本没有在运行。<br>3.如果启动了也ping不通，连接不上，一定要开放相应的端口，像我都是在宝塔里关掉防火墙。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld #centos7临时关闭防火墙</span><br><span class="line">systemctl disable firewalld #centos7禁止防火墙开机启动</span><br></pre></td></tr></table></figure><h5 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h5><p><a href="https://github.com/shadowsocks/shadowsocks-libev" target="_blank" rel="noopener">项目地址</a> </p><p> <a href="https://copr.fedorainfracloud.org/coprs/emtohere/shadowsocks-libev/" target="_blank" rel="noopener">CentOS 7安装教程</a> </p><p>1、安装 <em>shadowsocks-libev</em> 的命令如下： </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd /etc/yum.repos.d/</span><br><span class="line">curl -O https://copr.fedorainfracloud.org/coprs/librehat/shadowsocks/repo/epel-7/librehat-shadowsocks-epel-7.repo</span><br><span class="line">yum install -y shadowsocks-libev</span><br></pre></td></tr></table></figure><p>2、先在命令行中执行一次 <code>ss-server</code> 命令，以确认 shadowsocks 及其依赖已正确安装。</p><p>3、添加配置文件<br> COPR 里的 <em>shadowsocks-libev</em> 默认读取位于 <code>/etc/shadowsocks-libev/config.json</code> 的配置文件，我们可以根据需要参考以下配置文件进行修改： </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">&quot;server&quot;: &quot;0.0.0.0&quot;,</span><br><span class="line">&quot;server_port&quot;: 54321,</span><br><span class="line">&quot;password&quot;: &quot;darler.cn&quot;,</span><br><span class="line">&quot;method&quot;: &quot;aes-256-gcm&quot;,</span><br><span class="line">&quot;mode&quot;: &quot;tcp_and_udp&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li><p>配置服务端时填入 “0.0.0.0” 总是能生效，而不必填入服务器自身的 IP。</p></li><li><p><code>&quot;server_port&quot;</code>： 填入1024以上的端口，建议填五位数的 </p><p><strong>千万千万要记得开放端口，或者关闭防火墙</strong></p></li><li><p><code>&quot;password&quot;</code>： 必填。需要在客户端配置时填入相同的值。</p><p>连接服务端所需的密码，建议替换为复杂密码，避免被攻击者暴力破解。</p></li></ul><p>4、启动 Shadowsocks 服务<br>有了 Shadowsocks 服务端的配置文件后，我们通过 systemd 启动 Shadowsocks 的服务端服务。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start shadowsocks-libev</span><br></pre></td></tr></table></figure><p>其他 Shadowsocks 命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable shadowsocks-libev</span><br><span class="line">systemctl status shadowsocks-libev</span><br></pre></td></tr></table></figure><p>客户端配置请参考跳到下方添加VMess服务器。</p><h2 id="MTProto"><a href="#MTProto" class="headerlink" title="MTProto"></a>MTProto</h2><p>Telegram在没有代理的时候是无法访问的，但这个软件内置了代理，支持socks5和MTProto，这2个都可以在上文方法2的一键脚本中创建，但是新版脚本似乎不可以一键安装了，于是我找了MTProto的一键脚本。</p><p><a href="https://github.com/cutelua/mtg-dist" target="_blank" rel="noopener">项目地址</a></p><p>一键安装脚本，需要填一个域名，我是填了一个解析好的，不确定是否可以随便填。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(wget -qO- https://git.io/mtg.sh)</span><br></pre></td></tr></table></figure><h2 id="V2rayN"><a href="#V2rayN" class="headerlink" title="V2rayN"></a>V2rayN</h2><p><a href="https://github.com/v2fly/v2ray-core" target="_blank" rel="noopener">项目地址</a>，20210525更新</p><p>1、安装wget和unzip，这个一般可以忽略；</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo yum -y install wget</span><br><span class="line">sudo yum install zip unzip</span><br></pre></td></tr></table></figure><p>2、下载安装脚本并执行安装；</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)</span><br></pre></td></tr></table></figure><p>3、生成UUID</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /proc/sys/kernel/random/uuid</span><br></pre></td></tr></table></figure><p>记下你的UUID:f500ecf5-e135-49c6-9ce2-78eb490d0aa9</p><p>4、配置config.json</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /usr/local/etc/v2ray/config.json</span><br></pre></td></tr></table></figure><p>粘贴这串配置，端口号自己修改，注意防火墙和放行端口，<br>UUID修改成刚刚生成的。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;inbounds&quot;: [&#123;</span><br><span class="line">    &quot;port&quot;: 12345,</span><br><span class="line">    &quot;protocol&quot;: &quot;vmess&quot;,</span><br><span class="line">    &quot;settings&quot;: &#123;</span><br><span class="line">      &quot;clients&quot;: [</span><br><span class="line">        &#123;</span><br><span class="line">          &quot;id&quot;: &quot;f500ecf5-e135-49c6-9ce2-78eb490d0aa9&quot;,</span><br><span class="line">          &quot;level&quot;: 1,</span><br><span class="line">          &quot;alterId&quot;: 64</span><br><span class="line">        &#125;</span><br><span class="line">      ]</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;],</span><br><span class="line">  &quot;outbounds&quot;: [&#123;</span><br><span class="line">    &quot;protocol&quot;: &quot;freedom&quot;,</span><br><span class="line">    &quot;settings&quot;: &#123;&#125;</span><br><span class="line">  &#125;,&#123;</span><br><span class="line">    &quot;protocol&quot;: &quot;blackhole&quot;,</span><br><span class="line">    &quot;settings&quot;: &#123;&#125;,</span><br><span class="line">    &quot;tag&quot;: &quot;blocked&quot;</span><br><span class="line">  &#125;],</span><br><span class="line">  &quot;routing&quot;: &#123;</span><br><span class="line">    &quot;rules&quot;: [</span><br><span class="line">      &#123;</span><br><span class="line">        &quot;type&quot;: &quot;field&quot;,</span><br><span class="line">        &quot;ip&quot;: [&quot;geoip:private&quot;],</span><br><span class="line">        &quot;outboundTag&quot;: &quot;blocked&quot;</span><br><span class="line">      &#125;</span><br><span class="line">    ]</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>5、常用命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start v2ray #启动</span><br><span class="line">sudo systemctl stop v2ray #停止</span><br><span class="line">sudo systemctl restart v2ray #重启</span><br><span class="line">sudo systemctl enable v2ray  #开机启动</span><br></pre></td></tr></table></figure><p>5、下载<a href="https://github.com/2dust/v2rayN/releases" target="_blank" rel="noopener">v2rayN客户端</a></p><p>6、添加VMess服务器<br><img alt data-src="/imgblog/vps/vmess.jpg" class="lazyload"></p><h2 id="防火墙开放端口"><a href="#防火墙开放端口" class="headerlink" title="防火墙开放端口"></a>防火墙开放端口</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --list-ports #查看已开放端口</span><br><span class="line">firewall-cmd --zone=public --add-port=80/tcp --permanent #添加开放端口</span><br></pre></td></tr></table></figure><h2 id="禁用防火墙"><a href="#禁用防火墙" class="headerlink" title="禁用防火墙"></a>禁用防火墙</h2><p>CentOS关闭防火墙</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld</span><br><span class="line">systemctl disable firewalld</span><br></pre></td></tr></table></figure><p>Ubuntu关闭防火墙</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">iptables -P INPUT ACCEPT</span><br><span class="line">iptables -P FORWARD ACCEPT</span><br><span class="line">iptables -P OUTPUT ACCEPT</span><br><span class="line">iptables -F</span><br><span class="line">apt-get purge netfilter-persistent</span><br><span class="line">rm -rf /etc/iptables &amp;amp;&amp;amp;</span><br></pre></td></tr></table></figure><p>*在自家宽带下的虚拟机安装v2ray，可以作为NAT流量中转，手机连接，可以提升浏览的稳定性。</p><hr><p>本文参考了</p><p><a href="http://jiangshuai888.cn/archives/439" target="_blank" rel="noopener">http://jiangshuai888.cn/archives/439</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 入门云服 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos </tag>
+            
+            <tag> V2ray </tag>
+            
+            <tag> V2rayN </tag>
+            
+            <tag> Telegram </tag>
+            
+            <tag> Shadowrocket </tag>
+            
+            <tag> Shadowsock </tag>
+            
+            <tag> MTProto </tag>
+            
+            <tag> 科学上网 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3DsMax2021极速翱翔精简版</title>
+      <link href="/3dsmax2021/"/>
+      <url>/3dsmax2021/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>软件名称：Autodesk_3ds_Max_2021.1_Update<br>软件语言：简体中文/英文<br>更新时间：2020/04/07<br>应用平台：只推荐Win10<br>软件大小：1.48G</p><p>2021.0版已撤包，下载2021.1即可</p></blockquote><h2 id="1-极速翱翔有话说"><a href="#1-极速翱翔有话说" class="headerlink" title="1.极速翱翔有话说"></a>1.极速翱翔有话说</h2><p>之前公众号写文章吐槽3DMAX的安装和破解十年不变，结果2021采用了cab压缩。<br>1.学术不精目前不知道怎么去修改，于是只能将安装包从解压后的8.5G精简到1.5G.制作了安装版。</p><p>2.但是破解方法的改变，使得绿色版成为可能。极速翱翔对官方原版安装后的文件做了精简，按照我的洁癖，最终控制在了压缩后356M，但这其中最重要的，是大神hui，qq:42352228的授权我使用它研究的绿化工具。我才得以制作了绿化版。</p><p>精简版主要精简了运行库，可选安装插件，3DMAX内置预设，包括但不限于:</p><p>Material Library插件<br>Civil View插件<br>Inventor Interoperability插件<br>Revit Interoperability插件<br>Substance插件<br>AdskLicensing组件<br>Arnold渲染器<br>dotNetFramework运行库<br>VCRedist运行库</p><p><img alt data-src="/imgblog/3dsmax2021/A5.jpg" class="lazyload"></p><h2 id="2-系统需求"><a href="#2-系统需求" class="headerlink" title="2.系统需求"></a>2.系统需求</h2><p>不管你安装啥版本，只要是安装2021，都要注意：<br>必须要安装运行库 NET Framework 4.8！！！<br>必须要安装运行库 VCRedist 2019<br>下载地址可在公众号回复“运行库”获取</p><h2 id="3-2021-1Update安装方法"><a href="#3-2021-1Update安装方法" class="headerlink" title="3.2021.1Update安装方法"></a>3.2021.1Update安装方法</h2><p>1.断网！断网！断网！！！<br>2.运行Setup.exe,一直下一步即可，安装完先不用启动。<br>3.解压“替换文件.zip”，把得到的3dsmax.exe复制到3dsMax2021安装目录，替换原来的文件。<br>比如 默认C:\Program Files\Autodesk\3DS MAX 2021<br>4.运行“3dsMax2021toZh-cn.bat”可改为默认中文<br>5.运行桌面快捷方式。<br>完成。</p><p><img alt data-src="/imgblog/3dsmax2021/A4.jpg" class="lazyload"></p><p><img alt data-src="/imgblog/3dsmax2021/A7.jpg" class="lazyload"></p><blockquote><p><a href="https://pan.baidu.com/s/1tU7TtY36oFaymbGQYvHMeA" target="_blank" rel="noopener">百度网盘</a> 提取码：4q4j</p></blockquote><blockquote><p><a href="https://cloud.189.cn/t/MV77vqqe67by" target="_blank" rel="noopener">天翼云盘</a> 提取码：6ayb</p></blockquote><p>请扫描以下二维码，或搜索公众号 极速翱翔<br>如果网盘链接失效，或者你对3DMAX精简有什么建议反馈，<br>可直接在公众号发消息向我反馈，我会在第一时间回复大家。<br><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 室内 </tag>
+            
+            <tag> 2021 </tag>
+            
+            <tag> Vray </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VRAY分布式渲染大幅缩短渲染时间</title>
+      <link href="/distributed/"/>
+      <url>/distributed/</url>
+      
+        <content type="html"><![CDATA[<p><img alt data-src="/imgblog/distributed/title.jpg" class="lazyload"></p><p>不知道大家第一次接触三维渲染时是什么感受。</p><p>想必多多少少会被渲染出来逼真的效果给震撼到，但是同时也会希望，如果渲染的时间不用这么久，就完美了。</p><p>之前我写过一篇设置V-Ray4.1渲染参数的教程，<strong>本质上就是在渲染质量和渲染时间找一个平衡</strong>。</p><p><img alt data-src="/imgblog/vraynextsetting/cover.jpg" class="lazyload"></p><p>然而即使我们已经使用了最合适的渲染参数，但渲染毕竟还是需要花上一定的时间，并且这个渲染工作量是一定的，想缩短渲染时间，唯一的方法就是提升计算机的性能。</p><p>所以应运而生了几种对策：第一是购置更高性能的计算机；第二是云渲染，本质上就是租用别人的高性能计算机；第三则是使用多台计算机共同渲染，也就是我们今天要讲到的，分布式渲染。</p><p>渲染需要多台计算机，为了方便区分，我们先明确，调整材质的电脑称为<strong>服务端</strong>，其他为你渲染的电脑称为<strong>客户端</strong>。</p><p><strong>前提条件：</strong></p><p>1.服务端和客户端需要处于<strong>同一个局域网的同一个工作组或域内</strong>。</p><p>2.服务端和客户端均启用网络发现，确保可浏览共享文件夹。</p><p>3.服务端和客户端均安装3dsMax和同一版本的V-Ray。</p><hr><p><u>接下来以3dsMax2016和V-Ray4.1进行演示</u></p><p>服务端名为C-005041，客户端名为C-000101（IP地址192.168.5.101）</p><p>1.在<strong>客户端</strong>上，进入3dsMax安装目录，找到vrayspawner2016.exe并启动</p><p><img alt data-src="/imgblog/distributed/3.png" class="lazyload"></p><p>2.在任务栏会显示出VRaySpawner图标和3dsMax的图标，窗口不能打开，说明启动成功 </p><p><img alt data-src="/imgblog/distributed/01.png" class="lazyload"></p><p><img alt data-src="/imgblog/distributed/2.png" class="lazyload"></p><p>3.在<strong>服务端</strong>上，打开渲染设置面板，<strong>勾选</strong>分布式渲染，并点开<strong>设置</strong>窗口</p><p>4.点击“<strong>添加服务器</strong>”，输入客户端计算机名称或IP地址，点击<strong>好</strong>，然后点<strong>击解析服务器</strong></p><p>查看计算机名称的方法：我的电脑/计算机/此电脑–右键–属性，就能看到</p><p>5.建议输入计算机名称，在解析服务器后如果出现IP地址，则说明客户端连接成功。</p><p>6.建议勾选“传输缺少的资源”，并把缓存限制类型改为“None”，完成后点击“好”</p><p><img alt data-src="/imgblog/distributed/7.png" class="lazyload"></p><p>7.窗口日志建议默认“永远”，这样可以了解客户端的链接情况。</p><p>可以看到对应的IP地址已经start render</p><p><img alt data-src="/imgblog/distributed/5.png" class="lazyload"></p><p>完成以上设置后，使用客户端渲染一个你已经调好灯光材质的文件，这时候，你可以看到渲染窗口上每一个块都有对应正在参与渲染的计算机名称，说明分布式渲染已经起作用。</p><p><strong>这里有一个细节：这2台电脑一台是4线程，一台是12线程，大家可以数数看，正在渲染的框框一共16个。每一条线程渲染一个区域</strong></p><p><img alt data-src="/imgblog/distributed/4.png" class="lazyload"></p><p>渲染过程中客户端的窗口会变为显示vray_server </p><p><img alt data-src="/imgblog/distributed/8.png" class="lazyload"></p><p>渲染完成后，我们可以对比启用分布式渲染前后的渲染时间。 </p><p><img alt="未启用分布式渲染" data-src="/imgblog/distributed/9.jpg" class="lazyload"></p><p><img alt="启用分布式渲染" data-src="/imgblog/distributed/6.jpg" class="lazyload"></p><p>启用分布式渲染前，渲染时间为4:43，在启用分布式渲染后，渲染时间为1:58，渲染时间缩短了一半，如果你添加到分布式渲染的计算机更多，速度就越快。 </p><hr><p><strong>最后</strong></p><p>补充1</p><p>如果你是学生，你可以和同宿舍的朋友组网，让他们的电脑帮你一起渲染。</p><p>如果你在职场，你可以利用部门内同事的电脑，毕竟这是产出，公司不会不给资源。</p><p>如果你自己成立工作室，也不用我教你了吧。</p><p>补充2</p><p>对于高性能的定义：多线程优于高主频，因为可以同时计算的像素会更多。</p><p>补充3</p><p>参与分布式渲染的客户端电脑上V-Ray版本必须一致，但客户端的3dsMax版本可以不一样。</p><p><img alt data-src="/imgblog/distributed/environment.jpg" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实用经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 分布式渲染 </tag>
+            
+            <tag> 联机渲染 </tag>
+            
+            <tag> 集群渲染 </tag>
+            
+            <tag> 多台电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3DsMax2014极速翱翔精简版SP6</title>
+      <link href="/3dsmax2014/"/>
+      <url>/3dsmax2014/</url>
+      
+        <content type="html"><![CDATA[<p>软件名称：Autodesk 3ds Max 2014 极速翱翔 SP6<br>软件语言：简体中文/英文<br>更新时间：2020/02/02<br>应用平台：Win7/Win8/Win10<br>软件大小：242M<br>安装视频： <a href="https://www.bilibili.com/video/BV11K4y1s7kh" target="_blank" rel="noopener">视频安装教程高清</a><br>解压密码：blog.darler.cn</p><p>极速翱翔有话说：<br>总所周知，龙幻大神早年已经制作过2014和2015的精简版。此次是收到热心朋友的支持和反馈，2014和2015未打SP补丁的时候，会出现视图错乱，偶尔崩溃等问题，而目前缺乏这个版本，于是为了报答他的支持，我花费十多天，完成了<strong>3DMAX2014集成SP6中英文版</strong>，<a href="http://blog.darler.cn/3dsmax2015">3DMAX2015集成SP4中英文版</a>的制作。</p><p>精简版主要精简了运行库，可选安装插件，3DMAX内置预设。<br>制作不易，极速翱翔研究注册表，文件相关性，最大程度精简。<br>已经完成了3ds Max 2013–2020共8个版本的精简。<br>安装包仅供学习使用，请与下载后24小时内删除。</p><p><strong>感谢所有打赏过我的朋友，希望我的成果能给你们带来帮助</strong></p><p>安装</p><ol><li>安装Autodesk 3ds max</li><li>使用这些系列号400-00000000</li><li>产品密码为：128F1</li><li>尽量在断网状态下激活。</li><li>在激活的界面上，启动X64注册机。</li><li>点击注册机界面上的Patch(即破解)，此时会看到successfully patched(成功破解)。</li><li>复制请求码(request code)到注册机并点击generate(生成)。</li><li>现在就可以复制激活码到激活界面，并点击下一步。这样就完成了Autodesk产品的注册了。</li></ol><p><img alt data-src="/imgblog/3dsmax2014/20142.jpg" class="lazyload"><br><img alt data-src="/imgblog/3dsmax2014/20143.jpg" class="lazyload"></p><p>视频教程</p><div><iframe src="//player.bilibili.com/player.html?aid=883817923&bvid=BV11K4y1s7kh&cid=212111489&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><blockquote><p><a href="https://pan.baidu.com/s/1xPugtOIJBGchDLfUde9agQ" target="_blank" rel="noopener">百度网盘</a> 提取码：dunl</p></blockquote><blockquote><p><a href="https://cloud.189.cn/t/byieUziqyi6b" target="_blank" rel="noopener">天翼云盘</a> 提取码：mod5</p></blockquote><p>请扫描以下二维码，或搜索公众号 极速翱翔<br>如果网盘链接失效，或者你对3DMAX精简有什么建议反馈，<br>可直接在公众号发消息向我反馈，我会在第一时间回复大家。<br><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 2014 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 室内 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3DsMax2015极速翱翔精简版SP4</title>
+      <link href="/3dsmax2015/"/>
+      <url>/3dsmax2015/</url>
+      
+        <content type="html"><![CDATA[<p>软件名称：Autodesk 3ds Max 2015 极速翱翔 SP4<br>软件语言：简体中文/英文<br>更新时间：2020/01/20<br>应用平台：Win7/Win8/Win10<br>软件大小：269M<br>安装视频： <a href="https://www.bilibili.com/video/BV11K4y1s7kh" target="_blank" rel="noopener">视频安装教程高清</a><br>解压密码：blog.darler.cn</p><p>极速翱翔有话说：<br>总所周知，龙幻大神早年已经制作过2014和2015的精简版。此次是收到热心朋友的支持和反馈，2014和2015未打SP补丁的时候，会出现视图错乱，偶尔崩溃等问题，而目前缺乏这个版本，于是为了报答他的支持，我花费十多天，完成了<a href="/3dsmax2014">3DMAX2014集成SP6中英文版</a>，<strong>3DMAX2015集成SP4中英文版</strong>的制作。</p><p>精简版主要精简了运行库，可选安装插件，3DMAX内置预设。<br>制作不易，极速翱翔研究注册表，文件相关性，最大程度精简。<br>已经完成了3ds Max 2013–2020共8个版本的精简。<br>安装包仅供学习使用，请与下载后24小时内删除。</p><p><strong>感谢所有打赏过我的朋友，希望我的成果能给你们带来帮助</strong></p><p>安装</p><ol><li>安装Autodesk 3ds max</li><li>使用这些系列号400-00000000</li><li>产品密码为：128G1</li><li>尽量在断网状态下激活。</li><li>在激活的界面上，启动X64注册机。</li><li>点击注册机界面上的Patch(即破解)，此时会看到successfully patched(成功破解)。</li><li>复制请求码(request code)到注册机并点击generate(生成)。</li><li>现在就可以复制激活码到激活界面，并点击下一步。这样就完成了Autodesk产品的注册了。</li></ol><p><img alt data-src="/imgblog/3dsmax2015/20151.jpg" class="lazyload"><br><img alt data-src="/imgblog/3dsmax2015/20152.jpg" class="lazyload"></p><p>视频教程</p><div><iframe src="//player.bilibili.com/player.html?aid=883817923&bvid=BV11K4y1s7kh&cid=212111489&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><p>安装包仅供学习使用，请与下载后24小时内删除。<br>请扫描以下二维码，或搜索公众号 极速翱翔<br><strong>公众号后台发送3dmax2015，获取下载地址</strong><br>如果网盘链接失效，或者你对3DMAX精简有什么建议反馈，<br>可直接在公众号发消息向我反馈，我会在第一时间回复大家。<br><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 室内 </tag>
+            
+            <tag> 2015 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>过去的十年</title>
+      <link href="/10years/"/>
+      <url>/10years/</url>
+      
+        <content type="html"><![CDATA[<p>十年前，精简版软件盛行，在迈过了PJ道路后，我们常用的Office软件，Adobe系列，Autodesk系列软件，涌现出了许多无私奉献的大神。毕竟相比原版巨大的体积，以及对性能较高的要求，精简版让我们更低门槛的接触到优秀的软件。</p><p>那时候，我的网络还只是2M拨号宽带，随后升级到了4M，看着400k的下载速度，感慨这速度真快。然而面对2个G的原版软件，理论最快时间也要1个多小时，好在当年的软件网站都不依赖于百度网盘，原版的3DMAX2009，1小时也还是可以下载完。</p><p>和现在的互联网相比，当时的互联网环境，可以说是“自由”的，下载歌曲不需要开通会员，下载的电影没有版权保护，视频网站开头前也不需要先看好几分钟的广告，下载软件还没有被限速。</p><p>2009年，我初次接触BBS，相信大家也曾有过长时间泡贴吧水贴的经历，论坛盛兴，当时每接触一个新网站就得起名字，带着对未来网络高速发展的憧憬，年纪还小的我取名极速翱翔，并沿用至今。</p><p>如今普通家庭的带宽已经达到200M甚至千兆，手机也从3G来到了现在的5G，如果你每个平台都开了会员，体验是相当好的。现在白嫖的难度大了不少，不过整体网速的提升，带动了自媒体的发展，以及个人视频UP主前所未有的被关注，我11年前后做UP主（当时还不叫这个），当时大环境不如现在，个人创作者很难持续输出。</p><p>11年左右，我还做过安卓手机的刷机包（也叫ROM），前几天看到高中生活跃于github和B站等地方，回想自己当时做视频，做编程，也还没读高中呢，实在感慨万千。</p><p>对于个人用户，开博客开网站已经不是一个最好的选择，依附于大平台（公众号，百家号，抖音，B站）进行文字和视频的创作愈发成为主流。</p><p>在一个事物的新兴阶段，只要你做就有收益，外卖的美团饿了么，打车的滴滴，前期对商家和用户进行疯狂补贴，早涌入的人都赚到了钱，尽管我们的使用习惯被培养起来后，最终还是会被割韭菜，资本成为最大的赢家，但对个人而言，这其中不失为是一个极佳的发展机遇。按部就班是没办法实现财务自由的，抓住一次机遇，收益远大于默默打工，5G会是下一个机遇。</p><p>人与人之间的差距，与努力程度差距关系不大，关键是胆识的差距，圈子的差距。你看着打车很火，先观望一段时间，等大家都知道跑滴滴很挣钱，你再冲入红海，已经过了红利时期。工资差距是拉不开财富差距的，财富差距都是由指数级的投资收益拉开的。</p><p>未来十年的互联网，会和过去十年的互联网一样，现在无偿的东西，其实大家都希望在未来找到变现的途径，有的已经实现，被指责吃相太难看；有的还在尝试，逐渐失去关注。对普通用户而言，我们在享受更快网速同时，也同样伴随着更多的妥协。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实用经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>云服务器centos部署LNMP环境</title>
+      <link href="/lnmp/"/>
+      <url>/lnmp/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>初次接触云服务器，在LNMP和LAMP的上折腾了不少时间，看了百度云和腾讯云的官方档，安装操作一步步来，阿里云的官方档，直接是建议安装镜像时选择带有LNMP环境的镜像，阿里云在镜像市场相对而言是比较完善的，恰巧我买的又是百度云，重装可选择镜像市场太少了。无奈选择纯净的centos7，然后自行来搭建LNMP。</p></blockquote><p>给大家分享几个方法，主要有以下几种方法。</p><ol><li>逐个安装，看<a href="https://cloud.baidu.com/doc/BCC/index.html" target="_blank" rel="noopener">百度云</a>，<a href="https://cloud.tencent.com/document/product/213" target="_blank" rel="noopener">腾讯云</a>的云服务器使用档。</li><li>安装linux面板，如appnode，宝塔面板。</li><li>其他环境部署解决方法，如OneinStack。</li><li>安装时选择带LNMP的镜像，比如阿里云。</li></ol><h2 id="Appnode面板"><a href="#Appnode面板" class="headerlink" title="Appnode面板"></a>Appnode面板</h2><p>一开始我用的也是bt宝塔面板，后来发现没有已备案域名用起来相当不友好，经安利使用appnode，虽然免费版只能部署3个网站，但是这个对于我们继续相当于没限制。所以这是对于新手小白最友好的一个解决方案了。</p><p> <a href="https://www.appnode.com/install" target="_blank" rel="noopener">安装文档</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INSTALL_AGENT=1 INSTALL_APPS=sitemgr INIT_SWAPFILE=1 INSTALL_PKGS=&apos;nginx-stable,php72,mysql56&apos; bash -c &quot;$(curl -sS http://dl.appnode.com/install.sh)&quot;</span><br></pre></td></tr></table></figure><p><img alt="LNMP" data-src="/imgblog/cover-yet/lnmp.jpg" class="lazyload"></p><h2 id="一条命令部署LNMP"><a href="#一条命令部署LNMP" class="headerlink" title="一条命令部署LNMP"></a>一条命令部署LNMP</h2><p>推荐以下2个：</p><h5 id="OneinStack"><a href="#OneinStack" class="headerlink" title="OneinStack"></a>OneinStack</h5><p><a href="https://oneinstack.com/" target="_blank" rel="noopener">https://oneinstack.com/</a></p><h5 id="Linux运维笔记"><a href="#Linux运维笔记" class="headerlink" title="Linux运维笔记"></a>Linux运维笔记</h5><p><a href="https://linuxeye.com/31.html" target="_blank" rel="noopener">https://linuxeye.com/31.html</a></p><blockquote><p>大功告成</p></blockquote><h2 id="全新安装或升级php7"><a href="#全新安装或升级php7" class="headerlink" title="全新安装或升级php7"></a>全新安装或升级php7</h2><p>补充：（以centos升级到php7.1为例）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">php -v #先查看当前系统的php版本</span><br><span class="line">yum list installed | grep php #查看已安装的php</span><br><span class="line">yum remove php* #删除所有已安装的php</span><br><span class="line">rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm #添加第三方yum源， 推荐webtatic的</span><br><span class="line">yum list php71 #列出可安装的php7.1（同理php7.3为php73）</span><br></pre></td></tr></table></figure><p>安装php7.1及插件，如果全新安装只需要执行以下这条命令。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y php71w-fpm php71w-opcache php71w-cli php71w-gd php71w-imap php71w-mysqlnd php71w-mbstring php71w-mcrypt php71w-pdo php71w-pecl-apcu php71w-pecl-mongodb php71w-pecl-redis php71w-pgsql php71w-xml php71w-xmlrpc php71w-devel mod_php71w</span><br></pre></td></tr></table></figure><p>清除并检查安装后的版本</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yum clean all</span><br><span class="line">php -v</span><br></pre></td></tr></table></figure><h5 id="bash-php-command-not-found"><a href="#bash-php-command-not-found" class="headerlink" title="-bash php: command not found"></a>-bash php: command not found</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/profile</span><br><span class="line">export PATH=$PATH:/opt/appnode/appnode-php72/root/usr/bin/ #粘贴到最后</span><br><span class="line">source /etc/profile</span><br><span class="line">php -v #查看是否生效</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 入门云服 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 云服务器 </tag>
+            
+            <tag> centos </tag>
+            
+            <tag> lnmp </tag>
+            
+            <tag> lamp </tag>
+            
+            <tag> bash </tag>
+            
+            <tag> php </tag>
+            
+            <tag> nginx </tag>
+            
+            <tag> mariadb </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装Leanote蚂蚁笔记搭建私人云笔记</title>
+      <link href="/leanote/"/>
+      <url>/leanote/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>经常在多台电脑之间跨电脑工作，又入坑了云服务器，搭建私人网盘和私人笔记平台的对我来说太有必要了，这次我选择搭建蚂蚁笔记，虽然不难，但是还说走了不少坑。安装前一定要先看官方安装文档。</p></blockquote><p> <a href="https://www.percona.com/doc/percona-server-for-mongodb/LATEST/install/yum.html" target="_blank" rel="noopener">安装文档</a></p><h3 id="安装-MongoDB"><a href="#安装-MongoDB" class="headerlink" title="安装 MongoDB"></a>安装 MongoDB</h3><h4 id="安装Percona-repository"><a href="#安装Percona-repository" class="headerlink" title="安装Percona repository"></a>安装Percona repository</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install -y https://repo.percona.com/yum/percona-release-latest.noarch.rpm</span><br></pre></td></tr></table></figure><h4 id="启动Percona-repository"><a href="#启动Percona-repository" class="headerlink" title="启动Percona repository"></a>启动Percona repository</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">percona-release enable psmdb-40 release</span><br></pre></td></tr></table></figure><h4 id="安装percona-server-mongodb"><a href="#安装percona-server-mongodb" class="headerlink" title="安装percona-server-mongodb"></a>安装percona-server-mongodb</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y percona-server-mongodb</span><br></pre></td></tr></table></figure><h4 id="MongoDB使用"><a href="#MongoDB使用" class="headerlink" title="MongoDB使用"></a>MongoDB使用</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service mongod start</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">service mongod status #确认服务正在运行</span><br><span class="line">service mongod stop #停止服务</span><br><span class="line">service mongod restart #重新启动服务</span><br></pre></td></tr></table></figure><h4 id="设置开机启动"><a href="#设置开机启动" class="headerlink" title="设置开机启动"></a>设置开机启动</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable mongod</span><br></pre></td></tr></table></figure><h3 id="安装leanote"><a href="#安装leanote" class="headerlink" title="安装leanote"></a>安装leanote</h3><h4 id="下载-leanote"><a href="#下载-leanote" class="headerlink" title="下载 leanote"></a>下载 leanote</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wget https://nchc.dl.sourceforge.net/project/leanote-bin/2.6.1/leanote-linux-amd64-v2.6.1.bin.tar.gz</span><br><span class="line">tar -xzvf leanote-linux-amd64-v2.6.1.bin.tar.gz</span><br></pre></td></tr></table></figure><h4 id="导入初始数据"><a href="#导入初始数据" class="headerlink" title="导入初始数据"></a>导入初始数据</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd leanote</span><br><span class="line">mongorestore -h localhost -d leanote --dir mongodb_backup/leanote_install_data/</span><br></pre></td></tr></table></figure><p>把/root/leanote/conf/app.conf中的site.url=<a href="http://localhost:9000" target="_blank" rel="noopener">http://localhost:9000</a> 修改为你的域名或者地址</p><p>把app.secret=后面的代码修改其中一部分</p><h4 id="运行leanote"><a href="#运行leanote" class="headerlink" title="运行leanote"></a>运行leanote</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd bin</span><br><span class="line">sh run.sh</span><br></pre></td></tr></table></figure><p>初始用户admin,初始密码abc123</p><h4 id="leanote后台运行"><a href="#leanote后台运行" class="headerlink" title="leanote后台运行"></a>leanote后台运行</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">setsid sh /root/leanote/bin/run.sh  #/root/可省略</span><br></pre></td></tr></table></figure><h4 id="开机启动"><a href="#开机启动" class="headerlink" title="开机启动"></a>开机启动</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/rc.d/rc.local #编辑这个文件</span><br><span class="line">setsid sh /root/leanote/bin/run.sh #最后一行添加</span><br></pre></td></tr></table></figure><h4 id="关闭进程"><a href="#关闭进程" class="headerlink" title="关闭进程"></a>关闭进程</h4><p>ps -A|grep leanote</p><p>kill</p><p><img alt="leanote" data-src="/imgblog/cover-yet/leanote.jpg" class="lazyload"></p><h3 id="配置leanote"><a href="#配置leanote" class="headerlink" title="配置leanote"></a>配置leanote</h3><p> <a href="https://github.com/leanote/leanote/wiki/QA" target="_blank" rel="noopener">Q&amp;A</a></p><h4 id="修改管理员账户名称"><a href="#修改管理员账户名称" class="headerlink" title="修改管理员账户名称"></a>修改管理员账户名称</h4><p>名称默认是admin，你要先登陆9000端口，网页设置里面修改用户名，这时候再登陆会发现不是管理员了</p><p>再去修改/root/leanote/conf/app.conf，把adminUsername=改为你刚刚修改的名字。</p><p><strong>只改其中一处都是不行的</strong></p><h4 id="导出PDF"><a href="#导出PDF" class="headerlink" title="导出PDF"></a>导出PDF</h4><p>Leanote的PDF导出使用了wkhtmltopdf, 所以需要先安装wkhtmltopdf, 然后以管理员身份登录Leanote管理后台配置wkhtmltopdf路径，先安装wkhtmltopdf的依赖包。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y fontconfig libX11 libXext libXrender xorg-x11-fonts-Type1 xorg-x11-fonts-75dpi libpng</span><br></pre></td></tr></table></figure><p>下载<a href="http://wkhtmltopdf.org/downloads.html" target="_blank" rel="noopener">wkhtmltopdf</a>,选择对应的版本，下载下来后通过rpm -ivh命令进行安装。比如我是centos7</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -ivh wkhtmltox-0.12.5-1.centos7.x86_64.rpm</span><br></pre></td></tr></table></figure><p>在后台设置的Export PDF-Wkhtmltopdf Binary Path输入/usr/local/bin/wkhtmltopdf</p><h4 id="PDF中文问题"><a href="#PDF中文问题" class="headerlink" title="PDF中文问题"></a>PDF中文问题</h4><p>若导出PDF后中文内容为空白则是linux系统缺少中文字体。可以从windwows机器的windwows/fonts目录拷贝几个中文字体文件(微软雅黑之类的)，右键复制粘贴出来桌面，上传到到linux系统的/usr/share/fonts目录，然后再去测试下导出带中文的页面。</p><h4 id="Nginx反向代理"><a href="#Nginx反向代理" class="headerlink" title="Nginx反向代理"></a>Nginx反向代理</h4><p>假设Leanote运行的端口是9000, 域名为darler.cn, 那么nginx.conf可以配置如下:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"># 本配置只有http部分, 不全</span><br><span class="line">http &#123;</span><br><span class="line">    include       /etc/nginx/mime.types;</span><br><span class="line">    default_type  application/octet-stream;</span><br><span class="line">    </span><br><span class="line">    upstream  darler.cn  &#123;</span><br><span class="line">        server   localhost:9000;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    # http</span><br><span class="line">    server</span><br><span class="line">    &#123;</span><br><span class="line">        listen  80;</span><br><span class="line">        server_name  darler.cn;</span><br><span class="line">        location / &#123;</span><br><span class="line">            proxy_pass        http://darler.cn;</span><br><span class="line">            proxy_set_header   Host             $host;</span><br><span class="line">            proxy_set_header   X-Real-IP        $remote_addr;</span><br><span class="line">            proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><p>配置反向代理是为了不用在地址中输入:9000，</p><p>除了做反向代理，你还可以在域名解析做隐形url转发，记录着为ip:9000。</p><blockquote><p>自从有自己的云笔记，写文章方便了好多。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 入门云服 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 云服务器 </tag>
+            
+            <tag> centos </tag>
+            
+            <tag> leanote </tag>
+            
+            <tag> 私人笔记 </tag>
+            
+            <tag> 云笔记 </tag>
+            
+            <tag> 蚂蚁笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>小白用户的3DMAX简单设置</title>
+      <link href="/3dmaxsetting/"/>
+      <url>/3dmaxsetting/</url>
+      
+        <content type="html"><![CDATA[<p>关注我的不少朋友，都是室内设计或者相关行业的从业人员，对于3DMAX这款软件的了解，也是高于“打开过”的级别。而我自己正好接触3DMAX也有小半年，虽然谈不上专业，对软件的一些操作也是已经熟悉了，那么我们今天就来聊聊第一次接触3DMAX，需要做哪些设置？</p><ul><li>首先我们来把单位修改一下，只要不是做室外大场景，这里的单位我们一般都应该设置为毫米。<br><img alt data-src="/imgblog/3dmaxsetting/aaaa.jpg" class="lazyload"></li></ul><ul><li>接下来看捕捉，在建模的时候（虽然极速翱翔不用3DMAX建模），我们需要捕捉到一些特定的位置，根据我多年的建模经验，大家只勾选“端点”，“中点”就可以了。<br><img alt data-src="/imgblog/3dmaxsetting/bbbb.jpg" class="lazyload"></li></ul><ul><li>在编辑模型的时候我们会需要用到比如UVW移除等命令，在修<strong>改器集</strong>中，我们可以把常用的拖出来，这样使用的时候可以方便找到常用的命令。<br><img alt data-src="/imgblog/3dmaxsetting/cccc.jpg" class="lazyload"></li></ul><ul><li>大家都是新手，在首选项中，撤销级别建议改到100，默认只有20，可撤销的次数实在不够用。<strong>自动备份的间隔</strong>，我把它改到了30分钟，新手建议15-20分钟，时间也不需要间隔太短，大文件如果保存间隔短，工作流畅性会被打断。为了控制保存的文件大小，最好勾选保存时压缩。<br><img alt data-src="/imgblog/3dmaxsetting/eeee.jpg" class="lazyload"></li></ul><ul><li>最后我们来讲讲快捷键，在你对软件逐渐熟悉后，一些需要不断点进菜单的重复操作非常拖效率，我们可以来设置相应的快捷键，左边的命令是按照首字母排序的，比如我常用到的“导入”命令，我把它设置为shift+D，指定，然后保存。我把其他软件建模好的模型导进来不再需要繁琐的操作。<br><img alt data-src="/imgblog/3dmaxsetting/ffff.jpg" class="lazyload"></li></ul><p>在写这篇文章时我咨询了不少室内设计的朋友，尽管我不专业，但是我挑出来分享给大家的这些设置，对我们使用3DMAX的效率提升还是有很大帮助的。希望可以帮到以前没接触过这个软件的小白朋友。 </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实用经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 渲染 </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 设置 </tag>
+            
+            <tag> 参数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Docker安装Aria2+qBittorrent离线下载</title>
+      <link href="/docker/"/>
+      <url>/docker/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>入坑云服务器，60元用一年，搭载离线下载玩起来。<br>教程基于CentOS7(其实没差)<br>使用了Github大大搭建的工程</p><blockquote><p>本文介绍了2种方法<br>qBittorrent仅能下载磁力种子<br>建议搭配使用，提高效率</p></blockquote></blockquote><h2 id="安装docker"><a href="#安装docker" class="headerlink" title="安装docker"></a>安装docker</h2><p>国内安装docker建议使用阿里云镜像</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun</span><br></pre></td></tr></table></figure><h4 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service docker start</span><br></pre></td></tr></table></figure><h4 id="运行已安装的镜像"><a href="#运行已安装的镜像" class="headerlink" title="运行已安装的镜像"></a>运行已安装的镜像</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker start</span><br></pre></td></tr></table></figure><h4 id="已安装的容器"><a href="#已安装的容器" class="headerlink" title="已安装的容器"></a>已安装的容器</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker images</span><br></pre></td></tr></table></figure><h4 id="正在运行的镜像images"><a href="#正在运行的镜像images" class="headerlink" title="正在运行的镜像images"></a>正在运行的镜像images</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps -a</span><br></pre></td></tr></table></figure><h4 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker rm #删除容器container</span><br><span class="line">docker rmi #删除镜像images</span><br></pre></td></tr></table></figure><h4 id="删除镜像过程"><a href="#删除镜像过程" class="headerlink" title="删除镜像过程"></a>删除镜像过程</h4><p>先查看已安装的容器<code>docker images</code>和正在运行的镜像<code>docker ps -a</code>,看看需要删除的容器是否在运行，提示需要<code>docker stop</code>停止容器，再<code>docker rm</code>删除相应的container，最后<code>docker rmi</code>删除images。，或者<code>docker run</code>其他镜像</p><h4 id="Cannot-connect-to-the-Docker-daemon"><a href="#Cannot-connect-to-the-Docker-daemon" class="headerlink" title="Cannot connect to the Docker daemon"></a>Cannot connect to the Docker daemon</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service docker restart #重启docker</span><br></pre></td></tr></table></figure><h2 id="Aria2-File-Brower搭建网盘"><a href="#Aria2-File-Brower搭建网盘" class="headerlink" title="Aria2+File Brower搭建网盘"></a>Aria2+File Brower搭建网盘</h2><p><a href="https://github.com/wahyd4/aria2-ariang-docker" target="_blank" rel="noopener">Github项目地址</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d --name aria2-ui -v /home/down:/data -p 9080:80 wahyd4/aria2-ui</span><br></pre></td></tr></table></figure><h4 id="设置权限"><a href="#设置权限" class="headerlink" title="设置权限"></a>设置权限</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 777 /home/down</span><br></pre></td></tr></table></figure><h4 id="配置Aria2"><a href="#配置Aria2" class="headerlink" title="配置Aria2"></a>配置Aria2</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">docker run -d --name ariang \</span><br><span class="line">  -p 9080:80 \</span><br><span class="line">  -e PUID=1000 \</span><br><span class="line">  -e PGID=1000 \</span><br><span class="line">  -e ENABLE_AUTH=true \</span><br><span class="line">  -e RPC_SECRET=Hello \</span><br><span class="line">  -e ARIA2_SSL=false \</span><br><span class="line">  -e ARIA2_USER=darler \</span><br><span class="line">  -e ARIA2_PWD=darler \</span><br><span class="line">  -v /home/down:/data \</span><br><span class="line">  wahyd4/aria2-ui</span><br></pre></td></tr></table></figure><h4 id="后续启动Aria2"><a href="#后续启动Aria2" class="headerlink" title="后续启动Aria2"></a>后续启动Aria2</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker start ariang</span><br></pre></td></tr></table></figure><p>浏览器输入<a href="http://ip:9080" target="_blank" rel="noopener">http://ip:9080</a> 进入FileManger，账号密码均为<code>admin</code>/<code>admin</code></p><p>浏览器输入<a href="http://ip:9080/ui进入Aria2NG，账号密码均为darler/darler" target="_blank" rel="noopener">http://ip:9080/ui进入Aria2NG，账号密码均为darler/darler</a></p><p><img alt data-src="/imgblog/cover-yet/docker.jpg" class="lazyload"></p><p>稍微补充一下，AriaNG前端页面是否设置密码并没有太大关系，它只是一个静态网页而已。如果大家只部署了Aria2，懒得部署AriaNG，也可用我提供的图形<a href="http://z.darler.cn/ariang" target="_blank" rel="noopener">AriaNG</a>。</p><p><a href="http://z.darler.cn/ariang" target="_blank" rel="noopener">http://z.darler.cn/ariang</a></p><p>– 2022年 – 推荐使用<a href="/vps/#Cloudreve">Cloudreve</a>网盘搭建网盘和离线下载系统。</p><h2 id="安装qBittorrent"><a href="#安装qBittorrent" class="headerlink" title="安装qBittorrent"></a>安装qBittorrent</h2><h3 id="方法1：docker安装"><a href="#方法1：docker安装" class="headerlink" title="方法1：docker安装"></a>方法1：docker安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull linuxserver/qbittorrent</span><br></pre></td></tr></table></figure><h4 id="配置qBittorrent"><a href="#配置qBittorrent" class="headerlink" title="配置qBittorrent"></a>配置qBittorrent</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">docker create \</span><br><span class="line">  --name=qbittorrent \</span><br><span class="line">  -e PUID=1000 \</span><br><span class="line">  -e PGID=1000 \</span><br><span class="line">  -e TZ=Aisa/Shanghai \</span><br><span class="line">  -e UMASK_SET=022 \</span><br><span class="line">  -e WEBUI_PORT=8080 \</span><br><span class="line">  -p 8999:8999 \</span><br><span class="line">  -p 8999:8999/udp \</span><br><span class="line">  -p 8080:8080 \</span><br><span class="line">  -v /path/to/appdata/config:/config \</span><br><span class="line">  -v /home/down/bt:/downloads \</span><br><span class="line">  --restart unless-stopped \</span><br><span class="line">  linuxserver/qbittorrent</span><br></pre></td></tr></table></figure><h4 id="启动Bittorrent"><a href="#启动Bittorrent" class="headerlink" title="启动Bittorrent"></a>启动Bittorrent</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker start qbittorrent</span><br></pre></td></tr></table></figure><p>浏览器输入<a href="http://ip:8080" target="_blank" rel="noopener">http://ip:8080</a> 进入Bittorrent，账号为<code>admin</code>，密码为<code>admin</code>admin</p><p><img alt data-src="/imgblog/aboutweb/qbittorrent.jpg" class="lazyload"></p><p>登陆后在option-WebUI修改语言为简体中文</p><p>至于取回方法，用第一个方法安装File Brower，我这里下载目录都设置为了/home/down/</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 入门云服 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> docker </tag>
+            
+            <tag> 云服务器 </tag>
+            
+            <tag> Aria2 </tag>
+            
+            <tag> AriaNG </tag>
+            
+            <tag> file brower </tag>
+            
+            <tag> qBittorrent </tag>
+            
+            <tag> 离线下载 </tag>
+            
+            <tag> centos </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Xware+Aria2+qBittorrent离线下载组合</title>
+      <link href="/xware/"/>
+      <url>/xware/</url>
+      
+        <content type="html"><![CDATA[<p>VPS离线下载，这次不使用docker，常规安装，大家可能好奇为什么部署3个，原因在于：</p><ol><li><p>Aria2无法下载ed2k链接；</p></li><li><p>qBittorrent仅能下载磁力和种子，且较为突出；</p></li><li><p>Xware可下载ed2k电驴。</p></li></ol><p>因此，普通<strong>http</strong>及<strong>bt磁力</strong>下载使用aria2，bt磁力不动，改用qbittorrent，碰到<strong>电驴ed2k</strong>链接使用迅雷。</p><h2 id="脚本安装Aria2"><a href="#脚本安装Aria2" class="headerlink" title="脚本安装Aria2"></a>脚本安装Aria2</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh</span><br><span class="line">#备用地址</span><br><span class="line">wget -N --no-check-certificate https://www.moerats.com/usr/shell/Aria2/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh</span><br></pre></td></tr></table></figure><p>运行脚本后会出现脚本操作菜单，选择并输入<code>1</code>就会开始安装，安装过程按回车安装最新版本。</p><h3 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h3><p>进入下载脚本的目录并运行脚本</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./aria2.sh</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">Aria2 一键安装管理脚本 [vx.x.x]</span><br><span class="line"> </span><br><span class="line">0. 升级脚本</span><br><span class="line">————————————</span><br><span class="line">1. 安装 Aria2</span><br><span class="line">2. 更新 Aria2</span><br><span class="line">2. 卸载 Aria2</span><br><span class="line">————————————</span><br><span class="line">3. 启动 Aria2</span><br><span class="line">4. 停止 Aria2</span><br><span class="line">5. 重启 Aria2</span><br><span class="line">————————————</span><br><span class="line">6. 修改 配置文件</span><br><span class="line">7. 查看 日志信息</span><br><span class="line">————————————</span><br><span class="line"> </span><br><span class="line">当前状态: 已安装 并 已启动</span><br><span class="line"> </span><br><span class="line">请输入数字 [0-7]:</span><br></pre></td></tr></table></figure><p>如果找不到配置文件，可卸载后再安装。</p><h3 id="其他操作"><a href="#其他操作" class="headerlink" title="其他操作"></a>其他操作</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">service aria2 start #启动</span><br><span class="line">service aria2 stop #停止</span><br><span class="line">service aria2 restart #重启</span><br><span class="line">service aria2 status #查看状态</span><br></pre></td></tr></table></figure><p>配置文件：/root/.aria2/aria2.conf<br>（配置文件包含中文注释，但是一些系统可能不支持显示中文）<br>下载目录：/usr/local/caddy/www/aria2/Download<br>（备用地址下载的默认为/usr/local/caddy/www/file）</p><h3 id="AriaNg下载界面"><a href="#AriaNg下载界面" class="headerlink" title="AriaNg下载界面"></a>AriaNg下载界面</h3><p>安装完可以通过<a href="https://github.com/mayswind/AriaNg/releases" target="_blank" rel="noopener">AriaNg</a>来添加下载任务，AriaNg是纯 html &amp; javascript 开发, 所以其不需要任何编译器或运行环境. 只要将 AriaNg 放在Web服务器里并在浏览器中打开即可使用。</p><p>我把代码放在GithubPages上，大家可以体验一下，因为是静态网页，也不会采集你的信息。</p><p><a href="http://z.darler.cn/ariang" target="_blank" rel="noopener">http://z.darler.cn/ariang</a></p><p>打开页面后，点击AriaNg设置-RPC，依次填入你的RPC地址，端口号（默认6800），和RPC密钥（默认doub.io），再点重新加载，即可连接到你的服务器。</p><p>【我的地址非Https，因为如果<strong>你的服务器是Http</strong>，而AriaNg是https的话，RPC协议就无法使用Http，会导致你的服务器连不上】</p><h2 id="官方安装qBittorrent"><a href="#官方安装qBittorrent" class="headerlink" title="官方安装qBittorrent"></a>官方安装qBittorrent</h2><p><a href="https://github.com/qbittorrent/qBittorrent/wiki/Setting-up-qBittorrent-as-a-daemon-on-CentOS-7" target="_blank" rel="noopener">安装文档</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install -y qbittorrent-nox.x86_64</span><br></pre></td></tr></table></figure><h4 id="创建systemctl脚本"><a href="#创建systemctl脚本" class="headerlink" title="创建systemctl脚本"></a>创建systemctl脚本</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vi /usr/lib/systemd/system/qbittorrent.service #粘贴下面</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=qbittorrent torrent server</span><br><span class="line">    </span><br><span class="line">[Service]</span><br><span class="line">User=root</span><br><span class="line">ExecStart=/usr/bin/qbittorrent-nox</span><br><span class="line">Restart=on-abort</span><br><span class="line">    </span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure><p>Esc，<code>:wq</code>，Enter</p><h4 id="重新加载systemctl"><a href="#重新加载systemctl" class="headerlink" title="重新加载systemctl"></a>重新加载systemctl</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl daemon-reload</span><br></pre></td></tr></table></figure><h4 id="接受用户协议"><a href="#接受用户协议" class="headerlink" title="接受用户协议"></a>接受用户协议</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo qbittorrent-nox #按y，然后回车，最后ctrl+c</span><br></pre></td></tr></table></figure><h4 id="启动qbittorrent服务"><a href="#启动qbittorrent服务" class="headerlink" title="启动qbittorrent服务"></a>启动qbittorrent服务</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start qbittorrent</span><br></pre></td></tr></table></figure><h4 id="设置开机启动"><a href="#设置开机启动" class="headerlink" title="设置开机启动"></a>设置开机启动</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl enable qbittorrent</span><br></pre></td></tr></table></figure><p>浏览器打开<a href="http://ip:8080初始用户admin,初始密码adminadmin" target="_blank" rel="noopener">http://ip:8080初始用户admin,初始密码adminadmin</a></p><p>登陆后在option中WebUI修改语言为简体中文，save，并执行<code>sudo systemctl restart qbittorrent</code>重启生效</p><h4 id="忘记密码"><a href="#忘记密码" class="headerlink" title="忘记密码"></a>忘记密码</h4><p>打开~/.config/qBittorrent/中的qBittorrent.conf文件</p><p>找到WebUI\Password_ha1这一行，删掉，restart一下qbittorrent</p><p>仍然不行可以把WebUI\user=admin这一行也删掉，restart一下qbittorrent。</p><p><a href="https://github.com/qbittorrent/qBittorrent/wiki/Web-UI-password-locked-on-qBittorrent-NO-X-%28qbittorrent-nox%29" target="_blank" rel="noopener">官方说明</a></p><p><img alt data-src="/imgblog/xware/xunlei.jpg" class="lazyload"></p><h2 id="Xware迅雷远程下载"><a href="#Xware迅雷远程下载" class="headerlink" title="Xware迅雷远程下载"></a>Xware迅雷远程下载</h2><p>1、创建安装路径（我的是/data/xware），赋予读写权限，下载<a href="https://gitee.com/darler/soft/raw/master/Xware1.0.31_x86_32_glibc.zip" target="_blank" rel="noopener">Xware软件</a>并上传到该目录</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /data/xware</span><br><span class="line">chmod -R 777 /data/xware</span><br></pre></td></tr></table></figure><p>2、进入安装目录，解压Xware</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /data/xware</span><br><span class="line">unzip Xware1.0.31_x86_32_glibc.zip</span><br></pre></td></tr></table></figure><p>3、安装依赖</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yum -y install glibc.i686</span><br><span class="line">yum -y install libz.so.1 --setopt=protected_multilib=false</span><br></pre></td></tr></table></figure><p>4、启动Xware，2个命令都可以</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./portal</span><br></pre></td></tr></table></figure><p>或者输入这条命令<code>/data/xware/portal</code></p><p>启动成功后会得到 激活码，如下所示：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">[root@service xware]# ./portal </span><br><span class="line">initing...</span><br><span class="line">try stopping xunlei service first...</span><br><span class="line">killall: ETMDaemon: no process killed</span><br><span class="line">killall: EmbedThunderManager: no process killed</span><br><span class="line">killall: vod_httpserver: no process killed</span><br><span class="line">setting xunlei runtime env...</span><br><span class="line">port: 9000 is usable.</span><br><span class="line"></span><br><span class="line">YOUR CONTROL PORT IS: 9000</span><br><span class="line"></span><br><span class="line">starting xunlei service...</span><br><span class="line">etm path: /home/xware</span><br><span class="line">execv: /home/xware/lib/ETMDaemon.</span><br><span class="line"></span><br><span class="line">getting xunlei service info...</span><br><span class="line">Connecting to 127.0.0.1:9000 (127.0.0.1:9000)</span><br><span class="line"></span><br><span class="line">THE ACTIVE CODE IS: atewri #激活码</span><br><span class="line"></span><br><span class="line">go to http://yuancheng.xunlei.com, bind your device with the active code.</span><br><span class="line">finished.</span><br></pre></td></tr></table></figure><p>这里说一下，<u>有可能会失败很多次，我安装成功的2次，都在下午。</u></p><p>5、访问并登陆 <a href>yuancheng.xunlei.com</a>，点击左边的添加然后输入激活码进行绑定。</p><p>6、找一个空余容量大的目录来挂载下载目录(默认下载路径为 /mnt，容量小)</p><p>创建下载保存路径（已有可忽略）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /data/filerun/xware</span><br></pre></td></tr></table></figure><p>进入 /mnt 目录,创建相同的下载文件夹</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /mnt/download</span><br></pre></td></tr></table></figure><p>挂载(将 /data/filerun/xunlei 挂载到 /mnt/download)</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount --bind /data/filerun/xware /mnt/download</span><br></pre></td></tr></table></figure><p>8、设置开机挂载下载路径并启动 Xware</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/fstab #开机自动挂载下载目录</span><br><span class="line">/data/filerun/xware /mnt/download none bind 0 0 #最后一行添加</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/rc.d/rc.local #开机自动运行远程迅雷</span><br><span class="line">/data/xware/portal 2&gt;&amp;1 #最后一行添加</span><br></pre></td></tr></table></figure><p>9、在 <a href>yuancheng.xunlei.com</a>，点击新建任务，进行测试。</p><h2 id="下载地址设置"><a href="#下载地址设置" class="headerlink" title="下载地址设置"></a>下载地址设置</h2><p>为了方便统一管理，我把地址都放在了filerun目录里的文件夹</p><p>/data/filerun/qb/</p><p>/data/filerun/aria/</p><p>/data/filerun/xware/</p><hr><p>本文参考了</p><p><a href="https://www.moerats.com/archives/251/" target="_blank" rel="noopener">https://www.moerats.com/archives/251/</a></p><p><a href="https://blog.csdn.net/yori_chen/article/details/79749032" target="_blank" rel="noopener">https://blog.csdn.net/yori_chen/article/details/79749032</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 入门云服 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 云服务器 </tag>
+            
+            <tag> 离线下载 </tag>
+            
+            <tag> centos </tag>
+            
+            <tag> xware </tag>
+            
+            <tag> aria </tag>
+            
+            <tag> qbittorrent </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>云服务器的玩法</title>
+      <link href="/vps/"/>
+      <url>/vps/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Cloudreve网盘"><a href="#Cloudreve网盘" class="headerlink" title="Cloudreve网盘"></a>Cloudreve网盘</h2><p><a href="https://github.com/cloudreve/Cloudreve" target="_blank" rel="noopener">Github项目地址</a><br>支持多家云存储驱动的公有云文件系统.<br>2022年替换Aria2+File Brower搭建网盘组合，对接 Aria2 离线下载，WebDAV协议支持。<br><img alt data-src="https://raw.githubusercontent.com/cloudreve/docs/master/images/homepage.png" class="lazyload"></p><h2 id="贴吧自动签到"><a href="#贴吧自动签到" class="headerlink" title="贴吧自动签到"></a>贴吧自动签到</h2><p><a href="https://github.com/MoeNetwork/Tieba-Cloud-Sign" target="_blank" rel="noopener">项目github地址</a> ，内含安装方法，下面简单描述过程。</p><p>1、下载【<a href="https://github.com/MoeNetwork/Tieba-Cloud-Sign/archive/V4.9.tar.gz?spm=5176.10731542.0.0.12b5720aF1GoTJ&file=V4.9.tar.gz" target="_blank" rel="noopener">贴吧云签到</a>】程序并上传到网站目录，假设为ip/tieba；</p><p>2、解压安装包，并把压缩包文件移动到tieba文件夹；</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar zxvf Tieba-Cloud-Sign-4.9.tar.gz；</span><br></pre></td></tr></table></figure><p>3、赋予tieba文件夹777权限；</p><p>4、使用phpMyAdmin新建一个tieba数据库；</p><p>5、输入ip/tieba打开网页进行安装；</p><p>6、在【设置运行环境】中，选择【不，我不是】，直至安装完成；</p><p>7、添加用户使用BDUSS，并添加需要签到的tieba，保存；</p><p>8、输入ip/tieba/do.php查看是否可以正常签到。</p><p><img alt data-src="/imgblog/vps/tieba.jpg" class="lazyload"></p><p>9、设置定时任务</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">crontab -e</span><br></pre></td></tr></table></figure><p>粘贴这句话，/usr/local/php/bin/php根据你的情况换为你的php路径</p><p>/data/wwwroot/default/tieba/do.php换为你的网页路径的do.php路径</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* * * * * /usr/local/php/bin/php /data/wwwroot/default/do.php</span><br></pre></td></tr></table></figure><p>然后按 Ctrl + X，退出，这里还需要再输入 Y ，保存一下。</p><h2 id="frp内网穿透"><a href="#frp内网穿透" class="headerlink" title="frp内网穿透"></a>frp内网穿透</h2><p>20210529更新搭建<a href="/frpservice/">FRP实现内网穿透</a></p><hr><p>本文参考了</p><p><a href="http://jiangshuai888.cn/archives/439" target="_blank" rel="noopener">http://jiangshuai888.cn/archives/439</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 入门云服 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos </tag>
+            
+            <tag> 贴吧签到 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3DMAX卸载与安装</title>
+      <link href="/uninstalltool/"/>
+      <url>/uninstalltool/</url>
+      
+        <content type="html"><![CDATA[<p>我收到关于3DMAX咨询最多的就是安装问题了，情况全部都是前一次卸载后，再安装出现装不上。</p><p>所以，<strong>安装和卸载，要放在一起讲。</strong></p><p>网上卸载教程很多，你想知道怎么卸载干净，我可以在开头就告诉你：</p><p>使用专业卸载软件！常见的有</p><ul><li>Geek Uninstaller</li><li>IObit Uninstaller</li><li>Total Uninstall</li></ul><p>但我不是很建议，除非你卸载后不安装了3DMAX了，不是说一定装不了，只是这样有点自损八百的意思。这个不在我们今天的讨论范围。</p><hr><h2 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h2><p>要避免问题，关键要用3DMAX的卸载工具。</p><h3 id="第一个方法"><a href="#第一个方法" class="headerlink" title="第一个方法"></a>第一个方法</h3><p>在控制面板点卸载（现在国内电脑基本被“安全”软件占据，控制面板卸载方法估计很多人都不去用），卸载后再安装完全没问题。（我知道有人想会吐槽不干净）</p><p><img alt="img" data-src="/imgblog/uninstalltool/01.JPG" class="lazyload"></p><h3 id="第二个方法"><a href="#第二个方法" class="headerlink" title="第二个方法"></a>第二个方法</h3><p><strong>这也是我最推荐的，使用Autodesk卸载工具。</strong></p><p>我自己也是在卸载这个问题里面走了不少弯路，每次做精简版我都会WIN7+WIN10好几台电脑经过测试，卸载又装了十个版本累计几十次的经验总结，这样卸载最稳。</p><p><img alt="img" data-src="/imgblog/uninstalltool/02.JPG" class="lazyload"></p><p>接下来我跟大家讲怎么找到这个工具：</p><p>1.已安装3DMAX但未卸载</p><p>   开始菜单-Autodesk-Uninstall Tool</p><p><img alt="img" data-src="/imgblog/uninstalltool/03.JPG" class="lazyload"></p><p>2.在安装路径的（以2016为例）</p><p>C:\Program Files (x86)\Common Files\Autodesk Shared\Uninstall Tool\R1</p><p>3.已卸载或未安装3DMAX</p><p>在安装包的（以2016为例）</p><p>x64\max\Autodesk\3ds Max 2016\PFiles\CommFiles\Autodesk Shared\Uninstall Tool\R1</p><p>4.点此下载<a href="https://gitee.com/darler/soft/raw/master/UninstallTool.zip" target="_blank" rel="noopener">Autodesk卸载工具</a>。</p><p>使用Uninstall Tool卸载可以100%再次安装且不出错。</p><p>方法都知道并且在用？恭喜你们，安装不上的问题你们是遇不到了</p><hr><h2 id="安装的问题"><a href="#安装的问题" class="headerlink" title="安装的问题"></a>安装的问题</h2><p>在开始之前先确保以下几点</p><ul><li><p>讨论基于官方原版安装包</p></li><li><p>运行库无缺失</p></li><li><p>上一次已正确卸载</p></li><li><p>系统账户是管理员(Administrator)</p></li></ul><p>1.遇到1603，1625错误</p><p>这一个是系统问题。我的解决方法</p><ul><li>使用Win10</li><li>使用管理员系统账户</li><li>使用x64\max\3dsMax.msi进行安装</li></ul><p>2.系统管理员设置了系统策略,禁止进行此安装</p><ul><li>使用管理员系统账户</li></ul><hr><h2 id="其他位置的残留"><a href="#其他位置的残留" class="headerlink" title="其他位置的残留"></a>其他位置的残留</h2><p>检查C盘以下位置</p><ul><li>C:\Users\darler\AppData\Local\Autodesk</li><li>C:\Users\darler\Autodesk</li><li>C:\Users\darler\AppData\Roaming\Autodesk</li></ul><p><img alt="img" data-src="/imgblog/uninstalltool/04.JPG" class="lazyload"></p><p>注册表</p><ul><li>HKEY_CURRENT_USER\Software\Autodesk</li><li>HKEY_LOCAL_MACHINE\SOFTWARE\Autodesk</li></ul><p><img alt="img" data-src="/imgblog/uninstalltool/05.JPG" class="lazyload"></p><p>包括但不限以上位置，</p><p>但是，一旦你觉得你需要这样去一个个找出来并删除，建议使用强力卸载软件。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实用经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 设置 </tag>
+            
+            <tag> 参数 </tag>
+            
+            <tag> 安装 </tag>
+            
+            <tag> 卸载 </tag>
+            
+            <tag> 错误 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我是这样设置Vray4.1渲染参数的</title>
+      <link href="/vraynextsetting/"/>
+      <url>/vraynextsetting/</url>
+      
+        <content type="html"><![CDATA[<p>曾经，我也对用什么版本的软件纠结过，后来我发现，这并不能帮我提高渲染水平，于是我直接上有汉化的最高版本——VRay4.1。</p><p>比起之前用过的渲染器，VRay不愧为室内渲染的王者，不过，每次调完场景得点渲染这个是挺麻烦的，哪怕有交互式渲染。以前我只接触过交互式渲染，所见即所得，当然这次选择VRay+3dsMax的原因主要有2个：<br>第一是成熟的室内渲染生态，从模型，材质到贴图，非常齐全，室内及室外效果同样很棒。</p><p>第二是渲染可见性的的设置，不仅是摄像机不可见，还有反射可见，大家也许觉得很平常，但是我要实现的效果，其他渲染器做不到，或者能做到的，没有比3DMAX更主流等等。</p><p>3D的软件逻辑有点稀奇古怪，以前习惯于灯光，材质，图层放一界面，效果实时预览；接触Autodesk的软件，操作逻辑实在得适应一段时间，好在慢慢下来也熟悉一些常用操作的位置了。</p><p>VRay4.1比起之前的版本提升巨大（官方说法），毕竟没提升也不用更新，我对渲染参数研究了一番，得出来一些结论，跟大家分享一下。非室内设计专业。</p><p>以前调渲染只需要采样值，偶尔加阴影质量，反射，再多也就五到十个，VRay能搞出5页，也是真的专业。</p><p>先声明，这里讨论的是出图时怎么用短的时间得到最好效果的出图参数。</p><p><img alt data-src="/imgblog/vraynextsetting/vray4.1.png" class="lazyload"></p><h2 id="第一页公用"><a href="#第一页公用" class="headerlink" title="第一页公用"></a>第一页公用</h2><p>主要是分辨率，预览时根据自己电脑来就行，思路是默认参数+低分辨率。短边480基本是可以了；至于输出最后的效果图，就根据需要来。</p><h2 id="第二页V-Ray"><a href="#第二页V-Ray" class="headerlink" title="第二页V-Ray"></a>第二页V-Ray</h2><p>首先是全局，切换到专家模式，把二次光线偏移改到0.001。图像采样类型选择块，块图像采样器的最大细分改到8，就已经可以得到比较好的效果。想效果更好可以改到16，原来的数值好像是24，数值太大了，时间变长，效果几乎没提升。噪波阈（yu4）值改到0.005。</p><p>下面的颜色映射类型，白天场景选莱茵哈德即可，如果灯光打不好的，可以勾选自动曝光，我基本不用。</p><h2 id="第三页GI"><a href="#第三页GI" class="headerlink" title="第三页GI"></a>第三页GI</h2><p>全局光照切换到专家模式，首次引擎保持发光贴图，如果效果达不到你的要求那就得选选暴力计算（英文版的是BF）。灯光缓存的细分，我因为做室内，设置1000，室外的效果图500-800足够了。超过1500效果没差，还浪费时间。</p><h2 id="第五页Element"><a href="#第五页Element" class="headerlink" title="第五页Element"></a>第五页Element</h2><p>强烈给大家安利降噪，具体操作是添加VRayDenoiser，引擎可以选英伟达AI降噪，也可以默认；降噪效果带来提升很大，特别是采样小的时候。</p><h2 id="总结一波"><a href="#总结一波" class="headerlink" title="总结一波"></a>总结一波</h2><p> 虽然看着很多，其实主要就2点：</p><ol><li>块图像采样器的最大细分8-16；</li><li>全局照明的灯光缓存细分，室外500-800，室内1000-1200。</li></ol><p>最后再重申，一切调整是基于你对默认参数出来的效果图觉得不理想，或者达不到需求时调整的，我这样调必然渲染时间会增加，我做的是告诉大家一个时间画质性价比高的渲染参数。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实用经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 渲染 </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 设置 </tag>
+            
+            <tag> 参数 </tag>
+            
+            <tag> vray </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3DsMax2020极速翱翔精简版</title>
+      <link href="/3dsmax2020/"/>
+      <url>/3dsmax2020/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>软件名称：Autodesk_3ds_Max_2020.3_极速翱翔精简版<br>软件大小：425M<br>软件语言：简体中文<br>应用平台：只建议Win10尝试<br>更新时间：2020/03/01</p><p>**注意：极速翱翔不推荐大家安装3dsMax2020和2018</p></blockquote><p>软件日志</p><p>—–20200301——新增制作3dsMax2020.3Update，集成更新补丁【文件大小425M】——–<br>—–20191111——重新上线【文件大小395M】，已修复无法保存，安装不上vray4.2无名汉化版问题——–<br>—–20190920——因为无法保存，已暂时撤包，修复后重新上线——–<br>—–20190730——自己重新打包，集成了注册表。出现1603错误的朋友，这不是精简所致，想安装2020请使用win10，或者其他版本的3DMAX，之前发过公告，不再赘述【文件大小325M】——–<br>—–20190715——Win7会出现1603安装错误，是权限所致，暂时下架——–<br>—–20190626——第一次发布，精简后压缩包【大小873M】——–</p><p>这是一个大家参与的3dsMax2020，今年6月，开始用到3DMAX，苦于文件太大，电脑配置一般，网上还找不到版本较新的精简版，自己研究了老版本的精简后，决定自己来干。</p><p><img alt data-src="/imgblog/3dsmax2020/20201.jpg" class="lazyload"></p><p>没有相关经验，一个个文件去研究，哪些能删，哪些不能删，怎么把体积做到极致，我见过把软件做到1G自称精简的，但是当我发现其实可以缩小到200-400M之间时，我决定再深入研究，在不影响大家正常使用的情况下，把体积干到极致。</p><p><img alt data-src="/imgblog/3dsmax2020/20203.jpg" class="lazyload"></p><p>3dsMax2017是我做的第一个精简版，随后做了2019，体积没有控制的很小，当然需求也没有特别大，一开始只是想做一个出来，后来感觉双数版本的比如2014，2016，2018，2020版本大家的呼声才是最高的，于是陆续把2018，2016，2020给做了出来。当然，最后做的2013版，反响实在是出乎意料的差，毕竟软件方面我也不专业。<br>越到后面对文件的作用也越了解了，但是恰巧碰到2020对Win7的兼容性好像没那么好，我安装一直不怎么顺利，PJ方法竟然变成了替换主程序？现在我可以告诉大家的是，还是用注册机PJ吧，原版的3dsMax你要是使用替换主程序的方法PJ也会出现无法保存的情况。摸清楚原因后，直接就把2020研究透即可。</p><p>为了方便大家反馈改进，当初留下了联系方式，收到大家给我提的建议，后来把联系方式改为更及时的微信平台，现在大家可以告别等待，用上2020了，节日快乐哈。下载地址附上</p><blockquote><p><a href="https://pan.baidu.com/s/1VraRNZDyadFN-adjNa_MPA" target="_blank" rel="noopener">百度网盘</a> 提取码：ty8v</p></blockquote><blockquote><p><a href="https://cloud.189.cn/t/EVvIbmENviAv" target="_blank" rel="noopener">天翼云盘</a> 提取码：wk2z</p></blockquote><p>请扫描以下二维码，或搜索公众号 极速翱翔<br>如果网盘链接失效，或者你对3DMAX精简有什么建议反馈，<br>可直接在公众号发消息向我反馈，我会在第一时间回复大家。</p><p><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 室内 </tag>
+            
+            <tag> 2020 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Soildworks 2019 SP0 极速翱翔精简版</title>
+      <link href="/soildworks2019/"/>
+      <url>/soildworks2019/</url>
+      
+        <content type="html"><![CDATA[<p>软件大小：2.37G<br>软件语言：简体中文/英文<br>应用平台：Win7 / Win8 / Win10<br>更新时间：2019/09/03<br>下载地址：见文章末尾</p><p><img alt data-src="/imgblog/soildworks/aaaa.jpg" class="lazyload"></p><p>SOLIDWORKS 2019 SP0是一款三维机械计算机辅助设计制图工具，在2019中引入了一些强大的新工具，用于处理网格几何体，并提高装配体的生产效率。软件提供了大量创新的新型生产效率增强功能，使您可以充分利用最新的尖端硬件技术。</p><p>极速翱翔<strong>仅保留软件本体</strong>，把软件大小控制在2.4G，根据我的精简经验，从软件构成来说，预设占了很大体积，但是由于是CAB压缩，我无法将其精简或修改，不过也已经把原版接近15G的文件体积减少了下来，这是全网最新版2019的精简版本。精简不易，还望大家多多支持。</p><p>安装前请先仔细阅读安装说明，严格遵守安装方法。确保顺利安装<br><img alt data-src="/imgblog/soildworks/bbbb.jpg" class="lazyload"></p><p>如果你在安装过程遇到问题，请务必按照以下的视频进行操作</p><p>Ⅰ.哔哩哔哩源</p><p>（如果本页面播放感觉清晰度低，可以<a href="https://www.bilibili.com/video/BV1PK4y197zC/" target="_blank" rel="noopener">点击这里到B站</a>切换高清画质）</p><div><iframe src="//player.bilibili.com/player.html?aid=931050477&bvid=BV1PK4y197zC&cid=352966703&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><p>Ⅱ.本地视频源</p><p><video src="https://aws.darler.eu.org/video/soildworks2019install.mp4" type="video/mp4" position="absolute" width="100%" height="100%" controls="controls"></video></p><blockquote><p><a href="https://pan.baidu.com/s/1QJipKKmHTI6YRfPSHnMQHg" target="_blank" rel="noopener">百度网盘</a> 提取码：bkcp </p></blockquote><blockquote><p><a href="https://cloud.189.cn/t/ziEBjy3Ebiqm" target="_blank" rel="noopener">天翼云盘</a> 提取码：qjr9</p></blockquote><p>如果网盘链接失效，或者你对soildworks精简有什么建议反馈，<br>可直接在公众号发消息向我反馈，我会在第一时间回复大家。<br><img alt data-src="/imgblog/soildworks/cccc.jpg" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 2019 </tag>
+            
+            <tag> Soildworks </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3DsMax2019极速翱翔精简版</title>
+      <link href="/3dsmax2019/"/>
+      <url>/3dsmax2019/</url>
+      
+        <content type="html"><![CDATA[<p>软件名称：Autodesk_3ds_Max_2019_极速翱翔_64bit<br>软件语言：简体中文/英文<br>更新时间：2019/07/02<br>应用平台：Win7/Win8/Win10<br>软件大小：497M<br>安装视频： <a href="https://www.bilibili.com/video/BV11K4y1s7kh" target="_blank" rel="noopener">视频安装教程高清</a><br>解压密码：blog.darler.cn</p><h5 id="1-存在要义"><a href="#1-存在要义" class="headerlink" title="1.存在要义"></a>1.存在要义</h5><p>极速翱翔不会编程，仅仅靠更改SETUP.ini文件，还有把一些无关的存档性文件做成空文件来减小安装文件的体积。处理了de-DE、fr-FR、ja-JP、ko-KR、pt-BR五种语言，只剩下英文版和中文版,文件大小从原来的解压后8G变成了解压后1.4G。自行研究了3dsMax2019默认中文的补丁。安装前请仔细阅读安装文件。</p><h5 id="2-系统需求"><a href="#2-系统需求" class="headerlink" title="2.系统需求"></a>2.系统需求</h5><ol><li>DirectX_32+64</li><li>VC++ 2005~2015，32+64都要装上</li><li>NET 3.5~4.5，32+64都要装上</li></ol><h5 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h5><ol><li><p>安装Autodesk 3ds max</p></li><li><p>使用这些系列号666-69696969</p></li><li><p>产品密码为：128K1</p></li><li><p>尽量在断网状态下激活。</p></li><li><p>在激活的界面上，启动X64注册机。</p></li><li><p>点击注册机界面上的Patch(即破解)，此时会看到successfully patched(成功破解)。</p></li><li><p>复制请求码(request code)到注册机并点击generate(生成)。</p></li><li><p>现在就可以复制激活码到激活界面，并点击下一步。这样就完成了Autodesk产品的注册了。</p></li><li><p>请注意不要填写真实的个人信息。以避免收到欧特克公司的律师函。</p><p><img alt data-src="/imgblog/3dsmax2019/20192.jpg" class="lazyload"><br><img alt data-src="/imgblog/3dsmax2019/20193.jpg" class="lazyload"></p></li></ol><h5 id="4-视频教程"><a href="#4-视频教程" class="headerlink" title="4.视频教程"></a>4.视频教程</h5><div><iframe src="//player.bilibili.com/player.html?aid=883817923&bvid=BV11K4y1s7kh&cid=212111489&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><blockquote><p><a href="https://pan.baidu.com/s/1_ZjsnzpXbiGxe3g2fbhYbA" target="_blank" rel="noopener">百度网盘</a> 提取码：rnaw</p></blockquote><blockquote><p><a href="https://cloud.189.cn/t/iYZV7beQfeU3" target="_blank" rel="noopener">天翼云盘</a> 提取码：yfz4</p></blockquote><p>请扫描以下二维码，或搜索公众号 极速翱翔<br>如果网盘链接失效，或者你对3DMAX精简有什么建议反馈，<br>可直接在公众号发消息向我反馈，我会在第一时间回复大家。</p><p><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 室内 </tag>
+            
+            <tag> 2019 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>阿诺德渲染器Arnold 2.6.0汉化PJ版</title>
+      <link href="/arnold2-6-0/"/>
+      <url>/arnold2-6-0/</url>
+      
+        <content type="html"><![CDATA[<p><strong>更新2.6.0，有汉化+PJ补丁</strong><br>因本人只使用C4D R19，<u>故只提供R19和R20的版本</u></p><p>阿诺德是一款高级的蒙特卡洛光线追踪渲染器，专为长篇动画和视觉效果的要求而编写。最初与索尼影业联合Imageworks开发，现在是他们的主要渲染器,阿诺德用于全世界超过300个工作室，阿诺德是主要的渲染器在多的电影。可作为一个独立的渲染器运行在Cinema 4D,Maya,Softimage, Houdini和Katana插件。</p><p><img alt data-src="/imgblog/arnold/cccc.jpg" class="lazyload"></p><p>安装说明：<br>1.运行C4DtoA-2.6.0-win-R19.exe,安装路径选C4D安装路径<br>2.汉化PJ<br>运行C4DtoA2.6.0汉化PJ补丁-R19.exe，目录一定要选择R19的安装目录<br>3.打开C4D即可使用。</p><p><img alt data-src="/imgblog/arnold/dddd.jpg" class="lazyload"></p><p>非全汉化，但是<u>汉化率达到85-90%</u>，使用起来问题不大。有渲染器<a href="http://www.c4dcn.com/thread-htm-fid-37-sortid-5-jc_fenlei-1.html" target="_blank" rel="noopener">基础</a>的会上手更快。<br>链接失效，安装不成功可私信我。</p><p><a href="https://pan.baidu.com/s/1ZwRjBh_wlAzAD6AUxue78Q" target="_blank" rel="noopener">下载链接</a>  提取码: saic </p><p><img alt data-src="/imgblog/arnold/arnold.jpg" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 渲染 </tag>
+            
+            <tag> 阿诺德 </tag>
+            
+            <tag> C4D </tag>
+            
+            <tag> 汉化 </tag>
+            
+            <tag> Arnold </tag>
+            
+            <tag> 2.6 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3DsMax2018极速翱翔精简版</title>
+      <link href="/3dsmax2018/"/>
+      <url>/3dsmax2018/</url>
+      
+        <content type="html"><![CDATA[<p>软件名称：Autodesk_3ds_Max_2018_极速翱翔_64bit<br>软件语言：简体中文/英文<br>更新时间：2019/07/07<br>应用平台：Win7 / Win8 / Win10（推荐）<br>软件大小：421M<br>安装视频： <a href="https://www.bilibili.com/video/BV11K4y1s7kh" target="_blank" rel="noopener">视频安装教程高清</a><br>解压密码：blog.darler.cn</p><h5 id="1-存在要义"><a href="#1-存在要义" class="headerlink" title="1.存在要义"></a>1.存在要义</h5><p>极速翱翔不会编程，根据前人龙幻精简提供的指引，仅仅靠更改SETUP.ini文件，还有把一些无关的存档性文件做成空文件来减小安装文件的体积。处理了de-DE、fr-FR、ja-JP、ko-KR、pt-BR五种语言<br>自行研究了3dsMax2018默认中文的补丁。安装前请仔细阅读安装文件。<br>安装包仅供学习使用，请与下载后24小时内删除。</p><h5 id="2-系统需求"><a href="#2-系统需求" class="headerlink" title="2.系统需求"></a>2.系统需求</h5><p>2.1. VC++ 2005<del>2015，32+64都要装上<br>2.2. NET 3.5</del>4.5，32+64都要装上</p><h5 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h5><ol><li><p>安装Autodesk 3ds max</p></li><li><p>使用这些系列号666-69696969</p></li><li><p>产品密码为：128J1</p></li><li><p>尽量在断网状态下激活。</p></li><li><p>在激活的界面上，启动X64注册机。</p></li><li><p>点击注册机界面上的Patch(即破解)，此时会看到successfully patched(成功破解)。</p></li><li><p>复制请求码(request code)到注册机并点击generate(生成)。</p></li><li><p>现在就可以复制激活码到激活界面，并点击下一步。这样就完成了Autodesk产品的注册了。</p></li><li><p>请注意不要填写真实的个人信息。以避免收到欧特克公司的律师函。</p><p><img alt data-src="/imgblog/3dsmax2018/20172.jpg" class="lazyload"><br><img alt data-src="/imgblog/3dsmax2018/20173.jpg" class="lazyload"></p></li></ol><h5 id="4-视频教程"><a href="#4-视频教程" class="headerlink" title="4.视频教程"></a>4.视频教程</h5><div><iframe src="//player.bilibili.com/player.html?aid=883817923&bvid=BV11K4y1s7kh&cid=212111489&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><blockquote><p><a href="https://pan.baidu.com/s/1PoLcapHzjL5Pi7vpCQpPIw" target="_blank" rel="noopener">百度网盘</a> 提取码：4eac</p></blockquote><blockquote><p><a href="https://cloud.189.cn/t/MrAz2mIZreau" target="_blank" rel="noopener">天翼云盘</a> 提取码：1fj4</p></blockquote><p>请扫描以下二维码，或搜索公众号 极速翱翔<br>如果网盘链接失效，或者你对3DMAX精简有什么建议反馈，<br>可直接在公众号发消息向我反馈，我会在第一时间回复大家。</p><p><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 室内 </tag>
+            
+            <tag> 2018 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3DsMax2017极速翱翔精简版</title>
+      <link href="/3dsmax2017/"/>
+      <url>/3dsmax2017/</url>
+      
+        <content type="html"><![CDATA[<p>软件名称：Autodesk_3ds_Max_2017_极速翱翔_64bit<br>软件语言：简体中文/英文<br>更新时间：2019/07/28<br>应用平台：Win7 / Win8 / Win10（推荐）<br>软件大小：390M<br>安装视频： <a href="https://www.bilibili.com/video/BV11K4y1s7kh" target="_blank" rel="noopener">视频安装教程高清</a><br>下载地址：见文章末尾</p><h5 id="1-存在要义"><a href="#1-存在要义" class="headerlink" title="1.存在要义"></a>1.存在要义</h5><p>极速翱翔不会编程，根据前人龙幻精简提供的指引，仅仅靠更改SETUP.ini文件，还有把一些无关的存档性文件做成空文件来减小安装文件的体积。<br>处理了de-DE、fr-FR、ja-JP、ko-KR、pt-BR五种语言，只剩下英文版和中文版,文件大小从原来的解压后8G变成了解压后1.4G。<br>自行研究了3dsMax2017默认中文的补丁。安装前请仔细阅读安装文件。</p><h5 id="2-系统需求"><a href="#2-系统需求" class="headerlink" title="2.系统需求"></a>2.系统需求</h5><p>2.1 VC++ 2005<del>2015，32+64都要装上<br>2.2. NET 3.5</del>4.5，32+64都要装上</p><h5 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h5><ol><li><p>安装Autodesk 3ds max</p></li><li><p>使用这些系列号666-69696969</p></li><li><p>产品密码为：128I1</p></li><li><p>尽量在断网状态下激活。</p></li><li><p>在激活的界面上，启动X64注册机。</p></li><li><p>点击注册机界面上的Patch(即破解)，此时会看到successfully patched(成功破解)。</p></li><li><p>复制请求码(request code)到注册机并点击generate(生成)。</p></li><li><p>现在就可以复制激活码到激活界面，并点击下一步。这样就完成了Autodesk产品的注册了。</p></li><li><p>请注意不要填写真实的个人信息。以避免收到欧特克公司的律师函。</p><p><img alt data-src="/imgblog/3dsmax2017/20172.jpg" class="lazyload"><br><img alt data-src="/imgblog/3dsmax2017/20173.jpg" class="lazyload"></p></li></ol><h5 id="4-视频教程"><a href="#4-视频教程" class="headerlink" title="4.视频教程"></a>4.视频教程</h5><div><iframe src="//player.bilibili.com/player.html?aid=883817923&bvid=BV11K4y1s7kh&cid=212111489&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><p>安装包仅供学习使用，请与下载后24小时内删除。<br>请扫描以下二维码，或搜索公众号 极速翱翔<br><strong>公众号后台发送3dmax2017，获取下载地址</strong><br>如果网盘链接失效，或者你对3DMAX精简有什么建议反馈，<br>可直接在公众号发消息向我反馈，我会在第一时间回复大家。<br><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 室内 </tag>
+            
+            <tag> 2017 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3DsMax2016极速翱翔精简版</title>
+      <link href="/3dsmax2016/"/>
+      <url>/3dsmax2016/</url>
+      
+        <content type="html"><![CDATA[<p>软件名称：Autodesk_3ds_Max_2016_极速翱翔_64bit<br>软件语言：简体中文/英文<br>更新时间：2019/07/10<br>应用平台：Win7/Win8/Win10（推荐）<br>软件大小：279M<br>安装视频： <a href="https://www.bilibili.com/video/BV11K4y1s7kh" target="_blank" rel="noopener">视频安装教程高清</a><br>解压密码：blog.darler.cn</p><h5 id="1-存在要义"><a href="#1-存在要义" class="headerlink" title="1.存在要义"></a>1.存在要义</h5><p>极速翱翔不会编程，仅仅靠更改SETUP.ini文件，还有把一些无关的存档性文件做成空文件来减小安装文件的体积。自行研究了3dsMax2016默认中文的补丁。安装前请仔细阅读安装文件。</p><h5 id="2-系统需求"><a href="#2-系统需求" class="headerlink" title="2.系统需求"></a>2.系统需求</h5><ol><li>DirectX_32+64都要装上</li><li>VC++ 2005~2015，32+64都要装上</li><li>NET 3.5~4.5，32+64都要装上</li></ol><h5 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h5><ol><li><p>安装Autodesk 3ds max</p></li><li><p>使用这些系列号666-69696969</p></li><li><p>产品密码为：128H1</p></li><li><p>尽量在断网状态下激活。</p></li><li><p>在激活的界面上，启动X64注册机。</p></li><li><p>点击注册机界面上的Patch(即破解)，此时会看到successfully patched(成功破解)。</p></li><li><p>复制请求码(request code)到注册机并点击generate(生成)。</p></li><li><p>现在就可以复制激活码到激活界面，并点击下一步。这样就完成了Autodesk产品的注册了。</p><p><img alt data-src="/imgblog/3dsmax2016/20162.jpg" class="lazyload"><br><img alt data-src="/imgblog/3dsmax2016/20163.jpg" class="lazyload"></p></li></ol><h5 id="4-视频教程"><a href="#4-视频教程" class="headerlink" title="4.视频教程"></a>4.视频教程</h5><div><iframe src="//player.bilibili.com/player.html?aid=883817923&bvid=BV11K4y1s7kh&cid=212111489&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><blockquote><p><a href="https://pan.baidu.com/s/1raIHORFwQYactxYrhQn9RA" target="_blank" rel="noopener">百度网盘</a> 提取码：8e4c</p></blockquote><blockquote><p><a href="https://cloud.189.cn/t/rQnAriBVn2em" target="_blank" rel="noopener">天翼云盘</a> 提取码：fz87</p></blockquote><p>请扫描以下二维码，或搜索公众号 极速翱翔<br>如果网盘链接失效，或者你对3DMAX精简有什么建议反馈，<br>可直接在公众号发消息向我反馈，我会在第一时间回复大家。<br><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 室内 </tag>
+            
+            <tag> 2016 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>阿诺德渲染器Arnold 2.5.2汉化PJ版</title>
+      <link href="/arnold2-5-2/"/>
+      <url>/arnold2-5-2/</url>
+      
+        <content type="html"><![CDATA[<p>因本人只使用C4D R19，故<u>只提供R19和R20</u>的版本</p><p>阿诺德是一款高级的蒙特卡洛光线追踪渲染器，专为长篇动画和视觉效果的要求而编写。最初与索尼影业联合Imageworks开发，现在是他们的主要渲染器,阿诺德用于全世界超过300个工作室，阿诺德是主要的渲染器在多的电影。可作为一个独立的渲染器运行在Cinema 4D,Maya,Softimage, Houdini和Katana插件。</p><p><img alt data-src="/imgblog/arnold/aaaa.png" class="lazyload"></p><p>安装汉化XX说明：<br>1.运行C4DtoA-2.5.2-win-R19.exe,安装路径选C4D安装路径<br>2.汉化PJ<br>运行【R19】Arnold.v2.5.2汉化PJ补丁.exe，目录一定要选择R19的安装目录<br>3.打开C4D即可使用</p><p><img alt data-src="/imgblog/arnold/bbbb.png" class="lazyload"></p><p>非全汉化，但是<u>汉化率达到85-90%</u>，使用起来问题不大。有渲染器基础的会上手更快。<br>链接失效，安装不成功可私信我。</p><p><a href="https://pan.baidu.com/s/1HCvKj1ExgAMr7Dm-8XvZbQ" target="_blank" rel="noopener">链接</a>   提取码：11fw</p><p><img alt data-src="/imgblog/arnold/arnold.jpg" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 渲染 </tag>
+            
+            <tag> 阿诺德 </tag>
+            
+            <tag> C4D </tag>
+            
+            <tag> 汉化 </tag>
+            
+            <tag> 2.5.2 </tag>
+            
+            <tag> Arnold </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3DsMax2013极速翱翔精简版</title>
+      <link href="/3dsmax2013/"/>
+      <url>/3dsmax2013/</url>
+      
+        <content type="html"><![CDATA[<p>软件名称：Autodesk_3ds_Max_2013_极速翱翔_64bit<br>软件语言：简体中文<br>更新时间：2019/07/16<br>应用平台：Win7/Win8/Win10（推荐）<br>软件大小：203M<br>安装视频： <a href="https://www.bilibili.com/video/BV11K4y1s7kh" target="_blank" rel="noopener">视频安装教程高清</a><br>解压密码：blog.darler.cn</p><h5 id="1-存在要义"><a href="#1-存在要义" class="headerlink" title="1.存在要义"></a>1.存在要义</h5><p>极速翱翔不会编程，仅仅靠更改SETUP.ini文件，还有把一些无关的存档性文件做成空文件来减小安装文件的体积。自行研究了3dsMax2013默认中文的补丁。安装前请仔细阅读安装文件。</p><h5 id="2-运行库需求"><a href="#2-运行库需求" class="headerlink" title="2.运行库需求"></a>2.运行库需求</h5><p>2.1. DirectX_32+64<br>2.2. VC++ 2005-2012，32+64<br>2.3. NET 2.5-3.5，32+64</p><h5 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h5><ol><li><p>安装Autodesk 3ds max</p></li><li><p>使用这些系列号666-69696969</p></li><li><p>产品密码为：128E1</p></li><li><p>尽量在断网状态下激活。</p></li><li><p>在激活的界面上，启动X64注册机。</p></li><li><p>点击注册机界面上的Patch(即破解)，此时会看到successfully patched(成功破解)。</p></li><li><p>复制请求码(request code)到注册机并点击generate(生成)。</p></li><li><p>现在就可以复制激活码到激活界面，并点击下一步。这样就完成了Autodesk产品的注册了。</p><p><img alt data-src="/imgblog/3dsmax2013/aaaa.jpg" class="lazyload"><br><img alt data-src="/imgblog/3dsmax2013/bbbb.jpg" class="lazyload"></p></li></ol><h5 id="4-视频教程"><a href="#4-视频教程" class="headerlink" title="4.视频教程"></a>4.视频教程</h5><div><iframe src="//player.bilibili.com/player.html?aid=883817923&bvid=BV11K4y1s7kh&cid=212111489&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><blockquote><p><a href="https://pan.baidu.com/s/1L9zIj3A14uMZFKWfPIiVjA" target="_blank" rel="noopener">百度网盘</a> 提取码：jsax</p></blockquote><blockquote><p><a href="https://cloud.189.cn/t/aMfIjmriaiy2" target="_blank" rel="noopener">天翼云盘</a> 提取码：8jbo</p></blockquote><p>请扫描以下二维码，或搜索公众号 极速翱翔<br>如果网盘链接失效，或者你对3DMAX精简有什么建议反馈，<br>可直接在公众号发消息向我反馈，我会在第一时间回复大家。<br><img alt data-src="/imgblog/3dsmax2021/08.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 3dmax </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 精简 </tag>
+            
+            <tag> 室内 </tag>
+            
+            <tag> 2013 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>搭建hexo博客，部署到Coding，github，码云</title>
+      <link href="/hexo-coming/"/>
+      <url>/hexo-coming/</url>
+      
+        <content type="html"><![CDATA[<p>凌晨4点，总结hexo的坎坷</p><p><a href="https://hexo.io/" target="_blank" rel="noopener">官方安装档</a></p><h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装<a href="http://nodejs.cn/download/" target="_blank" rel="noopener">node.js</a></h2><h2 id="使用cmd-检查安装"><a href="#使用cmd-检查安装" class="headerlink" title="使用cmd,检查安装"></a>使用cmd,检查安装</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">git --version</span><br><span class="line">npm ls --depth 0</span><br></pre></td></tr></table></figure><p>(最后一个是我遇到的，npm安装不全，坑爹，一晚上就被这个浪费时间，检查出问题的解决方法见最后)</p><h2 id="cd-到blog文件夹"><a href="#cd-到blog文件夹" class="headerlink" title="cd 到blog文件夹"></a>cd 到blog文件夹</h2><ol><li><p>安装cnpm，建议选下面第一个命令来安装</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br><span class="line">cnpm install</span><br></pre></td></tr></table></figure></li><li><p>用npm安装hexo</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></li><li><p>初始化hexo</p><p>cd到在blog文件夹中</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog #假设你的博客文件夹叫blog</span><br><span class="line">cd blog</span><br><span class="line">npm install</span><br><span class="line">hexo g # 生成</span><br><span class="line">hexo s # 启动服务</span><br></pre></td></tr></table></figure><p>（这里失败请使用npm ls –depth 0检查漏了什么npm）</p></li></ol><ol start="4"><li><p>填写你都git账号信息</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;leewinmen&quot;</span><br><span class="line">git config --global user.email leewinmen@qq.com</span><br><span class="line">ssh-keygen -t rsa -C &quot;leewinmen@qq.com&quot;</span><br></pre></td></tr></table></figure><p>之后是ssh，到C:\Users\你的名字\ .ssh文件夹\ id_rsa.pub，打开它，复制到github或码云或者coding。</p></li></ol><p>这里需要回车3次</p><p>4.1. 在Git中输入以下命令验证与github连接是否成功，</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com  #对于github</span><br><span class="line">ssh -T git@e.coding.net   #对于coding</span><br></pre></td></tr></table></figure><p>输入yes回车<br>（4.1在git clone失败后使用）</p><ol start="5"><li>配置CNAME，放到source文件夹下，</li><li>用编辑器打开你的blog项目，修改_config.yml文件的一些配置(冒号之后都是有一个半角空格的)：<br>deploy:<br>  type: git<br>  repository: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:leewinmen/leewinmen.github.io.git<br>  branch: master<br>需要缩进格式加空格，填好保存，执行<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure></li></ol><h2 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly</span><br><span class="line">hexo clean &amp;&amp; hexo g</span><br></pre></td></tr></table></figure><h2 id="遇到的坑"><a href="#遇到的坑" class="headerlink" title="遇到的坑"></a>遇到的坑</h2><h3 id="第一个"><a href="#第一个" class="headerlink" title="第一个"></a>第一个</h3><p>出现<br>$ hexo d<br>ERROR Deployer not found: git<br>因为使用hexo deploy部署需要安装一个插件：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure><p>意思是保存deploy的修改</p><h3 id="第二个"><a href="#第二个" class="headerlink" title="第二个"></a>第二个</h3><p>修改了模板，但是没有生效？<br>修改了模板以后不生效，建议先hexo clean，然后再hexo generate。只执行hexo g，可能模板后者静态文件不会被替换。最后hexo d</p><h3 id="第三个"><a href="#第三个" class="headerlink" title="第三个"></a>第三个</h3><p>查看 npm 安装各 hexo 插件的情况<br>npm ls –depth 0<br>比如我的就出现了<br>+– UNMET DEPENDENCY hexo-generator-category@^1.0.0<br>+– UNMET DEPENDENCY hexo-generator-index@^1.0.0<br>+– UNMET DEPENDENCY hexo-generator-tag@^1.0.0<br>+– UNMET DEPENDENCY hexo-renderer-ejs@^1.0.0<br>+– UNMET DEPENDENCY hexo-renderer-marked@^2.0.0<br>+– UNMET DEPENDENCY hexo-renderer-stylus@^1.1.0<br>`– UNMET DEPENDENCY hexo-server@^1.0.0</p><p>逐一安装缺失的包</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-category --save</span><br><span class="line">npm install hexo-generator-index --save</span><br></pre></td></tr></table></figure><p>.<br>.<br>如此类推，建议涉及到npm的最好用cmd来</p><h3 id="第四个"><a href="#第四个" class="headerlink" title="第四个"></a>第四个</h3><p>LF will be replaced by CRLF，后来我知道其实这个不算是问题，出现是没关系的。<br>当然你可以把.deploy_git文件夹手动删除了，重新hexo deploy了一次</p><h3 id="第五个"><a href="#第五个" class="headerlink" title="第五个"></a>第五个</h3><p>git clone下载速度慢</p><p>组车码云，新建仓库，从git中获取，输入需要clone的地址，最后从码云git clone</p><h3 id="第六个"><a href="#第六个" class="headerlink" title="第六个"></a>第六个</h3><p> 冒号少了空格，会出现以下情况</p><p>YAMLException: can not read a block mapping entry; a multiline key may not b</p><h3 id="第七个"><a href="#第七个" class="headerlink" title="第七个"></a>第七个</h3><p>not a git repository (or any of the parent directories)</p><p>解决方案： 把.deploy_git和public文件夹删掉</p><h3 id="第八个"><a href="#第八个" class="headerlink" title="第八个"></a>第八个</h3><p>hexo本地样式预览（hexo s）正常，部署（hexo d）以后就乱了，没有格式<br>产生的原因的css和js文件无法加载，样式丢失。</p><p>解决办法：<br>hexo站点根目录下的_config的url值，修改为你的网站域名。</p><p><a href="http://segmentfault.com/q/1010000002976294" target="_blank" rel="noopener">参考了博客</a></p><h2 id="码云和coding的部署"><a href="#码云和coding的部署" class="headerlink" title="码云和coding的部署"></a>码云和coding的部署</h2><p>其实不管部署到哪里，其实不一样的地方只有2个，一个是填入本地生成的SSH Key，第二个是修改config.yml的deploy，<br>先来看C:\Users\你的名字\ .ssh文件夹\ id_rsa.pub里面的SSH怎么填写到不同的代码托管网站.</p><p><img alt data-src="/imgblog/hexo-coming/github-SSH.png" class="lazyload"></p><p><img alt data-src="/imgblog/hexo-coming/Gitee-SSH.png" class="lazyload"></p><p><img alt data-src="/imgblog/hexo-coming/coding-SSH.png" class="lazyload"></p><p>填写好后就是修改hexo的config.yml的repo了，这个地址需要前往仓库去看，</p><p><img alt data-src="/imgblog/hexo-coming/github-repo.jpg" class="lazyload"></p><p>码云的平台比较特殊，偶尔你hexo d了他也没更新网页，你需要在page里面强制更新。</p><p><img alt data-src="/imgblog/hexo-coming/gitee-repo.jpg" class="lazyload"></p><p><img alt data-src="/imgblog/hexo-coming/gitee-repo-pudh.jpg" class="lazyload"></p><p>最后看看Coding</p><p><img alt data-src="/imgblog/hexo-coming/coding-repo.jpg" class="lazyload"></p><p>五点钟了已经，睡觉</p><p>hexo new ‘here is awesome’</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站心得 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> Github </tag>
+            
+            <tag> 码云 </tag>
+            
+            <tag> coding </tag>
+            
+            <tag> gitee </tag>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 建站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>终于会用Git</title>
+      <link href="/git-yes/"/>
+      <url>/git-yes/</url>
+      
+        <content type="html"><![CDATA[<h2 id="所需安装程序"><a href="#所需安装程序" class="headerlink" title="所需安装程序"></a>所需安装程序</h2><ol><li><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">Bit Bash &amp; Git GUI</a></li><li><a href="https://desktop.github.com/" target="_blank" rel="noopener">GitHubDesktop</a></li></ol><h2 id="配置Git密钥（SSH）"><a href="#配置Git密钥（SSH）" class="headerlink" title="配置Git密钥（SSH）"></a>配置Git密钥（SSH）</h2><ol><li><p>填写你都git账号信息</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;leewinmen&quot;</span><br><span class="line">git config --global user.email leewinmen@qq.com</span><br><span class="line">ssh-keygen -t rsa -C &quot;leewinmen@qq.com&quot;</span><br></pre></td></tr></table></figure><p>之后是ssh，到C:\Users\你的名字\ .ssh文件夹\ id_rsa.pub，打开它，复制到github或码云或者coding。具体可以看 </p></li></ol><p><a href="http://blog.darler.cn/hexo-coming/#码云和coding的部署">http://blog.darler.cn/hexo-coming/#码云和coding的部署</a></p><p>这里需要回车3次</p><ol start="2"><li>在Git中输入以下命令验证与github连接是否成功，</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com  #对于github</span><br><span class="line">ssh -T git@e.coding.net   #对于coding</span><br></pre></td></tr></table></figure><p>输入yes回车<br>（4.1在git clone失败后使用）</p><h2 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h2><p>本地创建一个文件夹存放git，比如我是在桌面的test文件夹</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd desktop/test</span><br><span class="line">git init #初始化命令，自行输入帐号密码</span><br><span class="line">git pull git@github.com:jisuax/jisuax.github.io.git #拉取远程仓库</span><br><span class="line">#建议使用ssh</span><br></pre></td></tr></table></figure><p>如果只是要里面的代码，用git clone，克隆仓库到本地。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/leewinmen/leewinmen.github.io</span><br></pre></td></tr></table></figure><h2 id="上传文件到仓库"><a href="#上传文件到仓库" class="headerlink" title="上传文件到仓库"></a>上传文件到仓库</h2><p>需要先把需要上传的文件放到clone下来的文件夹对应位置</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add . #不要漏了后面空格加一个小写的句号</span><br><span class="line">git commit -m&quot;init project&quot; #确认命令 init project是注解，可使用中文</span><br><span class="line">git push -u origin master #同步到github</span><br></pre></td></tr></table></figure><h2 id="删除的文件or文件夹"><a href="#删除的文件or文件夹" class="headerlink" title="删除的文件or文件夹"></a>删除的文件or文件夹</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">cd xxx.github.io  #进入克隆下了的仓库文件夹，需要删除文件的目录下</span><br><span class="line">git rm -f index.html #这里我需要删除index.html这个文件</span><br><span class="line">git rm -r index #删除文件夹的命令，比如这里删除index文件夹，替上面第二步</span><br><span class="line">git commit -m &apos;index.html&apos; #对这个文件前面的操作进行确认</span><br><span class="line">git remote add origin https://github.com/leewinmen/leewinmen.github.io.git</span><br><span class="line">git push -u origin master #这样就把仓库里的某个文件删除了</span><br></pre></td></tr></table></figure><p>-u origin master可换为你的仓库https，比如</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push https://github.com/leewinmen/leewinmen.github.io</span><br></pre></td></tr></table></figure><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status #查看git当前状态</span><br></pre></td></tr></table></figure><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>归根到底，删除或者增加，或者改动，就是一个思路。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &apos;darler&apos;</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure><h2 id="我遇到的坑"><a href="#我遇到的坑" class="headerlink" title="我遇到的坑"></a>我遇到的坑</h2><h4 id="1-GitHub创建博客报错404-There-isn’t-a-GitHub-Pages-site-here"><a href="#1-GitHub创建博客报错404-There-isn’t-a-GitHub-Pages-site-here" class="headerlink" title="1.GitHub创建博客报错404 There isn’t a GitHub Pages site here."></a>1.GitHub创建博客报错404 There isn’t a GitHub Pages site here.</h4><p>解决方案：</p><p>1.进入setting</p><p>2.找到GitHub Page,点击Change theme（设置之后即可访问）<br><img alt data-src="/imgblog/Git-Yes/page.jpg" class="lazyload"></p><h4 id="2-Git发生Another-git-process-seems-to-be-running-in-this-repository"><a href="#2-Git发生Another-git-process-seems-to-be-running-in-this-repository" class="headerlink" title="2.Git发生Another git process seems to be running in this repository."></a>2.Git发生Another git process seems to be running in this repository.</h4><p>解决方案：</p><p>到你的Git文件夹去 ,然后会发现文件夹里面多了一个.git文件,打开.git文件，然后找到index.lock删除</p><h4 id="3-fatal-Could-not-read-from-remote-repository"><a href="#3-fatal-Could-not-read-from-remote-repository" class="headerlink" title="3.fatal: Could not read from remote repository."></a>3.fatal: Could not read from remote repository.</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com  #对于github</span><br><span class="line">ssh -T git@e.coding.net   #对于coding</span><br><span class="line">ssh -T git@git@codeup.aliyun.com #对于codeup</span><br></pre></td></tr></table></figure><h4 id="4-Please-make-sure-you-have-the-correct-access-rights-and-the-repository-exists"><a href="#4-Please-make-sure-you-have-the-correct-access-rights-and-the-repository-exists" class="headerlink" title="4.Please make sure you have the correct access rights and the repository exists."></a>4.Please make sure you have the correct access rights and the repository exists.</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --set-upstream git@github.com:leewinmen/leewinmen.github.io.git master</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站心得 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> Github </tag>
+            
+            <tag> 上传 </tag>
+            
+            <tag> 删除 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo折腾道路</title>
+      <link href="/livere/"/>
+      <url>/livere/</url>
+      
+        <content type="html"><![CDATA[<h2 id="安装RSS插件生成atom-xml"><a href="#安装RSS插件生成atom-xml" class="headerlink" title="安装RSS插件生成atom.xml"></a>安装RSS插件生成atom.xml</h2><p>继续优化博客功能，之前觉得现在这个时代rss订阅就是一个鸡肋。但是自从搞了站点地图以后，还是觉得少了这一个功能不太好，就也安装一下。具体步骤如下所示。因为我用的主题已经集成了rss功能，所以就是加一个插件的事情。</p><p>进入本地hexo目录，输入以下命令:<br><code>npm install hexo-generator-feed</code></p><p>在博客目录的_config.yml中添加如下代码:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">#RSS订阅</span><br><span class="line">plugin:</span><br><span class="line">- hexo-generator-feed</span><br><span class="line">#Feed Atom</span><br><span class="line">feed:</span><br><span class="line">type: atom</span><br><span class="line">path: atom.xml</span><br><span class="line">limit: 20</span><br></pre></td></tr></table></figure><p>如果你的主题里面没有rss相关设置，也可以添加如下代码：</p><p><code>rss： /atom.xml</code></p><h2 id="Hexo安装Livere评论插件"><a href="#Hexo安装Livere评论插件" class="headerlink" title="Hexo安装Livere评论插件"></a>Hexo安装Livere评论插件</h2><p>Butterfly主题已经植入了来必力City,只需配置一下即可，只需在对应位置加入来必力City版安装代码,就是加入点JavaScript 语句 ，下面就是具体安装步骤（非Next主题）：</p><h3 id="第一步："><a href="#第一步：" class="headerlink" title="第一步："></a>第一步：</h3><p>去<a href="https://livere.com/" target="_blank" rel="noopener">Livere官网</a>注册Livere账号。</p><h3 id="第二步："><a href="#第二步：" class="headerlink" title="第二步："></a>第二步：</h3><p>选择City版（免费），安装。</p><p><img alt data-src="/imgblog/livere/aaaa.jpg" class="lazyload"></p><p>（会生成 来必力City版安装代码以及 data-uid ，或者 进入管理页面-&gt;代码管理-&gt;一般网站，可以查看）</p><h3 id="第三步："><a href="#第三步：" class="headerlink" title="第三步："></a>第三步：</h3><p>改主题的 _config.yml</p><p>我的路径是：C:\blog\themes\Butterfly_config.yml (你们的对应)</p><p>增加如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># Livere评论系统</span><br><span class="line">  Livere:</span><br><span class="line">  livere_uid: 这里填 City版安装代码中的data-uid</span><br></pre></td></tr></table></figure><p>特别说明一下，有一些是已经集成了livere的主题，搜索livere_uid，将livere_uid前面的#号去掉，将id填写到livere_uid：后面。我就是因为没去掉#一直以为什么地方出问题。</p><p><img alt data-src="/imgblog/livere/bbbb.jpg" class="lazyload"></p><p><img alt data-src="/imgblog/livere/cccc.jpg" class="lazyload"></p><h3 id="第四步："><a href="#第四步：" class="headerlink" title="第四步："></a>第四步：</h3><p>重新部署 看看效果</p><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p><p>看看我的效果：</p><p><img alt data-src="/imgblog/livere/eeee.jpg" class="lazyload"></p><h2 id="隐藏由hexo强力驱动"><a href="#隐藏由hexo强力驱动" class="headerlink" title="隐藏由hexo强力驱动"></a>隐藏由hexo强力驱动</h2><p>追求简洁，希望把页脚这个给隐藏起来，网上只有关于Next主题的教程，摸索了一下其他主题该怎么做。</p><p>我的主题是Butterfly，我们需要修改_config.yml，把<br>footer_copyright:<br>  enable: true</p><p>true修改为false</p><p><img alt data-src="/imgblog/livere/dddd.jpg" class="lazyload"></p><p>修改后的效果，大家看我这篇博客页脚的效果就知道了。</p><h2 id="Hexo一篇文章多个categories"><a href="#Hexo一篇文章多个categories" class="headerlink" title="Hexo一篇文章多个categories"></a>Hexo一篇文章多个categories</h2><h3 id="子分类"><a href="#子分类" class="headerlink" title="子分类"></a>子分类</h3><p>下面的分类会将该分章放到 <code>Java/Servlet</code>这个分类下。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">categories:</span><br><span class="line">  - Java</span><br><span class="line">  - Servlet</span><br></pre></td></tr></table></figure><p>或者</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">categories: [Java, Servlet]</span><br></pre></td></tr></table></figure><h3 id="多个分类"><a href="#多个分类" class="headerlink" title="多个分类"></a>多个分类</h3><p>如果我们的要求是将文章同时分到多个不同的分类中呢，我们应该这样：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">categories:</span><br><span class="line">  -[Java]</span><br><span class="line">  -[Servlet]</span><br></pre></td></tr></table></figure><p>这样，就可以将上面的文章分类到 <code>Java</code> 和 <code>Servlet</code> 这两个不同的目录中了。</p><p>扩展一下，如果我们将其分类到 <code>Java/Servlet</code> 和 <code>Programming</code> 两个不同的目录下，我们应该如下写：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">categories:</span><br><span class="line">  -[Java, Servlet]</span><br><span class="line">  -[Programming]</span><br></pre></td></tr></table></figure><h2 id="Hexo渲染时排除部分文件或目录"><a href="#Hexo渲染时排除部分文件或目录" class="headerlink" title="Hexo渲染时排除部分文件或目录"></a>Hexo渲染时排除部分文件或目录</h2><h3 id="排除单个文件"><a href="#排除单个文件" class="headerlink" title="排除单个文件"></a>排除单个文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">skip_render: &apos;baidu.html&apos;</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">skip_render: &apos;demo/other/3.html&apos;</span><br></pre></td></tr></table></figure><h3 id="排除多个文件"><a href="#排除多个文件" class="headerlink" title="排除多个文件"></a>排除多个文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &apos;baidu.html&apos;</span><br><span class="line">  - &apos;google.html&apos;</span><br></pre></td></tr></table></figure><p>排除<code>baidu.html</code>和<code>google.html</code>以及整个<code>source/demo</code>目录</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - &apos;*.html&apos;</span><br><span class="line">  - &apos;demo/**&apos;</span><br></pre></td></tr></table></figure><h2 id="git提示“warning-LF-will-be-replaced-by-CRLF”"><a href="#git提示“warning-LF-will-be-replaced-by-CRLF”" class="headerlink" title="git提示“warning: LF will be replaced by CRLF”"></a>git提示“warning: LF will be replaced by CRLF”</h2><h3 id="情况一："><a href="#情况一：" class="headerlink" title="情况一："></a>情况一：</h3><p>Git 可以在你提交时自动地把回车（CR）和换行（LF）转换成换行（LF），而在检出代码时把换行（LF）转换成回车（CR）和换行（LF）。 你可以用<code>git config --global core.autocrlf true</code> 来打开此项功能。 如果是在 Windows 系统上，把它设置成 true，这样在检出代码时，换行会被转换成回车和换行：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#提交时转换为LF，检出时转换为CRLF</span><br><span class="line">$ git config --global core.autocrlf true</span><br></pre></td></tr></table></figure><h3 id="情况二："><a href="#情况二：" class="headerlink" title="情况二："></a>情况二：</h3><p>如果使用以换行（LF）作为行结束符的 Linux 或 Mac，你不需要 Git 在检出文件时进行自动的转换。然而当一个以回车（CR）和换行（LF）作为行结束符的文件不小心被引入时，你肯定想让 Git 修正。 所以，你可以把 core.autocrlf 设置成 input 来告诉 Git 在提交时把回车和换行转换成换行，检出时不转换：（这样在 Windows 上的检出文件中会保留回车和换行，而在 Mac 和 Linux 上，以及版本库中会保留换行。）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#提交时转换为LF，检出时不转换</span><br><span class="line">$ git config --global core.autocrlf input</span><br></pre></td></tr></table></figure><h3 id="情况三："><a href="#情况三：" class="headerlink" title="情况三："></a>情况三：</h3><p>如果你是 Windows 程序员，且正在开发仅运行在 Windows 上的项目，可以设置 false 取消此功能，把回车保留在版本库中：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#提交检出均不转换</span><br><span class="line">$ git config --global core.autocrlf false</span><br></pre></td></tr></table></figure><h2 id="CDN使用jsdelivr"><a href="#CDN使用jsdelivr" class="headerlink" title="CDN使用jsdelivr"></a>CDN使用jsdelivr</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">https://cdn.jsdelivr.net/gh/用户名/仓库名@版本号/文件名</span><br><span class="line">https://cdn.jsdelivr.net/gh/leewinmen/cdn@v1.0/darlercn.js #eg.</span><br><span class="line">https://cdn.jsdelivr.net/gh/leewinmen/cdn@latest/darlercn.js #最新版</span><br></pre></td></tr></table></figure><hr><p>本文参考了<br><a href="https://www.nickyam.com/tech/hexo-generate-rss-atom.html" target="_blank" rel="noopener">https://www.nickyam.com/tech/hexo-generate-rss-atom.html</a><br><a href="https://www.jianshu.com/p/bff1b1845ac9" target="_blank" rel="noopener">https://www.jianshu.com/p/bff1b1845ac9</a><br><a href="https://www.maoxuner.cn/2017/03/10/hexo-skip-render.html" target="_blank" rel="noopener">https://www.maoxuner.cn/2017/03/10/hexo-skip-render.html</a><br><a href="https://www.jianshu.com/p/450cd21b36a4" target="_blank" rel="noopener">https://www.jianshu.com/p/450cd21b36a4</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站心得 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> RSS </tag>
+            
+            <tag> atom.xml </tag>
+            
+            <tag> 订阅 </tag>
+            
+            <tag> darler </tag>
+            
+            <tag> 评论 </tag>
+            
+            <tag> livere </tag>
+            
+            <tag> 隐藏 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>包治百病小工具</title>
+      <link href="/tools/"/>
+      <url>/tools/</url>
+      
+        <content type="html"><![CDATA[<p>1.发生身份验证错误，要求的函数不受支持</p><p>CredSSP.Oracle.reg</p><p>2.3dsMax图片不能直接拖进窗口</p><p>EnableLUA.reg</p><p>3.3dsMax切换到中文</p><p>3dsMax-CHS.exe ; 3dsMax-CHS.bat</p><p>4.启动远程桌面</p><p>mstsc.bat</p><p>5.Internet Download Manager</p><p>IDM6.32.8.CHS.exe</p><p>6.远程开机</p><p>WakeMeOnLan.exe ; WakeOnLanGui.exe</p><p>7.自动关机</p><p>Shutdown.bat</p><p>8.Reg To Bat</p><p>RegToBat.exe</p><p>9.批量生成空文件</p><p>Empty.exe</p><p>10.Autodesk卸载工具</p><p>UninstallTool.zip</p><p>11.filerun中文汉化包</p><p>chinese.php</p><p>12.解除远程桌面多用户链接限制-WIN7</p><p>UniversalTermsrvPatch.exe</p><p>13.多用户远程登录工具-WIN10</p><p>RDPWrap.zip</p><p>14.右键-新建md文件</p><p>addmdfile.reg</p><p>15.putty SSH</p><p>putty.zip</p><p>2021年更新下载地址，便于大家查找</p><p> <a href="http://z.darler.cn/soft/" target="_blank" rel="noopener">http://z.darler.cn/soft/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实用经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 安装 </tag>
+            
+            <tag> 下载 </tag>
+            
+            <tag> 工具 </tag>
+            
+            <tag> 小工具 </tag>
+            
+            <tag> 卸载 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>对网站进行搜索引擎SEO优化</title>
+      <link href="/seo/"/>
+      <url>/seo/</url>
+      
+        <content type="html"><![CDATA[<h2 id="SEO思路"><a href="#SEO思路" class="headerlink" title="SEO思路"></a>SEO思路</h2><p>辛辛苦苦建了个网站，奈何搜索引擎都搜不到，其实是搜索引擎不知道你的存在，你得告诉它们，这样你才会出现在搜索结果中。至于怎么操作网上教程有很多，总结以下思路就是：</p><p><u>到搜索引擎站长平台，验证你自己的网站；生成一个文档，里面包含你网站的全部连接，然后提交给搜索引擎，搜索引擎一个个去获取里面的连接，检查无误后出现在搜索结果里面。</u></p><p><img alt data-src="/imgblog/seo/aaaa.jpg" class="lazyload"></p><p>可以看到没有收录前，搜索引擎是搜索不到的</p><h2 id="主流搜索引擎"><a href="#主流搜索引擎" class="headerlink" title="主流搜索引擎"></a>主流搜索引擎</h2><p>1.<a href="https://search.google.com/search-console" target="_blank" rel="noopener">谷歌Search Console</a>  </p><p>2.<a href="https://ziyuan.baidu.com/" target="_blank" rel="noopener">百度搜索资源平台</a>  </p><p>3.<a href="http://zhanzhang.so.com/" target="_blank" rel="noopener">360站长平台</a> </p><p>4.<a href="https://www.bing.com/toolbox/webmaster/" target="_blank" rel="noopener">必应bing网站管理员平台</a></p><p>我会以百度为例给大家讲解大概流程</p><h2 id="收录流程"><a href="#收录流程" class="headerlink" title="收录流程"></a>收录流程</h2><h3 id="验证网站"><a href="#验证网站" class="headerlink" title="验证网站"></a>验证网站</h3><p>在站点管理中，添加网址，验证选文件是最快的，导入我偶尔也用CNAME。这一步是让搜索引擎知道你是网站的控制者。</p><p><img alt data-src="/imgblog/seo/baidusite.jpg" class="lazyload"></p><h3 id="生成sitemap网站地图"><a href="#生成sitemap网站地图" class="headerlink" title="生成sitemap网站地图"></a>生成sitemap网站地图</h3><p>sitemap一般有txt,xml,html格式，里面包含你希望被搜索引擎获取的所有连接，hexo可以生成。另外自行<strong>百度sitemap在线生成</strong>也可以做到，这里就不展开讲了。<u>注意里面不要有其他网站的连接。</u></p><h3 id="提交搜索引擎"><a href="#提交搜索引擎" class="headerlink" title="提交搜索引擎"></a>提交搜索引擎</h3><p>提交分为主动推送，自动推送，sitemap，还有最笨的手动提交。</p><ol><li><p>主动是搜索引擎实时可以得到的。</p></li><li><p>自动就是你网站更新时，提交一份sitemap给百度</p></li><li><p>sitemap就是你提交之后，百度有空时再帮你看。效率最低，谷歌的还好，一般2小时就能收录，至于百度sitemap,看图<br><img alt data-src="/imgblog/seo/baidusitemap.jpg" class="lazyload"></p></li><li><p>谷歌倒是比较给力，你填写你的sitemap.xml路径就行，实测hexo生成的sitemap， 根目录的baidusitemap.xml 效果最好，可能是xml格式的原因。<br><img alt data-src="/imgblog/seo/googlesitemap.jpg" class="lazyload"></p></li><li><p>手动提交就很很笨了，把你网站有的目录一个个输进去。</p><h3 id="主动推送"><a href="#主动推送" class="headerlink" title="主动推送"></a>主动推送</h3></li></ol><p>方法再主动推送有说，我没学过编程， php、python、java 统统看不懂，但是curl这个我大概看懂了。</p><p><img alt data-src="/imgblog/seo/baiducurl.jpg" class="lazyload"></p><p> 将要提交的链接按照每行一条的格式写入一个文本文件中，命名此文件为urls.txt，然后进入该文件所在目录，执行如下命令。不就是把txt格式的网站地图，输入下面的cmd命令嘛，终于有会的方法了。</p><p><img alt data-src="/imgblog/seo/baiducmd.jpg" class="lazyload"></p><p>我在我C盘test/blog文件夹里面，粘贴命令，回车，显示成功提交了52条，终于成功了。看看</p><p><img alt data-src="/imgblog/seo/bbbb.jpg" class="lazyload"></p><p>sitemap还没动呢，主动提交也还好，起码有进度。</p><h3 id="收录效果测试"><a href="#收录效果测试" class="headerlink" title="收录效果测试"></a>收录效果测试</h3><p><img alt data-src="/imgblog/seo/result.jpg" class="lazyload"></p><p>谷歌已经可以看到我的博客了。当然要越多才能靠前。</p><h2 id="其他搜索引擎"><a href="#其他搜索引擎" class="headerlink" title="其他搜索引擎"></a>其他搜索引擎</h2><p>再来看看360的收录情况。提交地址后的收录情况</p><p><img alt data-src="/imgblog/seo/360sitemap.jpg" class="lazyload"></p><p>同样，你告诉它路径，定期为你检查上面的网址。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>我也是再摸索，研究hexo，但是后面发现，没抓住思路，跟着教程输命令，还容易有问题，抓住了思路，甚至可以拜托hexo命令。把知识迁移到不同的 网站上。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站心得 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> darler </tag>
+            
+            <tag> seo </tag>
+            
+            <tag> sitemap </tag>
+            
+            <tag> 站长平台 </tag>
+            
+            <tag> 主动提交 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>html中修改svg矢量图的方法</title>
+      <link href="/svg-in-html/"/>
+      <url>/svg-in-html/</url>
+      
+        <content type="html"><![CDATA[<p>不会做网页，不懂代码，只能靠拿别人的网页改文字图片超链接</p><p>以上的改起来还算好，但是遇到svg，可就遇到难题了，对我说画一个SVG不难，但是它竟然可以转代码，第一眼还真是看傻我了，直到我用文本工具打开SVG。。。</p><p><img alt data-src="/imgblog/svg-html/SVG-step1.png" class="lazyload"></p><p>其实svg就是path,d=路径，然后ai生成的svg会有名称和填充，转html之前要先删掉，保持和原来的格式一样，当然大小也应该一样，这个我画之前尺寸就是接近的。id和fill就删掉。换好后的样子，大家可以到<a href>darler.cn</a> ，Darler就是我替换好的效果。<img alt data-src="/imgblog/svg-html/SVG-step2.png" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站心得 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> darler </tag>
+            
+            <tag> html </tag>
+            
+            <tag> svg </tag>
+            
+            <tag> 矢量 </tag>
+            
+            <tag> 图片 </tag>
+            
+            <tag> 添加 </tag>
+            
+            <tag> 替换 </tag>
+            
+            <tag> 修改 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>局域网多台电脑共享一台打印机</title>
+      <link href="/share-printer/"/>
+      <url>/share-printer/</url>
+      
+        <content type="html"><![CDATA[<p>今天跟大家更新局域网的布置，在家里有好几台电脑，还有2台打印机，打印材料的时分不方便，还会耽搁别人运用电脑，那么咱们怎么能完成在自己的电脑上直接打印材料呢？这就用到了打印机局共享的功能，咱们多台电脑共享一台打印机。下面咱们一同来看看是怎么完成的。</p><p>首先得保证咱们的电脑是在同一个局域网内，连接打印机的电脑装置好了驱动程序，打印机保持开机状态。</p><p>照着做你也会的设置。</p><h4 id="1-在高级共享设置中打开网络发现"><a href="#1-在高级共享设置中打开网络发现" class="headerlink" title="1.在高级共享设置中打开网络发现"></a>1.在高级共享设置中打开网络发现</h4><p>进入控制面板-高级共享设置，具体设置和步骤看图，很详细。</p><p><img alt data-src="/imgblog/share-printer/aaaa.jpg" class="lazyload"></p><h4 id="2在设备与打印机共享打印机"><a href="#2在设备与打印机共享打印机" class="headerlink" title="2在设备与打印机共享打印机"></a>2在设备与打印机共享打印机</h4><p>右键打印机-<strong>打印机属性</strong>，勾选共享打印机，过程如图</p><p><img alt data-src="/imgblog/share-printer/bbbb.jpg" class="lazyload"></p><h4 id="3-查看计算机名"><a href="#3-查看计算机名" class="headerlink" title="3.查看计算机名"></a>3.查看计算机名</h4><p>可以看到我的计算机名，接下来要用到。到此被共享的电脑设置就已经完成了。</p><p><img alt data-src="/imgblog/share-printer/cccc.jpg" class="lazyload"></p><h4 id="4-其他电脑访问共享计算机"><a href="#4-其他电脑访问共享计算机" class="headerlink" title="4.其他电脑访问共享计算机"></a>4.其他电脑访问共享计算机</h4><p>两个斜杠+计算机名，比如我这里就是</p><p><code>\\C-005041</code></p><p>然后就能看到共享的打印机了，双击它，其他电脑就能自己安装驱动程序，安装完成后，就能看到打印机界面啦，打印时选择这台共享的打印机就能完成打印。</p><p><img alt data-src="/imgblog/share-printer/printergood.jpg" class="lazyload"></p><h4 id="故障补充："><a href="#故障补充：" class="headerlink" title="故障补充："></a>故障补充：</h4><p>如果你在连接过程中出现0x00000bcb错误</p><p>安装 <a href="https://www.microsoft.com/zh-CN/download/details.aspx?id=53225" target="_blank" rel="noopener"><strong>KB3170455</strong></a> 补丁即可解决</p><p><img alt data-src="/imgblog/share-printer/00000bcb.jpg" class="lazyload"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实用经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 局域网 </tag>
+            
+            <tag> 多台电脑 </tag>
+            
+            <tag> 共享 </tag>
+            
+            <tag> 打印机 </tag>
+            
+            <tag> 一台 </tag>
+            
+            <tag> 00000bcb </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>把两个无线路由器设置到一个局域网内</title>
+      <link href="/2wifi/"/>
+      <url>/2wifi/</url>
+      
+        <content type="html"><![CDATA[<p>最近给家里组局域网，多无限路由器的问题一直困扰着我，今天给大家介绍，如何把两个无线路由器设置到一个局域网内的方法。把两个路由器设置到一个局域网内的方法有2种：</p><ol><li>两个路由器无线桥接<strong>（下一篇讲）</strong></li><li>路由器2设置成无线交换机</li></ol><p>本文主要给大家详细介绍，把第二个路由器设置成无线交换机的方法。</p><p>注意问题：</p><ol><li>请先设置其中一个路由器连接宽带上网，不然即使把两个路由器设置到同一个局域网，也是无法上网了。</li><li>所有的设置步骤，均在第二个路由器中完成。只要你的第一个路由器能够上网，完成相关的设置步骤后，第二个路由器也能够上网了。</li></ol><p>下面用最新版本的TP-Link无线路由器，来演示把两个路由器设置到同一个局域网的操作步骤。</p><h3 id="第一步、连接电脑和路由器2"><a href="#第一步、连接电脑和路由器2" class="headerlink" title="第一步、连接电脑和路由器2"></a>第一步、连接电脑和路由器2</h3><p>1.把第二个路由器插上电源，电脑用网线，连接到第二个路由器的LAN接口(1\2\3\4)；如果是笔记本电脑，可以不用网线连接到路由器，让笔记本电脑，搜索连接到路由器2的wifi信号，连接后也是可以设置的。</p><p>2.先仅让电脑连接到路由器2的LAN接口</p><p>注意问题：</p><p>两个无线路由器之间，暂时不要用网线连接起来，待后续设置完成后，才能用网线连接。</p><h3 id="第二步、设置路由器无线网络"><a href="#第二步、设置路由器无线网络" class="headerlink" title="第二步、设置路由器无线网络"></a>第二步、设置路由器无线网络</h3><ol><li><p>先自行登录到你的第二个路由器的设置界面；如果不知道怎么登录到路由器设置界面</p></li><li><p>然后找到“无线设置”或者“WiFi设置”选项，先给第二个路由器，设置 无线名称、无线密码</p></li><li><p>设置第二个路由器中的 无线名称、无线密码</p></li></ol><p>注意问题：</p><ol><li>第二个路由器的无线名称，不能与第一个路由器的无线名称相同。因为这种方法，两个路由器的wifi不能实现无线漫游。</li><li>无线名称，最好不要用中文来设置；因为有些手机、笔记本电脑，不支持中文名称的wifi信号。</li></ol><h3 id="第三步、修改路由器2的IP地址"><a href="#第三步、修改路由器2的IP地址" class="headerlink" title="第三步、修改路由器2的IP地址"></a>第三步、修改路由器2的IP地址</h3><p>在路由器2的设置页面，找到“LAN口设置”或者“局域网设置”的选项，把路由器2的IP地址，修改成和路由器1的IP地址，在同一个网段。</p><p> <img alt data-src="/imgblog/2wifi/aaaa.jpg" class="lazyload"></p><p>可能很多新手用户，无法两个路由器的IP地址，在同一个网段是什么意思，下面鸿哥进行距离说明：</p><ol><li>如果第一个路由器的IP地址实施：192.168.1.1；则第二个路由器的IP地址，必须是：192.168.1.2-192.168.1.254 这个范围中的一个IP地址。</li><li>如果第一个路由器的IP地址实施：192.168.0.1；则第二个路由器的IP地址，必须是：192.168.0.2-192.168.0.254 这个范围中的一个IP地址。</li><li>如果第一个路由器的IP地址实施：192.168.2.1；则第二个路由器的IP地址，必须是：192.168.2.2-192.168.2.254 这个范围中的一个IP地址。</li><li>修改路由器2的LAN口IP地址，与路由器的IP在同一个网段</li></ol><p>大家自己在操作的时候，请根据你的第一个路由器的IP地址，来修改第二个路由器的IP。</p><h3 id="第四步、重新登录到设置页面"><a href="#第四步、重新登录到设置页面" class="headerlink" title="第四步、重新登录到设置页面"></a>第四步、重新登录到设置页面</h3><p>修改路由器2的IP地址后，路由器通常会重启。重启后，需要在浏览器中，输入修改后的IP地址，才能重新打开路由器2的设置页面了。</p><p>在第三步中，我第二个路由器IP地址修改成了192.168.1.2。所以，现在我在浏览器中，输入192.168.1.2，重新登录到第二个路由器的设置页面。</p><p><img alt data-src="/imgblog/2wifi/bbbb.jpg" class="lazyload"></p><h3 id="第五步、关闭DHCP服务器"><a href="#第五步、关闭DHCP服务器" class="headerlink" title="第五步、关闭DHCP服务器"></a>第五步、关闭DHCP服务器</h3><p>重新登录到路由器2的设置页面后，找到“DHCP服务器”的选项，将其关闭掉。<br>关闭第二个路由器中的DHCP服务器</p><p> <img alt data-src="/imgblog/2wifi/cccc.jpg" class="lazyload"></p><h3 id="第六步、连接两个路由器"><a href="#第六步、连接两个路由器" class="headerlink" title="第六步、连接两个路由器"></a>第六步、连接两个路由器</h3><p>完成前面5个步骤的操作后，需要用网线，把两个无线路由器连接起来。正确连接方式：</p><p> 第一个路由器的LAN接口，连接第二个路由器的LAN接口，如下图所示。</p><p><img alt data-src="/imgblog/2wifi/cover.jpg" class="lazyload"></p><p>注意问题：</p><p> 第二个无线路由器的WAN接口，不要连接任何设备，让其处于空闲状态。完成上诉6个步骤的设置后，两个无线路由器就在同一个局域网内了，并且第二个路由器的有线、无线都能够上网。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实用经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Darler </tag>
+            
+            <tag> 极速翱翔 </tag>
+            
+            <tag> 路由器 </tag>
+            
+            <tag> 无线 </tag>
+            
+            <tag> 局域网 </tag>
+            
+            <tag> 多个 </tag>
+            
+            <tag> 交换机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Sitemap: https://blog.darler.cn/baidusitemap.xml
+Sitemap: https://blog.darler.cn/sitemap.xml

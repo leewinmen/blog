@@ -1,0 +1,180 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Xware+Aria2+qBittorrent离线下载组合 | Darler Space</title><meta name="description" content="普通http及bt磁力下载使用Aria2，电驴ed2k链接使用迅雷Xware，qBittorrent作为bt备用，完美！"><meta name="keywords" content="云服务器,离线下载,centos,xware,aria,qbittorrent"><meta name="author" content="极速翱翔"><meta name="copyright" content="极速翱翔"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="preconnect" href="//cdn.jsdelivr.net"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Xware+Aria2+qBittorrent离线下载组合"><meta name="twitter:description" content="普通http及bt磁力下载使用Aria2，电驴ed2k链接使用迅雷Xware，qBittorrent作为bt备用，完美！"><meta name="twitter:image" content="https://blog.darler.cn/imgblog/xware/qb_banner.jpg"><meta property="og:type" content="article"><meta property="og:title" content="Xware+Aria2+qBittorrent离线下载组合"><meta property="og:url" content="https://blog.darler.cn/xware/"><meta property="og:site_name" content="Darler Space"><meta property="og:description" content="普通http及bt磁力下载使用Aria2，电驴ed2k链接使用迅雷Xware，qBittorrent作为bt备用，完美！"><meta property="og:image" content="https://blog.darler.cn/imgblog/xware/qb_banner.jpg"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script src="/js/js.cookie.min.js"></script><script>const autoChangeMode = 'false'
+var t = Cookies.get("theme");
+if (autoChangeMode == '1'){
+const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+if (t === undefined){
+  if (isLightMode) activateLightMode()
+  else if (isDarkMode) activateDarkMode()
+  else if (isNotSpecified || hasNoSupport){
+    console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+    now = new Date();
+    hour = now.getHours();
+    isNight = hour < 6 || hour >= 18
+    isNight ? activateDarkMode() : activateLightMode()
+}
+} else if (t == 'light') activateLightMode()
+else activateDarkMode()
+
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/jquery.fancybox.min.css"><link rel="stylesheet" href="/css/snackbar.min.css"><link rel="canonical" href="https://blog.darler.cn/xware/"><link rel="prev" title="Docker安装Aria2+qBittorrent离线下载" href="https://blog.darler.cn/docker/"><link rel="next" title="云服务器的玩法" href="https://blog.darler.cn/vps/"><link rel="dns-prefetch" href="https://hm.baidu.com"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?614d3afd0ef1cc69a5cc3c3f6ccbb208";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><link rel="dns-prefetch" href="https://www.google-analytics.com"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-151171933-1', 'auto');
+ga('send', 'pageview');
+
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8784821422707470" crossorigin="anonymous"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: undefined,
+  highlight_copy: 'true',
+  highlight_lang: 'true',
+  highlight_shrink: 'false',
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  copyright: undefined,
+  copy_copyright_js: false,
+  ClickShowText: {"text":"设计,包豪斯,哥特,巴洛克,罗曼,洛可可,古希腊,北欧,地中海,拜占庭,折衷,古罗马","fontSize":"15px"},
+  medium_zoom: 'false',
+  Snackbar: {"bookmark":{"title":"Snackbar.bookmark.title","message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"}
+  
+}</script></head><body><div id="header"> <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">Darler Space</a></span><i class="fa fa-bars fa-fw toggle-menu pull_right close" aria-hidden="true"></i><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/video/"><i class="fa-fw fa fa-film"></i><span> 视频</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></span><span class="pull_right" id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></span></div></div><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="lazyload avatar_img" src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'"></div><div class="mobile_post_data"><div class="mobile_data_item is_center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">42</div></a></div></div><div class="mobile_data_item is_center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">134</div></a></div></div><div class="mobile_data_item is_center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">4</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/video/"><i class="fa-fw fa fa-film"></i><span> 视频</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div><div id="mobile-sidebar-toc"><div class="toc_mobile_headline">目录</div><ol class="toc_mobile_items"><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#脚本安装Aria2"><span class="toc_mobile_items-text">脚本安装Aria2</span></a><ol class="toc_mobile_items-child"><li class="toc_mobile_items-item toc_mobile_items-level-3"><a class="toc_mobile_items-link" href="#使用说明"><span class="toc_mobile_items-text">使用说明</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-3"><a class="toc_mobile_items-link" href="#其他操作"><span class="toc_mobile_items-text">其他操作</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-3"><a class="toc_mobile_items-link" href="#AriaNg下载界面"><span class="toc_mobile_items-text">AriaNg下载界面</span></a></li></ol></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#官方安装qBittorrent"><span class="toc_mobile_items-text">官方安装qBittorrent</span></a><ol class="toc_mobile_items-child"><li class="toc_mobile_items-item toc_mobile_items-level-4"><a class="toc_mobile_items-link" href="#创建systemctl脚本"><span class="toc_mobile_items-text">创建systemctl脚本</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-4"><a class="toc_mobile_items-link" href="#重新加载systemctl"><span class="toc_mobile_items-text">重新加载systemctl</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-4"><a class="toc_mobile_items-link" href="#接受用户协议"><span class="toc_mobile_items-text">接受用户协议</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-4"><a class="toc_mobile_items-link" href="#启动qbittorrent服务"><span class="toc_mobile_items-text">启动qbittorrent服务</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-4"><a class="toc_mobile_items-link" href="#设置开机启动"><span class="toc_mobile_items-text">设置开机启动</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-4"><a class="toc_mobile_items-link" href="#忘记密码"><span class="toc_mobile_items-text">忘记密码</span></a></li></ol></li></ol></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#Xware迅雷远程下载"><span class="toc_mobile_items-text">Xware迅雷远程下载</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#下载地址设置"><span class="toc_mobile_items-text">下载地址设置</span></a></li></ol></div></div><div id="body-wrap"><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true">     </i><div class="auto_open" id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#脚本安装Aria2"><span class="toc-text">脚本安装Aria2</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#使用说明"><span class="toc-text">使用说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#其他操作"><span class="toc-text">其他操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#AriaNg下载界面"><span class="toc-text">AriaNg下载界面</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#官方安装qBittorrent"><span class="toc-text">官方安装qBittorrent</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#创建systemctl脚本"><span class="toc-text">创建systemctl脚本</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#重新加载systemctl"><span class="toc-text">重新加载systemctl</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#接受用户协议"><span class="toc-text">接受用户协议</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#启动qbittorrent服务"><span class="toc-text">启动qbittorrent服务</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#设置开机启动"><span class="toc-text">设置开机启动</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#忘记密码"><span class="toc-text">忘记密码</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Xware迅雷远程下载"><span class="toc-text">Xware迅雷远程下载</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#下载地址设置"><span class="toc-text">下载地址设置</span></a></li></ol></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(/imgblog/xware/qb_banner.jpg)"><div id="post-info"><div id="post-title"><div class="posttitle">Xware+Aria2+qBittorrent离线下载组合</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-12-05</time><span class="post-meta__separator mobile_hidden">|</span><span class="mobile_hidden"><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E5%85%A5%E9%97%A8%E4%BA%91%E6%9C%8D/">入门云服</a></span><div class="post-meta-wordcount"><i class="fa fa-file-word-o post-meta__icon" aria-hidden="true"></i><span>字数总计: </span><span class="word-count">1.2k</span><span class="post-meta__separator">|</span><i class="fa fa-clock-o post-meta__icon" aria-hidden="true"></i><span>阅读时长: 4 分钟</span><span class="post-meta__separator">|</span><i class="fa fa-eye post-meta__icon" aria-hidden="true">       </i><span>阅读量: </span><span id="busuanzi_value_page_pv"></span></div></div></div></div><div class="layout layout_post" id="content-inner">   <article id="post"><div class="article-container" id="post-content"><p>VPS离线下载，这次不使用docker，常规安装，大家可能好奇为什么部署3个，原因在于：</p>
+<ol>
+<li><p>Aria2无法下载ed2k链接；</p>
+</li>
+<li><p>qBittorrent仅能下载磁力和种子，且较为突出；</p>
+</li>
+<li><p>Xware可下载ed2k电驴。</p>
+</li>
+</ol>
+<p>因此，普通<strong>http</strong>及<strong>bt磁力</strong>下载使用aria2，bt磁力不动，改用qbittorrent，碰到<strong>电驴ed2k</strong>链接使用迅雷。</p>
+<h2 id="脚本安装Aria2"><a href="#脚本安装Aria2" class="headerlink" title="脚本安装Aria2"></a>脚本安装Aria2</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh</span><br><span class="line">#备用地址</span><br><span class="line">wget -N --no-check-certificate https://www.moerats.com/usr/shell/Aria2/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh</span><br></pre></td></tr></table></figure>
+
+<p>运行脚本后会出现脚本操作菜单，选择并输入<code>1</code>就会开始安装，安装过程按回车安装最新版本。</p>
+<h3 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h3><p>进入下载脚本的目录并运行脚本</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./aria2.sh</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">Aria2 一键安装管理脚本 [vx.x.x]</span><br><span class="line"> </span><br><span class="line">0. 升级脚本</span><br><span class="line">————————————</span><br><span class="line">1. 安装 Aria2</span><br><span class="line">2. 更新 Aria2</span><br><span class="line">2. 卸载 Aria2</span><br><span class="line">————————————</span><br><span class="line">3. 启动 Aria2</span><br><span class="line">4. 停止 Aria2</span><br><span class="line">5. 重启 Aria2</span><br><span class="line">————————————</span><br><span class="line">6. 修改 配置文件</span><br><span class="line">7. 查看 日志信息</span><br><span class="line">————————————</span><br><span class="line"> </span><br><span class="line">当前状态: 已安装 并 已启动</span><br><span class="line"> </span><br><span class="line">请输入数字 [0-7]:</span><br></pre></td></tr></table></figure>
+
+<p>如果找不到配置文件，可卸载后再安装。</p>
+<h3 id="其他操作"><a href="#其他操作" class="headerlink" title="其他操作"></a>其他操作</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">service aria2 start #启动</span><br><span class="line">service aria2 stop #停止</span><br><span class="line">service aria2 restart #重启</span><br><span class="line">service aria2 status #查看状态</span><br></pre></td></tr></table></figure>
+<p>配置文件：/root/.aria2/aria2.conf<br>（配置文件包含中文注释，但是一些系统可能不支持显示中文）<br>下载目录：/usr/local/caddy/www/aria2/Download<br>（备用地址下载的默认为/usr/local/caddy/www/file）</p>
+<h3 id="AriaNg下载界面"><a href="#AriaNg下载界面" class="headerlink" title="AriaNg下载界面"></a>AriaNg下载界面</h3><p>安装完可以通过<a href="https://github.com/mayswind/AriaNg/releases" target="_blank" rel="noopener">AriaNg</a>来添加下载任务，AriaNg是纯 html &amp; javascript 开发, 所以其不需要任何编译器或运行环境. 只要将 AriaNg 放在Web服务器里并在浏览器中打开即可使用。</p>
+<p>我把代码放在GithubPages上，大家可以体验一下，因为是静态网页，也不会采集你的信息。</p>
+<p><a href="http://z.darler.cn/ariang" target="_blank" rel="noopener">http://z.darler.cn/ariang</a></p>
+<p>打开页面后，点击AriaNg设置-RPC，依次填入你的RPC地址，端口号（默认6800），和RPC密钥（默认doub.io），再点重新加载，即可连接到你的服务器。</p>
+<p>【我的地址非Https，因为如果<strong>你的服务器是Http</strong>，而AriaNg是https的话，RPC协议就无法使用Http，会导致你的服务器连不上】</p>
+<h2 id="官方安装qBittorrent"><a href="#官方安装qBittorrent" class="headerlink" title="官方安装qBittorrent"></a>官方安装qBittorrent</h2><p><a href="https://github.com/qbittorrent/qBittorrent/wiki/Setting-up-qBittorrent-as-a-daemon-on-CentOS-7" target="_blank" rel="noopener">安装文档</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install -y qbittorrent-nox.x86_64</span><br></pre></td></tr></table></figure>
+
+<h4 id="创建systemctl脚本"><a href="#创建systemctl脚本" class="headerlink" title="创建systemctl脚本"></a>创建systemctl脚本</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vi /usr/lib/systemd/system/qbittorrent.service #粘贴下面</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=qbittorrent torrent server</span><br><span class="line">    </span><br><span class="line">[Service]</span><br><span class="line">User=root</span><br><span class="line">ExecStart=/usr/bin/qbittorrent-nox</span><br><span class="line">Restart=on-abort</span><br><span class="line">    </span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
+
+<p>Esc，<code>:wq</code>，Enter</p>
+<h4 id="重新加载systemctl"><a href="#重新加载systemctl" class="headerlink" title="重新加载systemctl"></a>重新加载systemctl</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl daemon-reload</span><br></pre></td></tr></table></figure>
+<h4 id="接受用户协议"><a href="#接受用户协议" class="headerlink" title="接受用户协议"></a>接受用户协议</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo qbittorrent-nox #按y，然后回车，最后ctrl+c</span><br></pre></td></tr></table></figure>
+<h4 id="启动qbittorrent服务"><a href="#启动qbittorrent服务" class="headerlink" title="启动qbittorrent服务"></a>启动qbittorrent服务</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start qbittorrent</span><br></pre></td></tr></table></figure>
+<h4 id="设置开机启动"><a href="#设置开机启动" class="headerlink" title="设置开机启动"></a>设置开机启动</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl enable qbittorrent</span><br></pre></td></tr></table></figure>
+
+<p>浏览器打开<a href="http://ip:8080初始用户admin,初始密码adminadmin" target="_blank" rel="noopener">http://ip:8080初始用户admin,初始密码adminadmin</a></p>
+<p>登陆后在option中WebUI修改语言为简体中文，save，并执行<code>sudo systemctl restart qbittorrent</code>重启生效</p>
+<h4 id="忘记密码"><a href="#忘记密码" class="headerlink" title="忘记密码"></a>忘记密码</h4><p>打开~/.config/qBittorrent/中的qBittorrent.conf文件</p>
+<p>找到WebUI\Password_ha1这一行，删掉，restart一下qbittorrent</p>
+<p>仍然不行可以把WebUI\user=admin这一行也删掉，restart一下qbittorrent。</p>
+<p><a href="https://github.com/qbittorrent/qBittorrent/wiki/Web-UI-password-locked-on-qBittorrent-NO-X-%28qbittorrent-nox%29" target="_blank" rel="noopener">官方说明</a></p>
+<p><img alt data-src="/imgblog/xware/xunlei.jpg" class="lazyload"></p>
+<h2 id="Xware迅雷远程下载"><a href="#Xware迅雷远程下载" class="headerlink" title="Xware迅雷远程下载"></a>Xware迅雷远程下载</h2><p>1、创建安装路径（我的是/data/xware），赋予读写权限，下载<a href="https://gitee.com/darler/soft/raw/master/Xware1.0.31_x86_32_glibc.zip" target="_blank" rel="noopener">Xware软件</a>并上传到该目录</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /data/xware</span><br><span class="line">chmod -R 777 /data/xware</span><br></pre></td></tr></table></figure>
+
+<p>2、进入安装目录，解压Xware</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /data/xware</span><br><span class="line">unzip Xware1.0.31_x86_32_glibc.zip</span><br></pre></td></tr></table></figure>
+
+<p>3、安装依赖</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yum -y install glibc.i686</span><br><span class="line">yum -y install libz.so.1 --setopt=protected_multilib=false</span><br></pre></td></tr></table></figure>
+
+<p>4、启动Xware，2个命令都可以</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./portal</span><br></pre></td></tr></table></figure>
+<p>或者输入这条命令<code>/data/xware/portal</code></p>
+<p>启动成功后会得到 激活码，如下所示：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">[root@service xware]# ./portal </span><br><span class="line">initing...</span><br><span class="line">try stopping xunlei service first...</span><br><span class="line">killall: ETMDaemon: no process killed</span><br><span class="line">killall: EmbedThunderManager: no process killed</span><br><span class="line">killall: vod_httpserver: no process killed</span><br><span class="line">setting xunlei runtime env...</span><br><span class="line">port: 9000 is usable.</span><br><span class="line"></span><br><span class="line">YOUR CONTROL PORT IS: 9000</span><br><span class="line"></span><br><span class="line">starting xunlei service...</span><br><span class="line">etm path: /home/xware</span><br><span class="line">execv: /home/xware/lib/ETMDaemon.</span><br><span class="line"></span><br><span class="line">getting xunlei service info...</span><br><span class="line">Connecting to 127.0.0.1:9000 (127.0.0.1:9000)</span><br><span class="line"></span><br><span class="line">THE ACTIVE CODE IS: atewri #激活码</span><br><span class="line"></span><br><span class="line">go to http://yuancheng.xunlei.com, bind your device with the active code.</span><br><span class="line">finished.</span><br></pre></td></tr></table></figure>
+
+<p>这里说一下，<u>有可能会失败很多次，我安装成功的2次，都在下午。</u></p>
+<p>5、访问并登陆 <a href>yuancheng.xunlei.com</a>，点击左边的添加然后输入激活码进行绑定。</p>
+<p>6、找一个空余容量大的目录来挂载下载目录(默认下载路径为 /mnt，容量小)</p>
+<p>创建下载保存路径（已有可忽略）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /data/filerun/xware</span><br></pre></td></tr></table></figure>
+
+<p>进入 /mnt 目录,创建相同的下载文件夹</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /mnt/download</span><br></pre></td></tr></table></figure>
+
+<p>挂载(将 /data/filerun/xunlei 挂载到 /mnt/download)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount --bind /data/filerun/xware /mnt/download</span><br></pre></td></tr></table></figure>
+
+<p>8、设置开机挂载下载路径并启动 Xware</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/fstab #开机自动挂载下载目录</span><br><span class="line">/data/filerun/xware /mnt/download none bind 0 0 #最后一行添加</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/rc.d/rc.local #开机自动运行远程迅雷</span><br><span class="line">/data/xware/portal 2&gt;&amp;1 #最后一行添加</span><br></pre></td></tr></table></figure>
+
+<p>9、在 <a href>yuancheng.xunlei.com</a>，点击新建任务，进行测试。</p>
+<h2 id="下载地址设置"><a href="#下载地址设置" class="headerlink" title="下载地址设置"></a>下载地址设置</h2><p>为了方便统一管理，我把地址都放在了filerun目录里的文件夹</p>
+<p>/data/filerun/qb/</p>
+<p>/data/filerun/aria/</p>
+<p>/data/filerun/xware/</p>
+<hr>
+<p>本文参考了</p>
+<p><a href="https://www.moerats.com/archives/251/" target="_blank" rel="noopener">https://www.moerats.com/archives/251/</a></p>
+<p><a href="https://blog.csdn.net/yori_chen/article/details/79749032" target="_blank" rel="noopener">https://blog.csdn.net/yori_chen/article/details/79749032</a></p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined" target="_blank" rel="noopener">极速翱翔</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://blog.darler.cn/xware/">https://blog.darler.cn/xware/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="http://www.darler.cn/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.darler.cn">Darler Space</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/">云服务器    </a><a class="post-meta__tags" href="/tags/%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD/">离线下载    </a><a class="post-meta__tags" href="/tags/centos/">centos    </a><a class="post-meta__tags" href="/tags/xware/">xware    </a><a class="post-meta__tags" href="/tags/aria/">aria    </a><a class="post-meta__tags" href="/tags/qbittorrent/">qbittorrent    </a></div><div class="post_share"><div class="social-share" data-image="/imgblog/xware/qb_banner.jpg" data-sites="wechat,weibo,qq,facebook,twitter"></div><link rel="stylesheet" href="/css/share.min.css"><script src="/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button"><i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/wechat.jpg"><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/alipay.jpg"><div class="post-qr-code__desc">支付寶</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="prev-post pull_left"><a href="/docker/"><img class="prev_cover lazyload" data-src="/imgblog/cover-yet/dockerimage.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="label">上一篇</div><div class="prev_info"><span>Docker安装Aria2+qBittorrent离线下载</span></div></a></div><div class="next-post pull_right"><a href="/vps/"><img class="next_cover lazyload" data-src="https://raw.githubusercontent.com/cloudreve/docs/master/images/homepage.png" onerror="onerror=null;src='/img/404.jpg'"><div class="label">下一篇</div><div class="next_info"><span>云服务器的玩法</span></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/docker/" title="Docker安装Aria2+qBittorrent离线下载"><img class="relatedPosts_cover lazyload"data-src="/imgblog/cover-yet/dockerimage.jpg"><div class="relatedPosts_title">Docker安装Aria2+qBittorrent离线下载</div></a></div><div class="relatedPosts_item"><a href="/leanote/" title="安装Leanote蚂蚁笔记搭建私人云笔记"><img class="relatedPosts_cover lazyload"data-src="/imgblog/cover-yet/leanote.jpg"><div class="relatedPosts_title">安装Leanote蚂蚁笔记搭建私人云笔记</div></a></div></div><div class="clear_both"></div></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div id="lv-container" data-id="city" data-uid="MTAyMC80NzI3MS8yMzc3MQ=="><script>(function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+})(document, 'script');</script></div></div></div></div><footer id="footer" style="background-image: url(/imgblog/xware/qb_banner.jpg)"><div id="footer-wrap"><div class="copyright">&copy;2018 - 2022 By 极速翱翔</div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments">  </i></a><i class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><script src="/js/third-party/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/third-party/jquery.fancybox.min.js"></script><script async src="/js/search/local-search.js"></script><script src="/js/snackbar.min.js"></script><script id="ribbon_piao" mobile="true" src="/js/third-party/piao.js"></script><script src="/js/baidupush.js"> </script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="/js/instantpage.min.js" type="module"></script><script src="/js/lazysizes.min.js" async=""></script><script src="/js/third-party/ClickShowText.js"></script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></body></html>
